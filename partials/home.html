@@ -1,0 +1,155 @@
+<div ng-controller="HomeSliderController">
+    <div style="height: 500px;">
+        <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+            <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index">
+                <img ng-src="{{slide.image}}" style="margin:auto;" height="500px;">
+                <div class="carousel-caption">
+                    <h4>Slide {{slide.index}}</h4>
+                    <p>{{slide.text}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<section id="products">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown">Our Hot Products</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-4" ng-repeat="product in products">
+                <div class="text-center">
+                    <a href=""><img src="{{product.logo}}" alt="" class="product-img"></a>
+                    <h5>{{product.name}}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="activities">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown">Our Activities</h2>
+        </div>
+        <div class="row">
+            <div class="features">
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-line-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Software development</h4>
+                            <p>
+                                UDSM/UiO-MOHSW team is responsible for development and customization of the district based National
+                                Data Warehouse on the DHIS2 platform</p>
+                            <a href="#software-development" class="btn btn-primary btn-sm">View our skills</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Capacity Building</h4>
+                            <p>
+                                Different training modules have been designed to suit different cadres in the existing health sector management at all levels.
+                            </p>
+                            <a href="#training" class="btn btn-primary btn-sm">View our training</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                    <div class="media service-box">
+                        <div class="pull-left">
+                            <i class="fa fa-pie-chart"></i>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Research</h4>
+                            <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
+                            <a href="#research" class="btn btn-primary btn-sm">view our papers</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3 class="column-title">Our Development Skills</h3>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-check-square"></i> Database and software design for 'rapid rollout' based on existing, but harmonized,
+                        data collection tools.</li>
+                    <li><i class="fa fa-check-square"></i> Updating software and data warehouse designs based on revised tools.</li>
+                    <li><i class="fa fa-check-square"></i> Integrating DHIS2 with other related applications (e.g. LGMD).</li>
+                    <li><i class="fa fa-check-square"></i> Customizing easy to access and use web portals and HTML reports to encourage information use.</li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="column-title">Our Adverts</h3>
+                <div uib-slide ng-repeat="advert in adverts track by slide.index" index="slide.index">
+                    <img ng-src="{{slide.image}}" style="margin:auto;" height="500px;">
+                </div>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="http://player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3 class="column-title">Faqs</h3>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingOne">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Enim eiusmod high life accusamus
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingTwo">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Nihil anim keffiyeh helvetica
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="headingThree">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Vegan excepteur butcher vice lomo
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                            <div class="panel-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
