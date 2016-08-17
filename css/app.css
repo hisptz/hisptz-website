@@ -550,6 +550,7 @@ ul.nostyle i {
 }
 #meet-team .team-member {
     padding: 13px;
+    margin-top: 10px;
     background: #eeeeee;
     border: 2px solid #eeeeee;
     transition: border-color 400ms;
@@ -918,14 +919,12 @@ ul.nostyle i {
 }
 
 
-#publication, #products {
+#publication, #products, #training, #projects {
     padding: 100px 0px;
 
 }
 
-#publication .panel,
-#training .panel,
-#development .panel{
+#publication .panel {
     /*background: #f5f5f5;*/
     border-color: #eee;
 }
@@ -937,3 +936,9 @@ ul.nostyle i {
 .product-img {
     height: 70px;
 }
+
+.slider-panel {
+    background: #000;
+    opacity: 0.6;
+}
+

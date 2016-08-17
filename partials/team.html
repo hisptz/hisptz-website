@@ -2,78 +2,33 @@
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown">Meet The Team</h2>
-            <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <p class="text-center wow fadeInDown">
+                The HISP Tanzania team comprises of a dedicated and multidisciplinary group of professionals bringing together
+                a unique blend of expertise and experience from the realms of Computer Science and Health Informatics. As a team,
+                HISP Tanzania has significantly contributed to the development, implementation and building capacity in the domain
+                of public health sector in Tanzania, Eastern Africa and in the HISP Global Network at large. With its extensive
+                expertise and field experience in supporting improvements of health systems, the team prides itself as being one
+                of the robust teams specializing in health information systems in the developing countries with a primary focus
+                in Tanzania and East Africa. A brief introduction of the team members is provided below.
+            </p>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-3">
+            <div class="col-sm-6 col-md-3" ng-repeat="member in members">
                 <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
                     <div class="team-img">
-                        <img class="img-responsive" src="img/team/01.jpg" alt="">
+                        <img class="img-responsive" src="{{member.img_url}}" alt="">
                     </div>
                     <div class="team-info">
-                        <h3>Bin Burhan</h3>
-                        <span>Co-Founder</span>
+                        <h4>{{member.name}}</h4>
+                        <h5>({{member.title}})</h5>
+                        <span>{{member.position}}</span>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                    <div class="team-img">
-                        <img class="img-responsive" src="img/team/02.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Jane Man</h3>
-                        <span>Project Manager</span>
-                    </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                    <div class="team-img">
-                        <img class="img-responsive" src="img/team/03.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Pahlwan</h3>
-                        <span>Designer</span>
-                    </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-3">
-                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                    <div class="team-img">
-                        <img class="img-responsive" src="img/team/04.jpg" alt="">
-                    </div>
-                    <div class="team-info">
-                        <h3>Nasir uddin</h3>
-                        <span>UI/UX</span>
-                    </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
-                    <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                        <li><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <!--<li class="pull-right"><a href=""><i class="fa fa-eye"></i></a></li>-->
                     </ul>
                 </div>
             </div>

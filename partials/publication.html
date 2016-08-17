@@ -2,126 +2,37 @@
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown">Our Publications</h2>
+            <p class="text-center wow fadeInDown">Despite the physical output realised in the course of projects execution there have also been academic outputs.
+                <br>The following is a select list of publications.</p>
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <div role="tabpanel">
-                    <ul class="nav main-tab nav-justified" role="tablist">
-                        <li role="presentation" class="active">
-                            <a href="#journal" role="tab" data-toggle="tab" aria-controls="tab1" aria-expanded="true">Journals</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#conference" role="tab" data-toggle="tab" aria-controls="tab2" aria-expanded="false">Conference</a>
-                        </li>
-                        <li role="presentation">
-                            <a href="#dissertation" role="tab" data-toggle="tab" aria-controls="tab3" aria-expanded="false">Msc. Dissertations</a>
-                        </li>
-                    </ul>
-                    <div id="tab-content" class="tab-content">
-                        <div role="tabpanel" class="tab-pane fade active in" id="journal" aria-labelledby="tab1">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <span>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <span>Kagaruki, G.B , Kimaro, H. C., Mboera, L. G (2013).  Factors Affecting Utilization of Evidence Based Health Information System for Effective Supply Chain of Essential Medicine in
-                                                Tanzania: A Case Study from Mbeya Region. Journal of Health Informatics in Developing Countries. Vol. 7(1).</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <span>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <span>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</span>
-                                        </div>
-                                    </div>
-                                </div>
+                <uib-tabset active="activeJustified" justified="true">
+                    <uib-tab index="0" heading="Journals">
+                        <div class="row">
+                            <div class="col-sm-12" ng-repeat="journal in journals">
+                               <span>{{journal.name}}</span>
+                                <hr>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="conference" aria-labelledby="conference">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    </uib-tab>
+                    <uib-tab index="1" heading="Conferences">
+                        <div class="row">
+                            <div class="col-sm-12" ng-repeat="conference in conferences">
+                                <span>{{conference.name}}</span>
+                                <hr>
                             </div>
                         </div>
-                        <div role="tabpanel" class="tab-pane fade" id="dissertation" aria-labelledby="dissertation">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="panel">
-                                        <div class="panel-body">
-                                            <p>Bakar A. D, Kimaro, H, Abu Bakar M. S. (2014). <a href="http://www.jhidc.org/index.php/jhidc/article/view/110">Adoption of Free Open Source Geographic Information System Solution
-                                                for Health Sector in Zanzibar Tanzania</a>
-                                                . Journal of Health Informatics in Developing Countries. Vol. 8(1).</p>
-                                        </div>
-                                    </div>
-                                </div>
+                    </uib-tab>
+                    <uib-tab index="2" heading="Msc. Dissertation">
+                        <div class="row">
+                            <div class="col-sm-12" ng-repeat="dissertation in dissertations">
+                                <span>{{dissertation.name}}</span>
+                                <hr>
                             </div>
                         </div>
-
-                    </div>
-                </div>
+                    </uib-tab>
+                </uib-tabset>
             </div>
         </div>
 

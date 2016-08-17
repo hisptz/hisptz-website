@@ -1,0 +1,42 @@
+<section id="products">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown">{{product.name}}</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <img src="{{product.cover}}" alt="" class="img-responsive">
+            </div>
+            <div class="col-sm-5">
+                <!--<h4 class="column-title">Video Adverts</h4>-->
+                <!--<div class="embed-responsive embed-responsive-16by9">-->
+                    <!--<iframe src="http://player.vimeo.com/video/58093852?title=0&amp;byline=0&amp;portrait=0&amp;color=e79b39" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                <!--</div>-->
+                <!--<br>-->
+                <h4 class="column-title">Description</h4>
+                <p>Read the stories told by users of DHIS 2 and learn how people are using DHIS 2 to solve problems within health,
+                    social franchise and water & sanitation.</p>
+                <!--<a href="" class="btn btn-info btn-lg btn-block">LIVE DEMO</a>-->
+            </div>
+        </div>
+        <br>
+        <div class="row">
+
+            <div class="col-sm-12">
+                <h4 class="column-title">More Products</h4>
+            </div>
+            <div class="col-sm-4 col-xs-4" ng-repeat="related_product in products" ng-if="related_product.name != product.name ">
+                <div class="text-center">
+                    <a href="#products/{{related_product.name}}"><img src="{{related_product.logo}}" alt="" class="product-img"></a>
+                    <h5>{{related_product.name}}</h5>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4">
+                <a href="#products" class="btn btn-primary btn-sm btn-block">more..</a>
+            </div>
+        </div>
+    </div>
+</section>

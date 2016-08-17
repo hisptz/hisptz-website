@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Dr. Honest Kimaro",
+    "title": "PhD",
+    "position": "HISP Coordinator",
+    "img_url": "img/team/new_kimaro.png",
+    "linked_link": "https://tz.linkedin.com/in/dr-honest-kimaro-252b7644",
+    "bio": "Dr. Honest  C. Kimaro is the coordinator and one of the founding members of HISP Tanzania, Senior lecturer and Head of the Department of Computer Science and Engineering (CSE) at the College of Information and Communication Technologies (CoICT), the University of Dar es Salaam. He holds a PhD Degree in Information Systems from University of Oslo in Norway). He has 13 years’ experience in the development, implementation, management, analysis and design of large and sustainable systems using modern techniques and methods of health information systems in the health sector of Tanzania. He has published extensively in the Journals of Health informatics & Information Systems in Developing Countries and the Journal of ICT for Development."
+  }, {
+    "name": "Mr. Masoud Mahundi",
+    "title": "PhD Candidate",
+    "position": "Systems analyst and Implementer",
+    "img_url": "img/team/new_mahund.png",
+    "linked_link": "https://tz.linkedin.com/in/masoud-h-mahundi-414b0139",
+    "bio": "Masoud H. Mahundi is a systems analyst and Implementer at HISP Tanzania and an assistant lecturer with the University of Dar es salaam coordinating a number of undergraduate courses. He holds a Masters of Science degree in Health Informatics, from the University of Dar es Salaam. Masoud has been working with the health information systems since 2005. He has supported a number of organisations including Ministry of Health and Social Welfare in Zanzibar and MoHSW TZ mainland.  In both cases he has been involved in negotiating requirements from different actors, software customization, trainings, documentation and other activities"
+  }, {
+    "name": "Wilfred Senyoni",
+    "title": "Phd Candidate",
+    "position": "Systems developer and implementer",
+    "img_url": "img/team/new_senyoni.jpg",
+    "linked_link": "https://tz.linkedin.com/in/wilfred-senyoni-608b2368",
+    "bio": "Wilfred Senyoni is a senior systems developer and implementer at HISP Tanzania, and as an Assistant Lecturer at the Department of Computer Science and Engineering, University of Dar es Salaam he has inspired and shaped young minds in various programming courses through combining concepts and theories. With practical experience and exposure in the field of Information System, he has been involved in the development and implementation of country wide Information Systems for the Ministry of Health and Social Welfare (DHIS2, eIDSR & HRHIS). Through trainings both local and international academies, he has been involved  in the implementation of DHIS2 in a number of countries such as Zimbabwe, Malawi and Zambia, South Sudan plus setting of an integrated regional data warehouse for the East African Community."
+  }, {
+    "name": "Leonard Peter Binamungu",
+    "title": "PhD Candidate",
+    "position": "System Analyst and Implementer",
+    "img_url": "img/team/new_lepebina.png",
+    "linked_link": "https://tz.linkedin.com/in/wilfred-senyoni-608b2368",
+    "bio": "Leonard Peter is a Systems Analyst and Implementer at the HISP Tanzania and an Assistant Lecturer for under garduate courses at the Department of Computer Science and Engineering, University of Dar es Salaam. He attained a Master degree in Computer Science from Osmania University, Hyderabad-India in 2012. Leonard has been working with the Health Information Systems since 2009 taking on tasks like requirements gathering, ssystem customization, trainings, documentation for MoHSW TZ mainland."
+  }, {
+    "name": "Bernard Mussa",
+    "title": "Msc",
+    "position": "System Analyst",
+    "img_url": "img/team/new_mussa.png",
+    "linked_link": "https://tz.linkedin.com/in/bernard-mussa-66069088",
+    "bio": "Bernard Mussa has been with HISP Tanzania since 2011 and has been involved in software development, system analysis, design and documentation. He has extensive knowledge and practical experience in software engineering, systems analysis and design, data warehousing and training in the domain of Health Information Systems. He has participated in the development and implementation of DHIS2 Project and HRHIS Project.  He is also an Assistant Lecturer in the Department of Computer Science and Engineering, University of Dar es Salaam (UDSM) with a BSc. Computer Science from UDSM and a MSc. Information and Communication Science and Engineering from NM-AIST."
+  }, {
+    "name": "Ismail Koleleni",
+    "title": "Msc Candidate",
+    "position": "Programmer",
+    "img_url": "img/team/new_koleleni.png",
+    "linked_link": "https://tz.linkedin.com/in/ismailkoleleni",
+    "bio": ""
+  }, {
+    "name": "John F. Mukulu",
+    "title": "Msc Candidate",
+    "position": "Senior Systems Developer",
+    "img_url": "img/team/new_mukulu.png",
+    "linked_link": "https://tz.linkedin.com/in/john-francis-mukulu-889b2268",
+    "bio": ""
+  }, {
+    "name": "Leonard C Mpande",
+    "title": "BSc",
+    "position": "Programmer",
+    "img_url": "img/team/mpande.jpg",
+    "linked_link": "https://tz.linkedin.com/in/leonard-mpande-1b050972",
+    "bio": ""
+  }, {
+    "name": "Tuzo Engelbert",
+    "title": "BSc",
+    "position": "Programmer",
+    "img_url": "img/team/new_tuzo.png",
+    "linked_link": "https://tz.linkedin.com/in/tuzo-chubwa-93432688",
+    "bio": ""
+  }, {
+    "name": "Kelvin Mbwilo",
+    "title": "BSc",
+    "position": "Programmer",
+    "img_url": "img/team/new_mbwilo.png",
+    "linked_link": "https://tz.linkedin.com/in/kelvin-mbwilo-5aa60b72",
+    "bio": ""
+  }, {
+    "name": "Henry Kalisti",
+    "title": "MSc",
+    "position": "System analyst",
+    "img_url": "img/team/kalist2.png",
+    "linked_link": "System analyst",
+    "bio": ""
+  }, {
+    "name": "Hassan Omary",
+    "title": "Msc Candidate",
+    "position": "System analyst",
+    "img_url": "img/team/ommy.png",
+    "linked_link": "",
+    "bio": ""
+  }
+]

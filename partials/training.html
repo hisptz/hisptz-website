@@ -1,66 +1,29 @@
 <section id="training">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown">Our Short Term Training</h2>
-            <p class="text-center wow fadeInDown">
-            </p>
+            <h2 class="section-title text-center wow fadeInDown">Capacity Building</h2>
+            <p class="text-center wow fadeInDown">The HISP Tanzania conducts short term training programs on the management, analysis
+                and <br>use of information for district and regional health management teams.</p>
         </div>
         <div class="row">
-            <div class="col-sm-4">
-                <div class="panel">
-                    <div class="panel-body">
-                        <h5>DHIS2 Training Course</h5>
-                        <p>A 5-day DHIS2 training workshops organized once every quarter. The course is aimed at strengthening and building capacity for DHIS2 implementers, district, regional and national users and other
-                            interested stakeholders in order to ensure sustainability of DHIS2 system in Tanzania.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="panel">
-                    <div class="panel-body">
-                        <h5>DHIS2 Training Course</h5>
-                        <p>A 5-day DHIS2 training workshops organized once every quarter. The course is aimed at strengthening and building capacity for DHIS2 implementers, district, regional and national users and other
-                            interested stakeholders in order to ensure sustainability of DHIS2 system in Tanzania.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="panel">
-                    <div class="panel-body">
-                        <h5>DHIS2 Training Course</h5>
-                        <p>A 5-day DHIS2 training workshops organized once every quarter. The course is aimed at strengthening and building capacity for DHIS2 implementers, district, regional and national users and other
-                            interested stakeholders in order to ensure sustainability of DHIS2 system in Tanzania.</p>
-                    </div>
-                </div>
+            <div class="col-sm-4"ng-repeat="training in trainings" >
+                <h5><i class="fa fa-check-square"></i>&nbsp;{{training.name}}</h5>
+                <p class="text-justify">{{training.description}}</p>
+
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row" style="padding: 50px 0px;">
             <div class="col-sm-12">
-                <p class="text-center">
-                    The HISP Tanzania conducts short term training programs on the management, analysis <br>and use of information for district and regional health management teams.
-                </p>
+                <p class="text-center wow fadeInDown">The HISP Tanzania conducts short term training programs on the management, analysis
+                and <br>use of information for district and regional health management teams.</p>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-sm-6">
-                <div class="panel">
-                    <div class="panel-body">
-                        <h5>DHIS2 Training Course</h5>
-                        <p>A 5-day DHIS2 training workshops organized once every quarter. The course is aimed at strengthening and building capacity for DHIS2 implementers, district, regional and national users and other
-                            interested stakeholders in order to ensure sustainability of DHIS2 system in Tanzania.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="panel">
-                    <div class="panel-body">
-                        <h5>DHIS2 Training Course</h5>
-                        <p>A 5-day DHIS2 training workshops organized once every quarter. The course is aimed at strengthening and building capacity for DHIS2 implementers, district, regional and national users and other
-                            interested stakeholders in order to ensure sustainability of DHIS2 system in Tanzania.</p>
-                    </div>
-                </div>
+            <div class="col-sm-6" ng-repeat="course in courses">
+                <h5><i class="fa fa-check-square"></i>&nbsp;{{course.name}}</h5>
+                <p class="text-justify">{{course.description}}</p>
             </div>
         </div>
     </div>
