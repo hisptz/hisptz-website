@@ -1,8 +1,8 @@
 <div ng-controller="HomeSliderController">
-    <div style="height: 500px;">
+    <div>
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-            <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index" style="height: 500px;">
-                <img ng-src="{{slide.image}}" width="100%" height="500">
+            <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index">
+                    <img ng-src="{{slide.image}}" class="img-responsive" width="100%">
                 <div class="carousel-caption">
                     <div class="panel slider-panel">
                         <div class="panel-body">
@@ -21,7 +21,7 @@
             <h2 class="section-title text-center wow fadeInDown">Our Hot Products</h2>
         </div>
         <div class="row">
-            <div class="col-sm-4 col-xs-4" ng-repeat="product in products">
+            <div class="col-sm-4 col-xs-4" ng-repeat="product in products | limitTo: 3">
                 <div class="text-center">
                     <a href="#products/{{product.name}}"><img src="{{product.logo}}" alt="" class="product-img"></a>
                     <h5>{{product.name}}</h5>

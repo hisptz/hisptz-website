@@ -7,7 +7,13 @@
     </div>
 </section>
 <section id="contact">
-    <div id="google-map" style="height:650px" data-latitude="-6.777608" data-longitude="39.235071"></div>
+    <!--<div id="google-map" style="height:650px" data-latitude="-6.777608" data-longitude="39.235071"></div>-->
+    <div style='overflow:hidden;height:500px;width:100%;'>
+        <div id='gmap_canvas' style='height:500px;width:100%;'></div>
+        <div><small><a href="http://www.embedgooglemaps.com">Generate your Google map here, quick and easy!</a></small></div>
+        <div><small><a href="https://binaireoptieservaringen.nl/plus500/">Lees hier alle ervaringen van Plus 500!</a></small></div>
+    </div>
+    <script type='text/javascript'>function init_map(){var myOptions = {zoom:16,center:new google.maps.LatLng(-6.777608,39.235071),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-6.771116699999999,39.238132199999995)});infowindow = new google.maps.InfoWindow({content:'<strong>HISP TANZANIA</strong><br>Bamaga, Dar es Salaam, Tanzania<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
     <div class="container-wrapper">
         <div class="container">
             <div class="row">
@@ -18,7 +24,7 @@
                             <strong>University of Dar es salaam , Kijitonyama Campus</strong><br>
                             Department of Computer Science and Engineering, Bock B Room 108<br>
                         </address>
-                        <h3>Contacr the Coordinator</h3>
+                        <h3>Contact the Coordinator</h3>
                         <address>
                             HISP TANZANIA, <br>
                             P.O BOX 35062 Dar es Salaam, <br>

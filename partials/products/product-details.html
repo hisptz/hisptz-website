@@ -4,7 +4,7 @@
             <h2 class="section-title text-center wow fadeInDown">{{product.name}}</h2>
         </div>
         <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-7 text-center">
                 <img src="{{product.cover}}" alt="" class="img-responsive">
             </div>
             <div class="col-sm-5">
@@ -14,8 +14,7 @@
                 <!--</div>-->
                 <!--<br>-->
                 <h4 class="column-title">Description</h4>
-                <p>Read the stories told by users of DHIS 2 and learn how people are using DHIS 2 to solve problems within health,
-                    social franchise and water & sanitation.</p>
+                <p>{{product.description}}</p>
                 <!--<a href="" class="btn btn-info btn-lg btn-block">LIVE DEMO</a>-->
             </div>
         </div>
@@ -25,7 +24,7 @@
             <div class="col-sm-12">
                 <h4 class="column-title">More Products</h4>
             </div>
-            <div class="col-sm-4 col-xs-4" ng-repeat="related_product in products" ng-if="related_product.name != product.name ">
+            <div class="col-sm-4 col-xs-4" ng-repeat="related_product in products | limitTo : 4" ng-if="related_product.name != product.name ">
                 <div class="text-center">
                     <a href="#products/{{related_product.name}}"><img src="{{related_product.logo}}" alt="" class="product-img"></a>
                     <h5>{{related_product.name}}</h5>

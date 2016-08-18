@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Interactive Dashboard",
+    "logo": "img/products/idashboard.png",
+    "cover": "img/products/idashboard-cover.png",
+    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking."
+  },
+  {
+    "name": "Indicator Browser",
+    "logo": "img/products/ibrowser.png",
+    "cover": "img/products/ibrowser-cover.png",
+    "description": ""
+  },
+  {
+    "name": "Score card",
+    "logo": "img/products/score-card.png",
+    "cover": "img/products/score-card-cover.png",
+    "description": ""
+
+  },
+
+  {
+    "name": "Resource Browser",
+    "logo": "img/products/resource-browser.png",
+    "cover": "img/products/resource-browser-cover.png",
+    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking."
+  },
+
+  {
+    "name": "DHIS 2 Touch",
+    "logo": "img/products/dhis2touch.png",
+    "cover": "img/products/dhis2touc-cover.png",
+    "description": "District Health Information Software 2 Mobile Application that features full blown support for aggregate routine and survey data collection."
+
+  }
+]

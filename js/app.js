@@ -52,7 +52,7 @@ var app = angular.module('app', [
         })
         .state('articles', {
             url: '/articles',
-            templateUrl: 'partials/common/under-construction.html'
+            templateUrl: 'partials/articles.html'
         })
         .state('products', {
             url: '/products',
@@ -66,22 +66,13 @@ var app = angular.module('app', [
         });
 })
 
-.controller('HomeController', function($scope) {
+.controller('HomeController', function($scope, $http) {
 
-    $scope.products = [
-        {
-            name: 'iDashboard',
-            logo: 'img/products/idashboard.png'
-        },
-        {
-            name: 'Indicator Browser',
-            logo: 'img/products/ibrowser.png'
-        },
-        {
-            name: 'Score card',
-            logo: 'img/products/score-card.png'
-        }
-    ];
+
+    $http.get('data/products.json')
+        .then(function(response) {
+            $scope.products = response.data;
+        });
 
     $scope.init = 1
 
@@ -120,41 +111,29 @@ var app = angular.module('app', [
     $scope.active = 0;
     $scope.slides = [
         {
-            image: 'img/slider/slide6.png',
+            image: 'img/slider/slide6.jpg',
             text: 'Project HMIS from CSE participated in the 2016 UDSM Research week exhibitions at unit level',
             index: 0
         },
 
         {
-            image: 'img/slider/slide7.png',
+            image: 'img/slider/slide7.jpg',
             text: 'Trophies obtained for the projects from CoICT in the 2016 UDSM Research week exhibitions at UDSM level. The HMIS project was the 2nd winner in the unit level exhibitions',
             index: 1
         }
     ];
 })
-    .controller('ProductsController', function($scope, $stateParams, $filter) {
+    .controller('ProductsController', function($scope, $stateParams, $filter, $http) {
         var product_name = $stateParams.name;
-        var data = [
-            {
-                name: 'iDashboard',
-                logo: 'img/products/idashboard.png',
-                cover: 'img/products/idashboard-cover.png'
-            },
-            {
-                name: 'Indicator Browser',
-                logo: 'img/products/ibrowser.png',
-                cover: 'img/products/ibrowser-cover.png'
-            },
-            {
-                name: 'Score card',
-                logo: 'img/products/score-card.png',
-                cover: 'img/products/score-card-cover.png'
 
-            }
-        ];
 
-        $scope.products = data;
-        $scope.product = $filter('filter')(data, {name:product_name})[0];
+        $http.get('data/products.json')
+            .then(function(response) {
+                $scope.products = response.data;
+                $scope.product = $filter('filter')(response.data, {name:product_name})[0];
+            });
+
+
     })
 
     .controller('TrainingController', function($scope) {
