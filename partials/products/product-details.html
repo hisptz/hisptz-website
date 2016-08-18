@@ -24,7 +24,7 @@
             <div class="col-sm-12">
                 <h4 class="column-title">More Products</h4>
             </div>
-            <div class="col-sm-4 col-xs-4" ng-repeat="related_product in products | limitTo : 4" ng-if="related_product.name != product.name ">
+            <div class="col-sm-4 col-xs-4" ng-repeat="related_product in products | limitTo : 3" ng-if="related_product.name != product.name ">
                 <div class="text-center">
                     <a href="#products/{{related_product.name}}"><img src="{{related_product.logo}}" alt="" class="product-img"></a>
                     <h5>{{related_product.name}}</h5>
