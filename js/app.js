@@ -112,13 +112,15 @@ var app = angular.module('app', [
     $scope.slides = [
         {
             image: 'img/slider/slide6.jpg',
-            text: 'Project HMIS from CSE participated in the 2016 UDSM Research week exhibitions at unit level',
+            title: 'Trophies obtained for the projects from CoICT',
+            text: ' The HMIS project was the 2nd winner in in the 2016 UDSM Research week exhibitions at UDSM level',
             index: 0
         },
 
         {
             image: 'img/slider/slide7.jpg',
-            text: 'Trophies obtained for the projects from CoICT in the 2016 UDSM Research week exhibitions at UDSM level. The HMIS project was the 2nd winner in the unit level exhibitions',
+            title: 'Trophies obtained for the projects from CoICT',
+            text: ' The HMIS project was the 2nd winner in in the 2016 UDSM Research week exhibitions at UDSM level',
             index: 1
         }
     ];

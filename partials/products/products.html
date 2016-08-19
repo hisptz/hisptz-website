@@ -5,9 +5,15 @@
         </div>
         <div class="row">
             <div class="col-sm-4 col-xs-4" ng-repeat="product in products">
-                <div class="text-center product-block">
-                    <a href="#products/{{product.name}}"><img src="{{product.logo}}" alt="" class="product-img"></a>
+                <div class="product-block">
+                    <div class="product-logo">
+                        <img src="{{product.logo}}" alt="" class="">
+
+                        <a href="#products/{{product.name}}" class="eye"><i class="fa fa-eye"></i></a>
+                    </div>
+
                     <h5>{{product.name}}</h5>
+                    <p>{{product.short_description}}</p>
                 </div>
             </div>
         </div>

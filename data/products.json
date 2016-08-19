@@ -3,19 +3,45 @@
     "name": "Interactive Dashboard",
     "logo": "img/products/idashboard.png",
     "cover": "img/products/idashboard-cover.png",
-    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking."
+    "short_description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities",
+    "description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities, among features of idashboard includes:",
+    "functions": [
+      { "item": "Ability to instantly with one-click, switch between table, chart and map visualization"},
+      {"item": "Ability to change and multi-select periods of visualizations right away without leaving"},
+      {"item": "Ability to change and multi-select organization units of visualizations without leaving your chart/table/map"},
+      {"item": "Ability to instantly change layout table/chart, i.e. rows to colums or series to categories, and vice versa"},
+      {"item": "Highest resolutions charts possible( powered by highcharts)"},
+      {"item": "Mobile ready, with adoptive user interface for all screen sizes"},
+      {"item": "Extremely Lightweight and can operate on low bandwidth"}
+    ]
   },
   {
     "name": "Indicator Browser",
     "logo": "img/products/ibrowser.png",
     "cover": "img/products/ibrowser-cover.png",
-    "description": ""
+    "short_description": "Light weight Indicator browsing application providing all dictionary related features",
+    "description": "Light weight Indicator browsing application providing all dictionary related features, such as:",
+    "functions": [
+      { "item": "Basic details of the indicator (name, numerator, denominator, factor, indicator type, etc..)"},
+      {"item": "Additional relevant details (data sets sources, reporting frequencies and disaggregation)"},
+      {"item": "Chart & Table visualization of last period of the lowest reporting frequency of data element sources(e.g quarterly data preview, etc..), defaulting to annual preview when no associated data set found"},
+      {"item": "Ability to download different data formats for off-line use, e.g. pdf, json,csv and xls"}
+    ]
+
   },
   {
     "name": "Score card",
     "logo": "img/products/score-card.png",
     "cover": "img/products/score-card-cover.png",
-    "description": ""
+    "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
+    "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
+    "functions": [
+      { "item": "One click navigation across organization units, up and down the hierarchy"},
+      {"item": "One click navigation across periods, traversing one period at a time into the past/future"},
+      {"item":"Flexible and customizable, from indicators, data sources, layouts to the whole score-card template."},
+      {"item": "Highest resolutions score card on any media (powered by svg vector graphics & powerful css 3 )"}
+
+    ]
 
   },
 
@@ -23,14 +49,37 @@
     "name": "Resource Browser",
     "logo": "img/products/resource-browser.png",
     "cover": "img/products/resource-browser-cover.png",
-    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking."
+    "short_description": "Navigate your way into the heart of the DHIS2 data warehouse",
+    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking.",
+    "functions": [
+
+    ]
   },
 
   {
     "name": "DHIS 2 Touch",
     "logo": "img/products/dhis2touch.png",
-    "cover": "img/products/dhis2touc-cover.png",
-    "description": "District Health Information Software 2 Mobile Application that features full blown support for aggregate routine and survey data collection."
+    "cover": "img/products/dhis2touch-cover.png",
+    "short_description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone",
+    "description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone, that aims to ship full dhis2 web experience completely offline on your smartphone. Among it's already completed features includes:",
+    "functions": [
+      { "item": "Support for off-line aggregate data entry"},
+      {"item": "Support for off-line standard reports"},
+      {"item": "Extremely lightweight and compatible with widest range of smartphone devices"}
+    ]
+  },
 
+  {
+    "name": "Pocket DHIS 2 Operating system",
+    "logo": "img/products/dhis2touch.png",
+    "cover": "img/products/dhis2touch-cover.png",
+    "short_description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
+    "description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
+    "functions": [
+      { "item": "Pre-installed dhis2 setup on your flash-disk ready to go for training/mass-distribution"},
+      {"item": "Effortless installation of dhis2 powered linux on your computer without need of any technical expertise"},
+      {"item": "Get a self-guided and personalized dhis2 demo and tour from your pen drive, right over tea-break"},
+      {"item": "Train yourself with pre-loaded modules of dhis2 trainings right on your pocket"}
+    ]
   }
 ]
