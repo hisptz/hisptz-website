@@ -29,7 +29,12 @@ var app = angular.module('app', [
         })
         .state('team', {
             url: '/team',
-            templateUrl: 'partials/team.html',
+            templateUrl: 'partials/team/team.html',
+            controller: 'TeamController'
+        })
+        .state('member', {
+            url: '/member/:name',
+            templateUrl: 'partials/team/member.html',
             controller: 'TeamController'
         })
         .state('contact', {
@@ -63,6 +68,10 @@ var app = angular.module('app', [
             url: '/products/:name',
             templateUrl: 'partials/products/product-details.html',
             controller: 'ProductsController'
+        })
+        .state('feedbackForm', {
+            url: '/feedback-form',
+            templateUrl: 'partials/feedback_form.html'
         });
 })
 

@@ -921,7 +921,13 @@ ul.nostyle i {
 }
 
 
-#publication, #products, #training, #projects, #articles {
+#publication,
+#products,
+#training,
+#projects,
+#articles,
+#feedback,
+#member{
     padding: 70px 0px;
 
 }
@@ -1082,4 +1088,71 @@ ul.nostyle i {
     font-weight: 300;
     text-transform: capitalize;
 }
+
+.member-contact {
+
+}
+
+.member-contact li {
+    border-right: solid 1px #eee;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+
+.right-content {
+    border-left: solid 1px #eee;
+}
+
+.timeline {
+    font-weight: 400;
+    color: #919191;
+    font-size: 15px;
+}
+
+.timeline-sum {
+    color: #919191;
+    font-size: 13px;
+}
+
+.award {
+    color: #919191;
+    font-size: 15px;
+    font-weight: 400;
+}
+.institution {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.publication-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.author {
+    font-size: 14px;
+    color: #919191;
+}
+
+.card-padding-left {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.group-description {
+    display: inline-block;
+    border-left: solid 1px #eee;
+    padding: 10px;
+}
+
+.vertical-border-left {
+    border-left: solid 1px #eee;
+}
+
+.research-group-container {
+    height: 450px;
+}
+
 
