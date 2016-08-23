@@ -207,10 +207,12 @@ var app = angular.module('app', [
             });
 
     })
-    .controller('TeamController', function($scope, $http) {
+    .controller('TeamController', function($scope, $http, $filter, $stateParams) {
+        var member_name = $stateParams.name;
         $http.get('data/team.json')
             .then(function(response) {
                 $scope.members = response.data;
+                $scope.member = $filter('filter')(response.data, {name:member_name})[0];
             });
     })
     .controller('ProjectController', function($scope, $http) {

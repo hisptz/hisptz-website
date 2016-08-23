@@ -71,8 +71,8 @@
 
   {
     "name": "Pocket DHIS 2 Operating system",
-    "logo": "img/products/dhis2touch.png",
-    "cover": "img/products/dhis2touch-cover.png",
+    "logo": "img/products/pocketdhis2.png",
+    "cover": "img/products/pocketdhis-cover.png",
     "short_description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
     "description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
     "functions": [

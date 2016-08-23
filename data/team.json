@@ -4,84 +4,774 @@
     "title": "PhD",
     "position": "HISP Coordinator",
     "img_url": "img/team/new_kimaro.png",
+    "email" : "honest_c@yahoo.com",
+    "phone" : "+255784147946",
     "linked_link": "https://tz.linkedin.com/in/dr-honest-kimaro-252b7644",
-    "bio": "Dr. Honest  C. Kimaro is the coordinator and one of the founding members of HISP Tanzania, Senior lecturer and Head of the Department of Computer Science and Engineering (CSE) at the College of Information and Communication Technologies (CoICT), the University of Dar es Salaam. He holds a PhD Degree in Information Systems from University of Oslo in Norway). He has 13 years’ experience in the development, implementation, management, analysis and design of large and sustainable systems using modern techniques and methods of health information systems in the health sector of Tanzania. He has published extensively in the Journals of Health informatics & Information Systems in Developing Countries and the Journal of ICT for Development."
+    "bio": "Dr. Honest  C. Kimaro is the coordinator and one of the founding members of HISP Tanzania, Senior lecturer and Head of the Department of Computer Science and Engineering (CSE) at the College of Information and Communication Technologies (CoICT), the University of Dar es Salaam. He holds a PhD Degree in Information Systems from University of Oslo in Norway). He has 13 years’ experience in the development, implementation, management, analysis and design of large and sustainable systems using modern techniques and methods of health information systems in the health sector of Tanzania. He has published extensively in the Journals of Health informatics & Information Systems in Developing Countries and the Journal of ICT for Development.",
+    "experience": [
+      {
+        "organisation": "University of Dar es Salaam",
+        "position": "Assistant Lecturer",
+        "starttime": "2001",
+        "endtime": "2006"}, {
+
+        "organisation": "University of Dar es Salaam",
+        "position": "Lecturer",
+        "starttime": "2006",
+        "endtime": "To date"}
+      ],
+      "education":[
+        {
+        "institution": "University of Dar es Salaam",
+        "award": "BSc. Computer Science",
+        "starttime": "1995",
+        "endtime": "1998"
+        }, {
+          "institution": "Technical University of Delft,the Netherlands",
+          "award": "MSc. Technical Informatics",
+          "starttime": "1999",
+          "endtime": "2001"
+        }, {
+          "institution": "University of Oslo, Norway",
+          "award": "PhD Information Systems",
+          "starttime": "2003",
+          "endtime": "2006"
+        }
+      ],
+      "consultancy": [
+        {
+        "project": "UDSM DHIS2/HIS Project",
+        "position": "UDSM DHIS2 Coordinator",
+        "starttime": "2007",
+        "endtime": "To date"
+        },
+        {
+          "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+          "position": "UDSM HRHIS Coordinator",
+          "starttime": "2009",
+          "endtime": "To date"
+        }, {
+          "project": "CoICT Road Safety ICT Project",
+          "position": "Project Manager",
+          "starttime": "2013",
+          "endtime": "2015"
+        },
+        {
+          "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+          "position": "UDSM Lead Expert",
+          "starttime": "2010",
+          "endtime": "2011"
+        }
+      ],
+    "skills": [
+      {"skill": ""},
+      {"skill": ""}
+    ]
   }, {
     "name": "Mr. Masoud Mahundi",
     "title": "PhD Candidate",
     "position": "Systems analyst and Implementer",
     "img_url": "img/team/masud.jpg",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/masoud-h-mahundi-414b0139",
-    "bio": "Masoud H. Mahundi is a systems analyst and Implementer at HISP Tanzania and an assistant lecturer with the University of Dar es salaam coordinating a number of undergraduate courses. He holds a Masters of Science degree in Health Informatics, from the University of Dar es Salaam. Masoud has been working with the health information systems since 2005. He has supported a number of organisations including Ministry of Health and Social Welfare in Zanzibar and MoHSW TZ mainland.  In both cases he has been involved in negotiating requirements from different actors, software customization, trainings, documentation and other activities"
+    "bio": "Masoud H. Mahundi is a systems analyst and Implementer at HISP Tanzania and an assistant lecturer with the University of Dar es salaam coordinating a number of undergraduate courses. He holds a Masters of Science degree in Health Informatics, from the University of Dar es Salaam. Masoud has been working with the health information systems since 2005. He has supported a number of organisations including Ministry of Health and Social Welfare in Zanzibar and MoHSW TZ mainland.  In both cases he has been involved in negotiating requirements from different actors, software customization, trainings, documentation and other activities",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Wilfred Senyoni",
     "title": "Phd Candidate",
     "position": "Systems developer and implementer",
     "img_url": "img/team/new_senyoni.jpg",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/wilfred-senyoni-608b2368",
-    "bio": "Wilfred Senyoni is a senior systems developer and implementer at HISP Tanzania, and as an Assistant Lecturer at the Department of Computer Science and Engineering, University of Dar es Salaam he has inspired and shaped young minds in various programming courses through combining concepts and theories. With practical experience and exposure in the field of Information System, he has been involved in the development and implementation of country wide Information Systems for the Ministry of Health and Social Welfare (DHIS2, eIDSR & HRHIS). Through trainings both local and international academies, he has been involved  in the implementation of DHIS2 in a number of countries such as Zimbabwe, Malawi and Zambia, South Sudan plus setting of an integrated regional data warehouse for the East African Community."
+    "bio": "Wilfred Senyoni is a senior systems developer and implementer at HISP Tanzania, and as an Assistant Lecturer at the Department of Computer Science and Engineering, University of Dar es Salaam he has inspired and shaped young minds in various programming courses through combining concepts and theories. With practical experience and exposure in the field of Information System, he has been involved in the development and implementation of country wide Information Systems for the Ministry of Health and Social Welfare (DHIS2, eIDSR & HRHIS). Through trainings both local and international academies, he has been involved  in the implementation of DHIS2 in a number of countries such as Zimbabwe, Malawi and Zambia, South Sudan plus setting of an integrated regional data warehouse for the East African Community.",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Leonard Peter Binamungu",
     "title": "PhD Candidate",
     "position": "System Analyst and Implementer",
     "img_url": "img/team/new_lepebina.png",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/wilfred-senyoni-608b2368",
-    "bio": "Leonard Peter is a Systems Analyst and Implementer at the HISP Tanzania and an Assistant Lecturer for under garduate courses at the Department of Computer Science and Engineering, University of Dar es Salaam. He attained a Master degree in Computer Science from Osmania University, Hyderabad-India in 2012. Leonard has been working with the Health Information Systems since 2009 taking on tasks like requirements gathering, ssystem customization, trainings, documentation for MoHSW TZ mainland."
+    "bio": "Leonard Peter is a Systems Analyst and Implementer at the HISP Tanzania and an Assistant Lecturer for under garduate courses at the Department of Computer Science and Engineering, University of Dar es Salaam. He attained a Master degree in Computer Science from Osmania University, Hyderabad-India in 2012. Leonard has been working with the Health Information Systems since 2009 taking on tasks like requirements gathering, ssystem customization, trainings, documentation for MoHSW TZ mainland.",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Bernard Mussa",
     "title": "Msc",
     "position": "System Analyst",
     "img_url": "img/team/new_mussa.png",
+    "email" : "bernard.musa@gmail.com",
+    "phone" : "+255713 304 458",
     "linked_link": "https://tz.linkedin.com/in/bernard-mussa-66069088",
-    "bio": "Bernard Mussa has been with HISP Tanzania since 2011 and has been involved in software development, system analysis, design and documentation. He has extensive knowledge and practical experience in software engineering, systems analysis and design, data warehousing and training in the domain of Health Information Systems. He has participated in the development and implementation of DHIS2 Project and HRHIS Project.  He is also an Assistant Lecturer in the Department of Computer Science and Engineering, University of Dar es Salaam (UDSM) with a BSc. Computer Science from UDSM and a MSc. Information and Communication Science and Engineering from NM-AIST."
+    "bio": "Bernard Mussa has been with HISP Tanzania since 2011 and has been involved in software development, system analysis, design and documentation. He has extensive knowledge and practical experience in software engineering, systems analysis and design, data warehousing and training in the domain of Health Information Systems. He has participated in the development and implementation of DHIS2 Project and HRHIS Project.  He is also an Assistant Lecturer in the Department of Computer Science and Engineering, University of Dar es Salaam (UDSM) with a BSc. Computer Science from UDSM and a MSc. Information and Communication Science and Engineering from NM-AIST.",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2014",
+      "endtime": "To date"
+    }, {
+      "organisation": "University of Dar es Salaam",
+      "position": "Tutorial assistant",
+      "starttime": "2013",
+      "endtime": "2014"
+    },  {
+      "organisation": "University of Dar es Salaam",
+      "position": "System analyst",
+      "starttime": "2010",
+      "endtime": "2012"
+    }
+  ],
+  "education":[
+    {
+      "institution": "The Nelson Mandela African institution of Science and Technology, Tanzania",
+      "award": "MSc. Information and Communication Science and Engineering",
+      "starttime": "2012",
+      "endtime": "2014"
+    }, {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "2007",
+      "endtime": "2010"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "System Analyst",
+      "starttime": "2014",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "System Analyst",
+      "starttime": "2010",
+      "endtime": "2010"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Ismail Koleleni",
     "title": "Msc Candidate",
     "position": "Programmer",
     "img_url": "img/team/new_koleleni.png",
+    "email" : "ismailkoleleni@gmail.com",
+    "phone" : "+255713 732 238",
     "linked_link": "https://tz.linkedin.com/in/ismailkoleleni",
-    "bio": ""
+    "bio": "Ismail Y. Koleleni is a Health Information Systems expert and software developer working with University of Dar es Salaam, Tanzania.  He has been involved with Development/Customization and Implementation of DHIS2 in Tanzania as well as supporting DHIS2 implementations in many other countries and organizations. His professional interests includes design, development and Implementation of information systems using technologies like web based system and mobile phone solutions focusing more on customization of open source software and applications. Lately, he has been more engaged with electronic disease surveillance (IDSR) system which uses DHIS2 and mobile phone reporting to detect possible disease outbreaks and alert responsible teams for immediate action. He has also been involved in development and Implementation of Human Resources for Health Information System (HRHIS) in Tanzania under HISP Tanzania.",
+  "experience": [
+    {
+      "organisation": "Computer Science and Engineering Department",
+      "position": "Information Systems Developer",
+      "starttime": "2009",
+      "endtime": "2010"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Tutorial Assistant",
+      "starttime": "2010",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "2006",
+      "endtime": "2009"
+    }, {
+      "institution": "University of Dar es Salaam",
+      "award": "MSc. Health Informatics",
+      "starttime": "2013",
+      "endtime": "To date"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "System developer",
+      "starttime": "2009",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "System developer",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "Development of electronic Integrated Disease Surveillance and Response (eIDSR) System",
+      "position": "Project Administrator and Lead developer",
+      "starttime": "2012",
+      "endtime": "To date"
+    },
+    {
+      "project": "District Health Information Software (DHIS) Expert Community",
+      "position": "Consultant",
+      "starttime": "2012",
+      "endtime": "To date"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "John F. Mukulu",
     "title": "Msc Candidate",
     "position": "Senior Systems Developer",
     "img_url": "img/team/new_mukulu.png",
+    "email" : "john.f.mukulu@gmail.com",
+    "phone" : "+255 717 154 006",
     "linked_link": "https://tz.linkedin.com/in/john-francis-mukulu-889b2268",
-    "bio": ""
+    "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community.  He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "2007",
+      "endtime": "2010"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Leonard C Mpande",
     "title": "BSc",
     "position": "Programmer",
     "img_url": "img/team/mpande.jpg",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/leonard-mpande-1b050972",
-    "bio": ""
+    "bio": "",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Tuzo Engelbert",
     "title": "BSc",
     "position": "Programmer",
     "img_url": "img/team/new_tuzo.png",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/tuzo-chubwa-93432688",
-    "bio": ""
+    "bio": "",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Kelvin Mbwilo",
     "title": "BSc",
     "position": "Programmer",
     "img_url": "img/team/new_mbwilo.png",
+    "email" : "",
+    "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/kelvin-mbwilo-5aa60b72",
-    "bio": ""
+    "bio": "",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Henry Kalisti",
     "title": "MSc",
     "position": "System analyst",
     "img_url": "img/team/kalist2.png",
+    "email" : "kanry2@gmail.com",
+    "phone" : "+255716 290 994",
     "linked_link": "System analyst",
-    "bio": ""
+    "bio": "Henry Kalisti is a system analyst at HISP Tanzania who specializes in the requirement engineering, agile development process (Scrum), analysis and design of Information Systems and documentation. Henry has vast knowledge and practical experience in the field of Information System and its implementation. He has been involved in the analysis, design and documentation of various Information System in Tanzania, including DHIS2 project. He is also an Assistant Lecturer in the Department of Computer Science and Engineering. Henry received his Master of Science in Computer Science from the University of Gothenburg in 2013.",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Tutorial assistant",
+      "starttime": "2010",
+      "endtime": "2013"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "2006",
+      "endtime": "2009"
+    }, {
+      "institution": "University of Gothenburg, Sweden",
+      "award": "MSc. Computer Science",
+      "starttime": "2011",
+      "endtime": "2013"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "Development of Agricultural Routine Data System (ARDS) Web Application, Phase I and II",
+      "position": "System analyst",
+      "starttime": "2014",
+      "endtime": "2015"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "System analyst",
+      "starttime": "2014",
+      "endtime": "To date"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }, {
     "name": "Hassan Omary",
     "title": "Msc Candidate",
     "position": "System analyst",
     "img_url": "img/team/ommy.png",
+    "email" : "",
+    "phone" : "",
     "linked_link": "",
-    "bio": ""
+    "bio": "",
+  "experience": [
+    {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer",
+      "starttime": "2001",
+      "endtime": "2006"}, {
+
+      "organisation": "University of Dar es Salaam",
+      "position": "Lecturer",
+      "starttime": "2006",
+      "endtime": "To date"}
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "1995",
+      "endtime": "1998"
+    }, {
+      "institution": "Technical University of Delft,the Netherlands",
+      "award": "MSc. Technical Informatics",
+      "starttime": "1999",
+      "endtime": "2001"
+    }, {
+      "institution": "University of Oslo, Norway",
+      "award": "PhD Information Systems",
+      "starttime": "2003",
+      "endtime": "2006"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "UDSM DHIS2/HIS Project",
+      "position": "UDSM DHIS2 Coordinator",
+      "starttime": "2007",
+      "endtime": "To date"
+    },
+    {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS Coordinator",
+      "starttime": "2009",
+      "endtime": "To date"
+    }, {
+      "project": "CoICT Road Safety ICT Project",
+      "position": "Project Manager",
+      "starttime": "2013",
+      "endtime": "2015"
+    },
+    {
+      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
+      "position": "UDSM Lead Expert",
+      "starttime": "2010",
+      "endtime": "2011"
+    }
+  ],
+  "skills": [
+    {"skill": ""},
+    {"skill": ""}
+  ]
   }
 ]

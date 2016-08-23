@@ -1,21 +1,28 @@
 <section id="member">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown">name</h2>
+            <h2 class="section-title text-center wow fadeInDown">{{member.name}}</h2>
         </div>
-        <div class="row">
+    </div>
+</section>
+<section id="member-head">
+    <div class="container">
+        <div class="row bg-gray">
             <div class="col-sm-offset-5 col-sm-2 col-xs-offset-2 col-xs-8">
-                <img src="img/team/masud.jpg" alt="" class="img-responsive">
-                <h5 class="text-center">Position</h5>
+                <img src="{{member.img_url}}" alt="" class="img-responsive">
+                <h5 class="text-center">{{member.position}}</h5>
             </div>
         </div>
-        <hr>
+    </div>
+</section>
+<section id="member-content">
+    <div class="container">
         <div class="row">
             <div class="col-sm-8" style="border-right: solid  1px #eee;">
                 <ul class="list-inline member-contact">
-                    <li><small><i class="fa fa-envelope"></i> bernarc.msangi@gmail.com</small></li>
-                    <li><small><i class="fa fa-phone"></i> +255786 924 780</small></li>
-                    <li><small><i class="fa fa-linkedin"></i></small></li>
+                    <li><small><i class="fa fa-envelope"></i> {{member.email}}</small></li>
+                    <li><small><i class="fa fa-phone"></i> {{member.phone}}</small></li>
+                    <li><small><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></small></li>
                 </ul>
                 <h5 class="column-title"></h5>
                 <uib-tabset active="activeJustified" justified="true">
@@ -25,8 +32,7 @@
                         </uib-tab-heading>
                         <div class="row">
                             <div class="col-sm-12">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                <p class="text-jsutify">{{member.bio}}</p>
                             </div>
                         </div>
                     </uib-tab>
@@ -34,21 +40,19 @@
                         <uib-tab-heading>
                             <i class="fa fa-building"></i> Experience
                         </uib-tab-heading>
-                        <div class="row">
+                        <div class="row" ng-repeat="experience in member.experience | orderBy: '-starttime'">
                             <div class="col-md-5 hidden-xs">
-                                <span class="timeline">September 2014 - July 2015</span><br>
+                                <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span><br>
                                 <span class="timeline-sum">(1 year and 11 month)</span>
                             </div>
                             <div class="col-md-7 col-xs-12 right-content">
-                                <span class="institution">System Analyist</span><br>
-                                <span class="award">Udsm</span>
+                                <span class="institution">{{experience.position}}</span><br>
+                                <span class="award">{{experience.organisation}}</span>
                                 <div class="visible-xs">
-                                    <span class="timeline">September 2014 - July 2015</span>
+                                    <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span>
                                     <span class="timeline">(1 year and 11 month)</span>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="col-sm-12">
                                 <h5 class="column-title"></h5>
                             </div>
@@ -58,38 +62,58 @@
                         <uib-tab-heading>
                             <i class="fa fa-graduation-cap"></i> Education
                         </uib-tab-heading>
-                        <div class="row">
+                        <div class="row" ng-repeat="education in member.education | orderBy: '-starttime'">
                             <div class="col-md-5 hidden-xs">
-                                <span class="timeline">September 2014 - July 2015</span><br>
+                                <span class="timeline">{{education.starttime}} - {{education.endtime}}</span><br>
                                 <span class="timeline-sum">(1 year and 11 month)</span>
                             </div>
                             <div class="col-md-7 col-xs-12 right-content">
-                                <span class="institution">University of Dar es Salaam</span><br>
-                                <span class="award">Bsc. Computer</span>
+                                <span class="institution">{{education.institution}}</span><br>
+                                <span class="award">{{education.award}}</span>
                                 <div class="visible-xs">
-                                    <span class="timeline">September 2014 - July 2015</span>
+                                    <span class="timeline">{{education.starttime}} - {{education.endtime}}</span>
                                     <span class="timeline">(1 year and 11 month)</span>
                                 </div>
                             </div>
-
-                        </div>
-                        <div class="row">
                             <div class="col-sm-12">
                                 <h5 class="column-title"></h5>
                             </div>
+
                         </div>
                     </uib-tab>
-                    <uib-tab index="3" heading="Skills">
+                    <uib-tab index="3" heading="Consultancy" ng-if="member.consultancy">
+                        <uib-tab-heading>
+                            <i class="fa fa-graduation-cap"></i> Consultancy
+                        </uib-tab-heading>
+                        <div class="row" ng-repeat="consultancy in member.consultancy | orderBy: '-starttime'">
+                            <div class="col-md-5 hidden-xs">
+                                <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span><br>
+                                <span class="timeline-sum">(1 year and 11 month)</span>
+                            </div>
+                            <div class="col-md-7 col-xs-12 right-content">
+                                <span class="institution">{{consultancy.project}}</span><br>
+                                <span class="award">{{consultancy.position}}</span>
+                                <div class="visible-xs">
+                                    <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span>
+                                    <span class="timeline">(1 year and 11 month)</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <h5 class="column-title"></h5>
+                            </div>
+
+                        </div>
+                    </uib-tab>
+                    <uib-tab index="4" heading="Skills">
                         <uib-tab-heading>
                             <i class="fa fa-wrench" aria-hidden="true"></i> Skills
                         </uib-tab-heading>
                         <div class="row" >
                             <div class="col-sm-12">
                                 <ul class="list-unstyled">
-                                    <li><i class="fa fa-check-square"></i> Skill 1</li>
-                                    <li><i class="fa fa-check-square"></i> Skill 1</li>
-                                    <li><i class="fa fa-check-square"></i> Skill 1</li>
-                                    <li><i class="fa fa-check-square"></i> Skill 1</li>
+                                    <li ng-repeat="skill in member.skills">
+                                        <i class="fa fa-check-square"></i> {{skill.skill}}
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -102,8 +126,6 @@
                     <li><h6><a href="#articles"><i class="fa fa-check-square"></i> Predictive analytics in innovating road safety</a></h6></li>
                     <li><h6><a href="#articles"><i class="fa fa-check-square"></i> Predictive analytics in innovating road safety</a></h6></li>
                 </ul>
-
-                <br>
                 <a href="">more...</a>
 
             </div>
