@@ -32,7 +32,7 @@
                         </uib-tab-heading>
                         <div class="row">
                             <div class="col-sm-12">
-                                <p class="text-jsutify">{{member.bio}}</p>
+                                <p class="text-justify">{{member.bio}}</p>
                             </div>
                         </div>
                     </uib-tab>
@@ -41,16 +41,16 @@
                             <i class="fa fa-building"></i> Experience
                         </uib-tab-heading>
                         <div class="row" ng-repeat="experience in member.experience | orderBy: '-starttime'">
-                            <div class="col-md-5 hidden-xs">
+                            <div class="col-md-4 hidden-xs">
                                 <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span><br>
-                                <span class="timeline-sum">(1 year and 11 month)</span>
+                                <!--<span class="timeline-sum">(1 year and 11 month)</span>-->
                             </div>
-                            <div class="col-md-7 col-xs-12 right-content">
+                            <div class="col-md-8 col-xs-12 right-content">
                                 <span class="institution">{{experience.position}}</span><br>
                                 <span class="award">{{experience.organisation}}</span>
                                 <div class="visible-xs">
                                     <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span>
-                                    <span class="timeline">(1 year and 11 month)</span>
+                                    <!--<span class="timeline">(1 year and 11 month)</span>-->
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -63,16 +63,16 @@
                             <i class="fa fa-graduation-cap"></i> Education
                         </uib-tab-heading>
                         <div class="row" ng-repeat="education in member.education | orderBy: '-starttime'">
-                            <div class="col-md-5 hidden-xs">
+                            <div class="col-md-4 hidden-xs">
                                 <span class="timeline">{{education.starttime}} - {{education.endtime}}</span><br>
-                                <span class="timeline-sum">(1 year and 11 month)</span>
+                                <!--<span class="timeline-sum">(1 year and 11 month)</span>-->
                             </div>
-                            <div class="col-md-7 col-xs-12 right-content">
+                            <div class="col-md-8 col-xs-12 right-content">
                                 <span class="institution">{{education.institution}}</span><br>
                                 <span class="award">{{education.award}}</span>
                                 <div class="visible-xs">
                                     <span class="timeline">{{education.starttime}} - {{education.endtime}}</span>
-                                    <span class="timeline">(1 year and 11 month)</span>
+                                    <!--<span class="timeline">(1 year and 11 month)</span>-->
                                 </div>
                             </div>
                             <div class="col-sm-12">
@@ -83,19 +83,19 @@
                     </uib-tab>
                     <uib-tab index="3" heading="Consultancy" ng-if="member.consultancy">
                         <uib-tab-heading>
-                            <i class="fa fa-graduation-cap"></i> Consultancy
+                            <i class="fa fa-users"></i> Consultancy
                         </uib-tab-heading>
                         <div class="row" ng-repeat="consultancy in member.consultancy | orderBy: '-starttime'">
-                            <div class="col-md-5 hidden-xs">
+                            <div class="col-md-4 hidden-xs">
                                 <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span><br>
-                                <span class="timeline-sum">(1 year and 11 month)</span>
+                                <!--<span class="timeline-sum">(1 year and 11 month)</span>-->
                             </div>
-                            <div class="col-md-7 col-xs-12 right-content">
+                            <div class="col-md-8 col-xs-12 right-content">
                                 <span class="institution">{{consultancy.project}}</span><br>
                                 <span class="award">{{consultancy.position}}</span>
                                 <div class="visible-xs">
                                     <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span>
-                                    <span class="timeline">(1 year and 11 month)</span>
+                                    <!--<span class="timeline">(1 year and 11 month)</span>-->
                                 </div>
                             </div>
                             <div class="col-sm-12">

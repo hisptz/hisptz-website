@@ -944,11 +944,41 @@ ul.nostyle i {
     padding: 100px 0px;
 }
 
-.slider-panel {
-    background: #000;
-    opacity: 0.6;
 
+
+
+.carousel-caption {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #1D3F7E;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    //line-height: 50px;
+    opacity: 0.7;
+    width: 100%;
 }
+
+.carousel-control {
+    top: 190px;
+    bottom: 190px;
+    width: 70px;
+    padding: 0;
+    background-color: #1D3F7E;
+}
+
+.carousel-control:hover {
+    opacity: 0.6;
+}
+
+.carousel {
+    border-top: solid 4px rgba(29, 63, 126, 0.7);
+    margin-top:4px;
+}
+
 
 #activities-hover:hover .activities-open {
     display: block;
@@ -959,14 +989,13 @@ ul.nostyle i {
 #gmap_canvas img{max-width:none!important;background:none!important}
 
 .slider {
-    background-color: #8BBEEF;
-    opacity: 0.8;
-    padding: 20px 40px 30px 40px;
+    height: 450px;
 }
 
-.slider-content {
-
+.slider img {
+    height: 600px;
 }
+
 .slider-img {
     background-color: #8BBEEF;
     position: relative;
@@ -1182,3 +1211,6 @@ ul.nostyle i {
     margin-bottom: 20px;
 }
 
+.carousel-indicators {
+    display: none;
+}

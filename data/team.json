@@ -148,60 +148,51 @@
     {
       "organisation": "University of Dar es Salaam",
       "position": "Assistant Lecturer",
-      "starttime": "2001",
-      "endtime": "2006"}, {
+      "starttime": "2011",
+      "endtime": "To date"}, {
 
       "organisation": "University of Dar es Salaam",
-      "position": "Lecturer",
-      "starttime": "2006",
-      "endtime": "To date"}
+      "position": "Tutorial Assistant",
+      "starttime": "2007",
+      "endtime": "2011"}
   ],
   "education":[
     {
       "institution": "University of Dar es Salaam",
       "award": "BSc. Computer Science",
-      "starttime": "1995",
-      "endtime": "1998"
-    }, {
-      "institution": "Technical University of Delft,the Netherlands",
-      "award": "MSc. Technical Informatics",
-      "starttime": "1999",
-      "endtime": "2001"
-    }, {
-      "institution": "University of Oslo, Norway",
-      "award": "PhD Information Systems",
       "starttime": "2003",
       "endtime": "2006"
+    }, {
+      "institution": "University of Dar es Salaam",
+      "award": "MSc. Computer Science",
+      "starttime": "2007",
+      "endtime": "2011"
     }
   ],
   "consultancy": [
     {
       "project": "UDSM DHIS2/HIS Project",
-      "position": "UDSM DHIS2 Coordinator",
-      "starttime": "2007",
+      "position": "Lead System implementer",
+      "starttime": "2009",
       "endtime": "To date"
     },
     {
       "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
-      "position": "UDSM HRHIS Coordinator",
+      "position": "Lead System developer",
       "starttime": "2009",
       "endtime": "To date"
     }, {
-      "project": "CoICT Road Safety ICT Project",
-      "position": "Project Manager",
-      "starttime": "2013",
+      "project": "Development of Agricultural Routine Data System (ARDS)",
+      "position": "Adminstrator and Systyem Developer",
+      "starttime": "2014",
       "endtime": "2015"
-    },
-    {
-      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
-      "position": "UDSM Lead Expert",
-      "starttime": "2010",
-      "endtime": "2011"
     }
   ],
   "skills": [
-    {"skill": ""},
-    {"skill": ""}
+    {"skill": "Information System"},
+    {"skill": "Software Engineering"},
+    {"skill": "Enterprise Resource Plan"},
+    {"skill": "Open source technologies"}
   ]
   }, {
     "name": "Leonard Peter Binamungu",
@@ -332,7 +323,7 @@
   }, {
     "name": "Ismail Koleleni",
     "title": "Msc Candidate",
-    "position": "Programmer",
+    "position": "Information Systems Developer",
     "img_url": "img/team/new_koleleni.png",
     "email" : "ismailkoleleni@gmail.com",
     "phone" : "+255713 732 238",
@@ -403,15 +394,35 @@
     "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community.  He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
   "experience": [
     {
-      "organisation": "University of Dar es Salaam",
-      "position": "Assistant Lecturer",
-      "starttime": "2001",
-      "endtime": "2006"}, {
+      "organisation": "NBC (National Bank Of Commerce)",
+      "position": "Direct Sales & Loans Officer",
+      "starttime": "2007",
+      "endtime": "2007"}, {
 
-      "organisation": "University of Dar es Salaam",
-      "position": "Lecturer",
-      "starttime": "2006",
-      "endtime": "To date"}
+      "organisation": "LOYOLA HIGH SCHOOL",
+      "position": "Computer Science Teacher",
+      "starttime": "2008",
+      "endtime": "2009"
+    },  {
+
+      "organisation": "TANZAM",
+      "position": "Graphics Designer",
+      "starttime": "2009",
+      "endtime": "2010"
+    }, {
+
+      "organisation": "IT FARM",
+      "position": "Systems Developer",
+      "starttime": "2009",
+      "endtime": "2010"
+    }, {
+
+      "organisation": "HISP Tanzania (UDSM Comp.Sc. Dept.)",
+      "position": "Systems Developer",
+      "starttime": "2010",
+      "endtime": "To date"
+    }
+
   ],
   "education":[
     {
@@ -447,8 +458,11 @@
     }
   ],
   "skills": [
-    {"skill": ""},
-    {"skill": ""}
+    {"skill": "Unix and Linux Systems development and administration"},
+    {"skill": "Desktop and Mobile Application development with Python & C++ using Qt4 & wxWidgets"},
+    {"skill": "Web applications development with Java [Spring Framework & Hibernate], Python [Django Framework], PHP [Symfony2 Framework] & Ruby [Rails Frameworks]"},
+    {"skill": "Systems maintenance and Network administration"},
+    {"skill": "Graphics Design and Image manipulation with GIMP (Rastor graphics) & Ink Scape (Vector Graphics Applications)"}
   ]
   }, {
     "name": "Leonard C Mpande",
@@ -458,65 +472,52 @@
     "email" : "",
     "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/leonard-mpande-1b050972",
-    "bio": "",
+    "bio": "Leonard C Mpande is Software developer and programmer at HISP Tanzania, he has two years extensive experience in the field of programming and software developement within areas of desktop ,web and mobile applications development. He has participated in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS. Leonard attained a Bachelor Degree Of Science in Computer Science from University of Dar es salaam in 2013.",
   "experience": [
     {
-      "organisation": "University of Dar es Salaam",
-      "position": "Assistant Lecturer",
-      "starttime": "2001",
-      "endtime": "2006"}, {
+      "organisation": "Bionic Tanzania LTD",
+      "position": "Software developer",
+      "starttime": "2013",
+      "endtime": "2014"}, {
 
       "organisation": "University of Dar es Salaam",
-      "position": "Lecturer",
-      "starttime": "2006",
+      "position": "Software developer",
+      "starttime": "2014",
       "endtime": "To date"}
   ],
   "education":[
     {
       "institution": "University of Dar es Salaam",
       "award": "BSc. Computer Science",
-      "starttime": "1995",
-      "endtime": "1998"
-    }, {
-      "institution": "Technical University of Delft,the Netherlands",
-      "award": "MSc. Technical Informatics",
-      "starttime": "1999",
-      "endtime": "2001"
-    }, {
-      "institution": "University of Oslo, Norway",
-      "award": "PhD Information Systems",
-      "starttime": "2003",
-      "endtime": "2006"
+      "starttime": "2010",
+      "endtime": "2013"
     }
   ],
   "consultancy": [
     {
-      "project": "UDSM DHIS2/HIS Project",
-      "position": "UDSM DHIS2 Coordinator",
-      "starttime": "2007",
+      "project": "HMIS/DHIS Data warehouse",
+      "position": "Software developer",
+      "starttime": "2014",
       "endtime": "To date"
     },
     {
-      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
-      "position": "UDSM HRHIS Coordinator",
-      "starttime": "2009",
-      "endtime": "To date"
-    }, {
-      "project": "CoICT Road Safety ICT Project",
-      "position": "Project Manager",
-      "starttime": "2013",
+      "project": "Development of Agricultural Routine Data System (ARDS)",
+      "position": "Software developer",
+      "starttime": "2014",
       "endtime": "2015"
-    },
-    {
-      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
-      "position": "UDSM Lead Expert",
-      "starttime": "2010",
-      "endtime": "2011"
+    }, {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "Software developer",
+      "starttime": "2014",
+      "endtime": "2015"
     }
   ],
   "skills": [
-    {"skill": ""},
-    {"skill": ""}
+    {"skill": "Information System Design and Implementation"},
+    {"skill": "User Experience and User Interface Design and Customization"},
+    {"skill": "Database design and Implementation"},
+    {"skill": "Windows and Linux Server Installations and Maintenances"},
+    {"skill" : " Open Source Technologies"}
   ]
   }, {
     "name": "Tuzo Engelbert",
@@ -526,7 +527,7 @@
     "email" : "",
     "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/tuzo-chubwa-93432688",
-    "bio": "",
+    "bio": "Tuzo Engelbert Chubwa is a System Developer at HISP Tanzania with a BSc in Computer Science at University of Dar es Salaam. He has been involved in the Development and Implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS",
   "experience": [
     {
       "organisation": "University of Dar es Salaam",
@@ -594,60 +595,64 @@
     "email" : "",
     "phone" : "",
     "linked_link": "https://tz.linkedin.com/in/kelvin-mbwilo-5aa60b72",
-    "bio": "",
+    "bio": "Kelvin Kulwa Mbwilo is a software Developer at HISP Tanzania. He's an expert in Open source software platforms and development environments, Linux Operating systems, Web/Desktop based and mobile phone applications development. He has participated  in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS. He holds Bachelor Degree in Computer Science from University of Dar es salaam.",
   "experience": [
     {
       "organisation": "University of Dar es Salaam",
-      "position": "Assistant Lecturer",
-      "starttime": "2001",
-      "endtime": "2006"}, {
+      "position": "Research Assistant and Programmer",
+      "starttime": "2013",
+      "endtime": "2014"}, {
 
       "organisation": "University of Dar es Salaam",
-      "position": "Lecturer",
-      "starttime": "2006",
+      "position": "Tutorial Assistant",
+      "starttime": "2016",
       "endtime": "To date"}
   ],
   "education":[
     {
       "institution": "University of Dar es Salaam",
       "award": "BSc. Computer Science",
-      "starttime": "1995",
-      "endtime": "1998"
-    }, {
-      "institution": "Technical University of Delft,the Netherlands",
-      "award": "MSc. Technical Informatics",
-      "starttime": "1999",
-      "endtime": "2001"
-    }, {
-      "institution": "University of Oslo, Norway",
-      "award": "PhD Information Systems",
-      "starttime": "2003",
-      "endtime": "2006"
+      "starttime": "2010",
+      "endtime": "2013"
     }
   ],
   "consultancy": [
     {
-      "project": "UDSM DHIS2/HIS Project",
-      "position": "UDSM DHIS2 Coordinator",
-      "starttime": "2007",
-      "endtime": "To date"
-    },
-    {
       "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
-      "position": "UDSM HRHIS Coordinator",
-      "starttime": "2009",
-      "endtime": "To date"
+      "position": "System Developer",
+      "starttime": "June 2014",
+      "endtime": "Nov 2014"
     }, {
       "project": "CoICT Road Safety ICT Project",
-      "position": "Project Manager",
+      "position": "System Developer",
       "starttime": "2013",
       "endtime": "2015"
+    }, {
+      "project": "Development of HMIS webportal",
+      "position": "System Developer",
+      "starttime": "2015",
+      "endtime": "To date"
+    }, {
+      "project": "Development of Vaccine Visibility System in nicaragua",
+      "position": "System Developer",
+      "starttime": "2015",
+      "endtime": "2015"
+    }, {
+      "project": "Vaccine Tracking Management System",
+      "position": "System Developer",
+      "starttime": "June 2014",
+      "endtime": "July 2014"
+    }, {
+      "project": "Know your Employee Application",
+      "position": "System Developer",
+      "starttime": "Nov 2014",
+      "endtime": "Dec 2014"
     },
     {
-      "project": "Health Information System Policy Guidelines for Ministry of Health and Social Welfare (MOHSW)",
-      "position": "UDSM Lead Expert",
-      "starttime": "2010",
-      "endtime": "2011"
+      "project": "Development of Agricultural Routine Data System (ARDS)",
+      "position": "System Developer",
+      "starttime": "2014",
+      "endtime": "To date"
     }
   ],
   "skills": [
@@ -773,5 +778,107 @@
     {"skill": ""},
     {"skill": ""}
   ]
-  }
+  }, {
+  "name": "Joseph Philibert Chingalo",
+  "title": "BSc",
+  "position": "Programmer",
+  "img_url": "img/team/chingalo.png",
+  "email" : "",
+  "phone" : "",
+  "linked_link": "",
+  "bio": "",
+  "experience": [
+    {
+      "organisation": "HISP Tanzania (UDSM Comp.Sc. Dept.)",
+      "position": "System developer",
+      "starttime": "2016",
+      "endtime": "To date"
+    }, {
+
+      "organisation": "Best dialogue",
+      "position": "System developer",
+      "starttime": "2015",
+      "endtime": "To date"}, {
+
+      "organisation": "UDSM, dept. of comp science",
+      "position": "System developer",
+      "starttime": "2015",
+      "endtime": "To date"
+    }, {
+
+      "organisation": "Unyayo Systems Limited",
+      "position": "Software consultant",
+      "starttime": "2014",
+      "endtime": "2015"
+    }, {
+
+      "organisation": "EmascotLtd",
+      "position": "IT Specialist & System Developer",
+      "starttime": "June 2014",
+      "endtime": "Dec 2014"
+    }, {
+
+      "organisation": "UDSM, dept. of comp science",
+      "position": "System designer and developer",
+      "starttime": "July 2013",
+      "endtime": "Sept 2013"
+    }
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. with Computer Science",
+      "starttime": "2012",
+      "endtime": "2015"
+    }
+  ],
+  "consultancy": [
+
+  ],
+  "skills": [
+    {"skill": "Web applications development with  ​Python​[​Django Framework​] and PHP​[ ​Codeigniter]​"},
+    {"skill": "Hybrid Mobile Application development using ​Ionic framework​ and ​Cordova "}
+  ]
+}, {
+  "name": "Rajabu W Mkomwa",
+  "title": "BSc",
+  "position": "Programmer",
+  "img_url": "img/team/mkomwa.jpg",
+  "email" : "rajeyw@gmail.com",
+  "phone" : "",
+  "linked_link": "https://tz.linkedin.com/in/rajab-mkomwa-aba84673",
+  "bio": "Rajabu W Mkomwa is Software developer and programmer at HISP Tanzania. Rajabu attained a Bachelor Degree Of Science in Computer Engineering and IT from University of Dar es salaam in 2016.",
+  "experience": [
+     {
+
+      "organisation": "HISP Tanzania",
+      "position": "Software developer",
+      "starttime": "2016",
+      "endtime": "To date"
+     }
+  ],
+  "education":[
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Engineering and Information Technologies",
+      "starttime": "2012",
+      "endtime": "2016"
+    }
+  ],
+  "consultancy": [
+    {
+      "project": "eSokoni, online shopping platform for Wazohub technologies",
+      "position": "Software designer and developer",
+      "starttime": "2015",
+      "endtime": "To date"
+    }
+  ],
+  "skills": [
+    {"skill": "Web Application development with PHP [laravel framework], javascript [AngularJS, Jquery, Vue Framework]"},
+    {"skill": "User Experience,User Interface Design and Customization with Bootstrap framework and material design lite"},
+    {"skill": "Database design and Implementation"},
+    {"skill": "Windows and Linux Server Installations and Maintenance"},
+    {"skill" : "Api documentation with Swagger"}
+  ]
+}
 ]

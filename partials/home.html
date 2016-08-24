@@ -2,26 +2,10 @@
     <div>
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
             <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index" class="slider">
-                    <!--<img ng-src="{{slide.image}}" class="img-responsive" width="100%">-->
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-4 col-sm-offset-1 slider-content">
-                            <h3 class="text-left text-white">{{slide.title}}</h3>
-                            <h4 class="text-left text-yellow">{{slide.text}}</h4>
-                        </div>
-                        <div class="col-sm-7 slider-img">
-                            <div class="slider-img-inner"></div>
-                            <img ng-src="{{slide.image}}" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+                    <img ng-src="{{slide.image}}" class="img-responsive" width="100%">
 
-                <div class="carousel-caption hidden-xs">
-                    <!--<div class="panel slider-panel">-->
-                        <!--<div class="panel-body">-->
-                            <!--<h4 style="color: #fff;">{{slide.text}}</h4>-->
-                        <!--</div>-->
-                    <!--</div>-->
+                <div class="carousel-caption">
+                    <span>{{slide.text}}</span>
                 </div>
             </div>
         </div>
