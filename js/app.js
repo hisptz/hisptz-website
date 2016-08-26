@@ -5,7 +5,8 @@
 
 var app = angular.module('app', [
     'ui.router',
-    'ui.bootstrap'])
+    'ui.bootstrap',
+    'ngSanitize'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
@@ -120,23 +121,32 @@ var app = angular.module('app', [
     $scope.active = 0;
     $scope.slides = [
         {
-            image: 'img/slider/slide6.jpg',
+            image: 'img/slider/slide2.jpg',
             title: 'Trophies obtained for the projects from CoICT',
-            text: ' The HMIS project was the 2nd winner in in the 2016 UDSM Research week exhibitions at UDSM level',
+            text: '2016 UDSM Research week exhibitions at UDSM level',
             index: 0
         },
 
         {
-            image: 'img/slider/slide7.jpg',
+            image: 'img/slider/slide1.jpg',
             title: 'Trophies obtained for the projects from CoICT',
-            text: ' The HMIS project was the 2nd winner in in the 2016 UDSM Research week exhibitions at UDSM level',
+            text: '2016 UDSM Research week exhibitions at UDSM level',
             index: 1
+        },
+        {
+            image: 'img/slider/slide3.jpg',
+            title: 'Trophies obtained for the projects from CoICT',
+            text: '2016 UDSM Research week exhibitions at UDSM level',
+            index: 2
         }
     ];
 })
-    .controller('ProductsController', function($scope, $stateParams, $filter, $http) {
+    .controller('ProductsController', function($scope, $stateParams, $filter, $http, $sce) {
         var product_name = $stateParams.name;
 
+        $scope.trustSrc = function(src) {
+            return $sce.trustAsResourceUrl(src);
+        };
 
         $http.get('data/products.json')
             .then(function(response) {

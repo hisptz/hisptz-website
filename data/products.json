@@ -3,6 +3,7 @@
     "name": "Interactive Dashboard",
     "logo": "img/products/idashboard.png",
     "cover": "img/products/idashboard-cover.png",
+    "embed_url" : "https://www.youtube.com/embed/YSvaTcpEZXQ?rel=0",
     "short_description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities",
     "description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities, among features of idashboard includes:",
     "functions": [

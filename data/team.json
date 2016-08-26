@@ -212,7 +212,9 @@
     {"skill": "Information System"},
     {"skill": "Software Engineering"},
     {"skill": "Enterprise Resource Plan"},
-    {"skill": "Open source technologies"}
+    {"skill": "Open source technologies"},
+    {"skill": "Data mining"},
+    {"skill": "Data ware housing"}
   ]
   }, {
     "name": "Ismail Koleleni",

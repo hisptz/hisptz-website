@@ -988,13 +988,13 @@ ul.nostyle i {
 
 #gmap_canvas img{max-width:none!important;background:none!important}
 
-.slider {
-    height: 450px;
-}
+/*.slider {*/
+    /*height: 470px;*/
+/*}*/
 
-.slider img {
-    height: 600px;
-}
+/*.slider img {*/
+    /*height: 666px;*/
+/*}*/
 
 .slider-img {
     background-color: #8BBEEF;
