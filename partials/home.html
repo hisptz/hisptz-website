@@ -1,15 +1,13 @@
 <div ng-controller="HomeSliderController">
-    <div>
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
             <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index" class="slider">
-                    <img ng-src="{{slide.image}}" class="img-responsive" width="100%">
+                    <img ng-src="{{slide.image}}" class="img-responsive">
 
-                <div class="carousel-caption hidden-xs">
+                <div class="carousel-caption">
                     <span>{{slide.text}}</span>
                 </div>
             </div>
         </div>
-    </div>
 
 </div>
 <section id="products">
@@ -131,6 +129,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+<section id="partners">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title text-center wow fadeInDown">Our Partners</h2>
         </div>
     </div>
 </section>

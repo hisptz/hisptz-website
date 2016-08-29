@@ -926,9 +926,13 @@ ul.nostyle i {
 #training,
 #projects,
 #articles,
-#feedback{
+#feedback, #partners{
     padding: 70px 0px;
 
+}
+
+#partners {
+    background-color: #f5f5f5;
 }
 
 #member {
@@ -988,13 +992,13 @@ ul.nostyle i {
 
 #gmap_canvas img{max-width:none!important;background:none!important}
 
-/*.slider {*/
-    /*height: 470px;*/
-/*}*/
+.slider {
+    height: 600px;
+}
 
-/*.slider img {*/
-    /*height: 666px;*/
-/*}*/
+.slider img {
+    width: 100%;
+}
 
 .slider-img {
     background-color: #8BBEEF;
