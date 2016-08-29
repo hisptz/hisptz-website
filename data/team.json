@@ -74,12 +74,70 @@
     "linked_link": "https://tz.linkedin.com/in/masoud-h-mahundi-414b0139",
     "bio": "Masoud H. Mahundi is a systems analyst and Implementer at HISP Tanzania and an assistant lecturer with the University of Dar es salaam coordinating a number of undergraduate courses. He holds a Masters of Science degree in Health Informatics, from the University of Dar es Salaam. Masoud has been working with the health information systems since 2005. He has supported a number of organisations including Ministry of Health and Social Welfare in Zanzibar and MoHSW TZ mainland.  In both cases he has been involved in negotiating requirements from different actors, software customization, trainings, documentation and other activities",
   "experience": [
+    {
+      "organisation": "RTI International through University of Dar es Salaam with the Ministry of Health Tanzania",
+      "position": "Consultancy/Technical Assistance in Data Quality and Analysis",
+      "starttime": "April 2016",
+      "endtime": "July 2016"
+    }, {
+      "organisation": "The National Examination Council of Tanzania - NECTA",
+      "position": "IT Specialist – National Examination Council of Tanzania - NECTA",
+      "starttime": "2013",
+      "endtime": "2015"
+    }, {
+      "organisation": "University of Dar es Salaam",
+      "position": "Assistant Lecturer & Postgraduate Students Mentor",
+      "starttime": "2007",
+      "endtime": "To date"
+    }
 
   ],
   "education":[
+    {
+      "institution": "University of Dar es Salaam – Tanzania (with the University of Oslo – Norway)",
+      "award": "Master in Health Informatics",
+      "starttime": "2007",
+      "endtime": "2010"
+    }, {
+      "institution": "University of Dar es Salaam",
+      "award": "Bachelor in Computer Science",
+      "starttime": "2002",
+      "endtime": "2005"
+    }, {
+      "institution": "University of Witwatersrand, South Africa",
+      "award": "Certificate in Research Methods and Data Management",
+      "starttime": "November 2016",
+      "endtime": "N/A"
+    }
   ],
-  "consultancy": [],
-  "skills": []
+  "consultancy": [
+    {
+      "project": "Human Resource for Health Information System",
+      "position": "Consultant",
+      "starttime": "2009",
+      "endtime": "2013"
+    }, {
+      "project": "Health Information Systems Research Program",
+      "position": "Assistant Researcher and Consultant - Ministry of Health Tanzania (Mainland)",
+      "starttime": "2007",
+      "endtime": "To date"
+    }, {
+      "project": "Mnazi Mmoja Hospital, Health Information Systems Research Program",
+      "position": "Assistant Researcher and Consultant",
+      "starttime": "2007",
+      "endtime": "To date"
+    }, {
+      "project": "Health Information Systems Research Program",
+      "position": "Assistant Researcher and Consultant - Ministry of Health Tanzania (Zanzibar)",
+      "starttime": "2005",
+      "endtime": "2007"
+    }
+
+  ],
+  "skills": [
+    {"skill": "Programming in C"},
+    {"skill": "Health Information Systems Integration"}
+  ]
   }, {
     "name": "Wilfred Senyoni",
     "title": "Phd Candidate",
@@ -205,7 +263,7 @@
       "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
       "position": "System Analyst",
       "starttime": "2010",
-      "endtime": "2010"
+      "endtime": "2012"
     }
   ],
   "skills": [
@@ -621,16 +679,45 @@
     "linked_link": "",
     "bio": "",
   "experience": [
-
+    {
+      "organisation": "St. John’s University of Tanzania - Dodoma",
+      "position": "Tutorial Assistant",
+      "starttime": "2008",
+      "endtime": "2009"
+    }, {
+      "organisation": "University of Dar es salaam",
+      "position": "Tutorial Assistant",
+      "starttime": "2009",
+      "endtime": "To date"
+    }
   ],
   "education":[
-
+    {
+      "institution": "University of Dar es Salaam",
+      "award": "BSc. Computer Science",
+      "starttime": "2005",
+      "endtime": "2008"
+    }, {
+      "institution": "University of Dar es Salaam",
+      "award": "MSc.in Computer Science Candidate",
+      "starttime": "2009",
+      "endtime": "To date"
+    }
   ],
   "consultancy": [
-
+    {
+      "project": "UDSM DHIS2 Project",
+      "position": "System Analyst and Trainer",
+      "starttime": "2015",
+      "endtime": "To date"
+    }, {
+      "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+      "position": "UDSM HRHIS System Analyst and Trainer",
+      "starttime": "2011",
+      "endtime": "To date"
+    }
   ],
-  "skills": [
-  ]
+  "skills": []
   }, {
   "name": "Joseph Philibert Chingalo",
   "title": "BSc",
@@ -638,8 +725,8 @@
   "img_url": "img/team/chingalo.jpg",
   "email" : "​profschingalo@gmail.com",
   "phone" : "",
-  "linked_link": "",
-  "bio": "",
+  "linked_link": "https://tz.linkedin.com/in/joseph-chingalo-b9792075",
+  "bio": "Leonard C Mpande is Software developer and programmer at HISP Tanzania, he has two years extensive experience in the field of programming and software developement within areas of desktop ,web and mobile applications development. He has participated in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS, HRHIS and iRoad2. Leonard attained a Bachelor Degree Of Science in Computer Science from University of Dar es salaam in 2015",
   "experience": [
     {
       "organisation": "HISP Tanzania (UDSM Comp.Sc. Dept.)",
@@ -739,8 +826,8 @@
   "img_url": "img/team/minde.jpg",
   "email" : "vincentminde@gmail.com",
   "phone" : "",
-  "linked_link": "https://tz.linkedin.com/in/rajab-mkomwa-aba84673",
-  "bio": "Rajabu W Mkomwa is Software developer and programmer at HISP Tanzania. Rajabu attained a Bachelor Degree Of Science in Computer Engineering and IT from University of Dar es salaam in 2016.",
+  "linked_link": "https://tz.linkedin.com/in/vincent-minde-49408bb9",
+  "bio": "",
   "experience": [
     {
       "organisation": "University of Dar-es-salaam",

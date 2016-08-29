@@ -107,7 +107,7 @@
             <div class="col-sm-4">
                 <h3 class="column-title">Our Adverts</h3>
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe src="https://www.youtube.com/embed/inQcN8WZKBQ?rel=0" frameborder="0" allowfullscreen autoplay="0" autostart="0"></iframe>
+                    <iframe src="https://www.youtube.com/embed/P6-Mw8yaQHw?rel=0" frameborder="0" allowfullscreen autoplay="0" autostart="0"></iframe>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -136,6 +136,14 @@
     <div class="container">
         <div class="section-header">
             <h2 class="section-title text-center wow fadeInDown">Our Partners</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-2" ng-repeat="partner in partners">
+                <div class="text-center">
+                    <a href="{{partner.url}}" target="_blank"><img ng-src="{{partner.logo}}" alt="title" class="img-responsive"></a>
+                </div>
+
+            </div>
         </div>
     </div>
 </section>

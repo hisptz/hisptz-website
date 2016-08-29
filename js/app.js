@@ -83,8 +83,11 @@ var app = angular.module('app', [
         .then(function(response) {
             $scope.products = response.data;
         });
+    $http.get('data/partner.json').then(function (response) {
+        $scope.partners = response.data;
+    });
 
-    $scope.init = 1
+    $scope.init = 1;
 
     $scope.faqs = [
         {
