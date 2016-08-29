@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcdd4e18-1d24-427f-9f2a-48eb219d340b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/partner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/team.json" afterPath="$PROJECT_DIR$/data/team.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/home.html" afterPath="$PROJECT_DIR$/partials/home.html" />
     </list>
     <ignored path="new.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +80,8 @@
       <file leaf-file-name="team.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/data/team.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="828" column="67" selection-start-line="828" selection-start-column="67" selection-end-line="828" selection-end-column="67" />
+            <state relative-caret-position="329">
+              <caret line="728" column="35" selection-start-line="728" selection-start-column="35" selection-end-line="728" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -348,12 +344,12 @@
       <workItem from="1472270740511" duration="863000" />
       <workItem from="1472383709048" duration="4280000" />
       <workItem from="1472389720319" duration="608000" />
-      <workItem from="1472413794020" duration="8593000" />
+      <workItem from="1472413794020" duration="9203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230946000" />
+    <option name="totallyTimeSpent" value="231556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
@@ -748,8 +744,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/data/team.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="828" column="67" selection-start-line="828" selection-start-column="67" selection-end-line="828" selection-end-column="67" />
+        <state relative-caret-position="329">
+          <caret line="728" column="35" selection-start-line="728" selection-start-column="35" selection-end-line="728" selection-end-column="35" />
           <folding />
         </state>
       </provider>
