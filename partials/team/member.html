@@ -23,6 +23,7 @@
                     <!--<li><small><i class="fa fa-envelope"></i> {{member.email}}</small></li>-->
                     <!--<li><small><i class="fa fa-phone"></i> {{member.phone}}</small></li>-->
                     <li><small><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></small></li>
+                    <li class="pull-right"><a href="#team" class="btn btn-primary btn-sm"><i class="fa fa-arrow-left"> back</i></a></li>
                 </ul>
                 <h5 class="column-title"></h5>
                 <uib-tabset active="activeJustified" justified="true">
@@ -104,20 +105,20 @@
 
                         </div>
                     </uib-tab>
-                    <uib-tab index="4" heading="Skills" ng-if="member.skills">
-                        <uib-tab-heading>
-                            <i class="fa fa-wrench" aria-hidden="true"></i> Skills
-                        </uib-tab-heading>
-                        <div class="row" >
-                            <div class="col-sm-12">
-                                <ul class="list-unstyled">
-                                    <li ng-repeat="skill in member.skills">
-                                        <i class="fa fa-check-square"></i> {{skill.skill}}
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </uib-tab>
+                    <!--<uib-tab index="4" heading="Skills" ng-if="member.skills">-->
+                        <!--<uib-tab-heading>-->
+                            <!--<i class="fa fa-wrench" aria-hidden="true"></i> Skills-->
+                        <!--</uib-tab-heading>-->
+                        <!--<div class="row" >-->
+                            <!--<div class="col-sm-12">-->
+                                <!--<ul class="list-unstyled">-->
+                                    <!--<li ng-repeat="skill in member.skills">-->
+                                        <!--<i class="fa fa-check-square"></i> {{skill.skill}}-->
+                                    <!--</li>-->
+                                <!--</ul>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</uib-tab>-->
                 </uib-tabset>
             </div>
             <div class="col-sm-4">

@@ -13,7 +13,34 @@
             </p>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-3" ng-repeat="member in members">
+            <div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 head" style="padding-left: 5%; padding-right: 5%;">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{{members.head.img_url}}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h4>{{members.head.name}}</h4>
+                        <h5>({{members.head.title}})</h5>
+                        <span>{{members.head.position}}</span>
+                    </div>
+                    <ul class="social-icons">
+                        <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                        <li><a href="{{members.head.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a href="#member/head/{{members.head.name}}"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <h4 class="column-title">Seniors</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" ng-repeat="member in members.seniors">
                 <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
                     <div class="team-img">
                         <img class="img-responsive" src="{{member.img_url}}" alt="">
@@ -28,7 +55,61 @@
                         <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                         <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
                         <li><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="pull-right"><a href="#member/{{member.name}}"><i class="fa fa-eye"></i></a></li>
+                        <li class="pull-right"><a href="#member/seniors/{{member.name}}"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <h4 class="column-title">Analysts</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" ng-repeat="member in members.analysts">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{{member.img_url}}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h4>{{member.name}}</h4>
+                        <h5>({{member.title}})</h5>
+                        <span>{{member.position}}</span>
+                    </div>
+                    <ul class="social-icons">
+                        <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                        <li><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a href="#member/analysts/{{member.name}}"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <h4 class="column-title">Developers</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" ng-repeat="member in members.developers">
+                <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                    <div class="team-img">
+                        <img class="img-responsive" src="{{member.img_url}}" alt="">
+                    </div>
+                    <div class="team-info">
+                        <h4>{{member.name}}</h4>
+                        <h5>({{member.title}})</h5>
+                        <span>{{member.position}}</span>
+                    </div>
+                    <ul class="social-icons">
+                        <!--<li><a href="#"><i class="fa fa-facebook"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                        <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                        <li><a href="{{member.linked_link}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a href="#member/developers/{{member.name}}"><i class="fa fa-eye"></i></a></li>
                     </ul>
                 </div>
             </div>

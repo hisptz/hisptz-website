@@ -1,11 +1,22 @@
 <div ng-controller="HomeSliderController">
         <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-            <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index" class="slider">
-                    <img ng-src="{{slide.image}}" class="img-responsive">
-
-                <div class="carousel-caption">
-                    <span>{{slide.text}}</span>
+            <div uib-slide ng-repeat="slide in slides track by slide.index" index="slide.index">
+                <div class="container-fluid">
+                    <div class="row" style="padding-right: 10%; padding-left: 10%;">
+                        <div class="col-lg-5 col-md-5 col-sm-5">
+                            <h2 class="slider-head">{{slide.text}}</h2>
+                            <div class="slider-text">
+                                <p class="text-left">This is text area for slider</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-md-7 col-sm-7 slider" style="background-image: url('{{slide.image}}');">
+                            <div class="slider-image">
+                                <!--<img ng-src="{{slide.image}}" class="img-responsive img-circle">-->
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
 
@@ -138,8 +149,8 @@
             <h2 class="section-title text-center wow fadeInDown">Our Partners</h2>
         </div>
         <div class="row">
-            <div class="col-sm-2" ng-repeat="partner in partners">
-                <div class="text-center">
+            <div class="col-sm-2 col-xs-6" ng-repeat="partner in partners">
+                <div class="text-center" style="height: 50px; margin-bottom: 50px;">
                     <a href="{{partner.url}}" target="_blank"><img ng-src="{{partner.logo}}" alt="title" class="img-responsive"></a>
                 </div>
 

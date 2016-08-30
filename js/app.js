@@ -34,7 +34,7 @@ var app = angular.module('app', [
             controller: 'TeamController'
         })
         .state('member', {
-            url: '/member/:name',
+            url: '/member/:title/:name',
             templateUrl: 'partials/team/member.html',
             controller: 'TeamController'
         })
@@ -221,11 +221,25 @@ var app = angular.module('app', [
 
     })
     .controller('TeamController', function($scope, $http, $filter, $stateParams) {
+        var member_title = $stateParams.title;
+
         var member_name = $stateParams.name;
+        var data = {};
+
         $http.get('data/team.json')
             .then(function(response) {
-                $scope.members = response.data;
-                $scope.member = $filter('filter')(response.data, {name:member_name})[0];
+                data = response.data;
+                $scope.members = data;
+                if(member_title == 'head') {
+                    $scope.member = data.head
+                } else if(member_title == 'seniors') {
+                    $scope.member = $filter('filter')(data.seniors, {name:member_name})[0];
+                } else if(member_title == 'analysts') {
+                    $scope.member = $filter('filter')(data.analysts, {name:member_name})[0];
+                } else if(member_title == 'developers') {
+                    $scope.member = $filter('filter')(data.developers, {name:member_name})[0];
+                }
+
             });
     })
     .controller('ProjectController', function($scope, $http) {
