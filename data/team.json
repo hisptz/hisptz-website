@@ -552,7 +552,7 @@
     },
     {
       "name": "Mathew Mndeme",
-      "title": "Msc Candidate",
+      "title": "PhD",
       "position": "System analyst",
       "img_url": "img/team/mndeme.jpg",
       "email" : "",
@@ -560,12 +560,55 @@
       "linked_link": "",
       "bio": "Mathew is a member HISP Tanzania and an Assistant Lecturer in the department of Computer Science, University of Dar es Salaam. Currently, he is PhD Scholar in Health Informatics at the University of Leeds under Commonwealth Scholarship Commission in the UK and his PhD research is looking on the evidence of mHealth interventions in low-income settings, focusing on the intervention for surveillance of communicable diseases in Tanzania (eIDSR) which is being scaled and integrated to DHIS2. He has a wide experience in HIS implementation in Tanzania and has participated in adapting DHIS2 in Tanzania from piloting stage to full-scale implementation. He has played different roles in HIS including designing of data collection tools, project administration, software customization, systems analysis, trainings, users support and supportive supervisions. Prior to joining HISP team, he led the customization and implementation of EMR (Care2x) in mission hospitals. ",
       "experience": [
-
+        {
+          "organisation": "University of Dar es salaam",
+          "position": "Systems Analyst",
+          "starttime": "2009",
+          "endtime": "To date"
+        }, {
+          "organisation": "University of Dar es salaam",
+          "position": "Assistant Lecturer",
+          "starttime": "2008",
+          "endtime": "To date"
+        }, {
+          "organisation": "Evangelical Lutheran Church in Tanzania",
+          "position": "Health-ICT Project Manager",
+          "starttime": "2006",
+          "endtime": "2007"
+        }
       ],
       "education":[
+        {
+          "institution": "University of Leeds",
+          "award": "Doctor of Philosophy (PhD), Health Informatics",
+          "starttime": "2014",
+          "endtime": "To date"
+        },{
+          "institution": "Maastricht School of Management",
+          "award": "Postgraduate Diploma (MPhil), Research Methods and Skills",
+          "starttime": "2012",
+          "endtime": "2012"
+        },{
+          "institution": "University of Dar es Salaam",
+          "award": "MSc. Health Informatics, Health Information Systems and Public Health",
+          "starttime": "2007",
+          "endtime": "2011"
+        },{
+          "institution": "University of Dar es Salaam",
+          "award": "BSc, Computer Science and Statistics",
+          "starttime": "2003",
+          "endtime": "2006"
+        }
+      ],
+      "consultancy": [
+        {
+          "project": "Human Resource for Health Information System (HRHIS)",
+          "position": "Project Administration",
+          "starttime": "2009",
+          "endtime": "To date"
+        }
 
       ],
-      "consultancy": [],
       "skills": []
     }
   ],

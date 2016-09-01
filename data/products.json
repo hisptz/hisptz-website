@@ -34,6 +34,7 @@
     "name": "Score card",
     "logo": "img/products/score-card.png",
     "cover": "img/products/score-card-cover.png",
+    "embed_url": "https://www.youtube.com/embed/2HUjowyOp3Y?rel=0",
     "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
     "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
     "functions": [
