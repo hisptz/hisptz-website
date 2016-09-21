@@ -1,5 +1,7 @@
 {
-  "head": {
+
+  "analysts" : [
+    {
       "name": "Dr. Honest Kimaro",
       "title": "PhD",
       "position": "HISP Coordinator",
@@ -65,7 +67,6 @@
       ],
       "skills": []
     },
-  "seniors": [
     {
       "name": "Mr. Masoud Mahundi",
       "title": "PhD Candidate",
@@ -265,176 +266,6 @@
       ]
     },
     {
-      "name": "John F. Mukulu",
-      "title": "Msc Candidate",
-      "position": "Senior Systems Developer",
-      "img_url": "img/team/new_mukulu.png",
-      "email" : "john.f.mukulu@gmail.com",
-      "phone" : "+255 717 154 006",
-      "linked_link": "https://tz.linkedin.com/in/john-francis-mukulu-889b2268",
-      "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community.  He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
-      "experience": [
-        {
-          "organisation": "NBC (National Bank Of Commerce)",
-          "position": "Direct Sales & Loans Officer",
-          "starttime": "2007",
-          "endtime": "2007"}, {
-
-          "organisation": "LOYOLA HIGH SCHOOL",
-          "position": "Computer Science Teacher",
-          "starttime": "2008",
-          "endtime": "2009"
-        },  {
-
-          "organisation": "TANZAM",
-          "position": "Graphics Designer",
-          "starttime": "2009",
-          "endtime": "2010"
-        }, {
-
-          "organisation": "IT FARM",
-          "position": "Systems Developer",
-          "starttime": "2009",
-          "endtime": "2010"
-        }, {
-
-          "organisation": "HISP Tanzania (UDSM Comp.Sc. Dept.)",
-          "position": "Systems Developer",
-          "starttime": "2010",
-          "endtime": "To date"
-        }, {
-
-          "organisation": "HISP Tanzania & University of Oslo",
-          "position": "DHIS2 Academies Trainer",
-          "starttime": "2013",
-          "endtime": "To date"
-        }
-
-      ],
-      "education":[
-        {
-          "institution": "University of Dar es Salaam",
-          "award": "BSc. Computer Science",
-          "starttime": "2007",
-          "endtime": "2010"
-        }
-      ],
-      "consultancy": [
-        {
-          "project": "Ministry of Health and Social Welfare (MoHSW),HMIS Unit Policy & Planning, ICT Unit and Admin. & HR Dept.",
-          "position": "Technical Consultant",
-          "starttime": "2010",
-          "endtime": "To date"
-        },
-        {
-          "project": "Global Health Information Systems Programme(HISP)",
-          "position": "DHIS2 International Consultant",
-          "starttime": "2011",
-          "endtime": "To date"
-        }, {
-          "project": "Engender Health Tanzania – Respond Tanzania Project",
-          "position": "DHIS2 Local Consultant",
-          "starttime": "Feb 2014",
-          "endtime": "Jun 2014"
-        }, {
-          "project": "PACT Tanzania – Pamoja Tuwalee Project supported by PEPFAR",
-          "position": "DHIS2 Local Consultant",
-          "starttime": "May 2014",
-          "endtime": "Jun 2014"
-        }, {
-          "project": "Ministry of Health and Social Welfare(MoHSW) – Administration and Human Resource Department",
-          "position": "HRH Local Consultant",
-          "starttime": "Mar 2013",
-          "endtime": "Mar 2013"
-        }, {
-          "project": "JHPIEGO Tanzania – Affiliates of John Hopkins University",
-          "position": "DHIS2 Local Consultant",
-          "starttime": "Oct 2013",
-          "endtime": "Nov 2013"
-        }, {
-          "project": "Ministry of Agriculture, Food Security and Cooperatives(ASLMs), Japan International Co-operation(JICA) and Department of Computer Science and Engineering(DoCSE)",
-          "position": "Systems Development Consultations",
-          "starttime": "2014",
-          "endtime": "2015"
-        }, {
-          "project": "International Medical Corps",
-          "position": "Technical Consultant",
-          "starttime": "2015",
-          "endtime": "To date"
-        }
-      ],
-      "skills": [
-        {"skill": "Unix and Linux Systems development and administration"},
-        {"skill": "Desktop and Mobile Application development with Python & C++ using Qt4 & wxWidgets"},
-        {"skill": "Web applications development with Java [Spring Framework & Hibernate], Python [Django Framework], PHP [Symfony2 Framework] & Ruby [Rails Frameworks]"},
-        {"skill": "Systems maintenance and Network administration"},
-        {"skill": "Graphics Design and Image manipulation with GIMP (Rastor graphics) & Ink Scape (Vector Graphics Applications)"}
-      ]
-    }
-  ],
-  "analysts" : [
-    {
-      "name": "Ismail Koleleni",
-      "title": "Msc Candidate",
-      "position": "Information Systems Developer",
-      "img_url": "img/team/new_koleleni.png",
-      "email" : "ismailkoleleni@gmail.com",
-      "phone" : "+255713 732 238",
-      "linked_link": "https://tz.linkedin.com/in/ismailkoleleni",
-      "bio": "Ismail Y. Koleleni is a Health Information Systems expert and software developer working with University of Dar es Salaam, Tanzania.  He has been involved with Development/Customization and Implementation of DHIS2 in Tanzania as well as supporting DHIS2 implementations in many other countries and organizations. His professional interests includes design, development and Implementation of information systems using technologies like web based system and mobile phone solutions focusing more on customization of open source software and applications. Lately, he has been more engaged with electronic disease surveillance (IDSR) system which uses DHIS2 and mobile phone reporting to detect possible disease outbreaks and alert responsible teams for immediate action. He has also been involved in development and Implementation of Human Resources for Health Information System (HRHIS) in Tanzania under HISP Tanzania.",
-      "experience": [
-        {
-          "organisation": "Computer Science and Engineering Department",
-          "position": "Information Systems Developer",
-          "starttime": "2009",
-          "endtime": "2010"}, {
-
-          "organisation": "University of Dar es Salaam",
-          "position": "Tutorial Assistant",
-          "starttime": "2010",
-          "endtime": "To date"}
-      ],
-      "education":[
-        {
-          "institution": "University of Dar es Salaam",
-          "award": "BSc. Computer Science",
-          "starttime": "2006",
-          "endtime": "2009"
-        }, {
-          "institution": "University of Dar es Salaam",
-          "award": "MSc. Health Informatics",
-          "starttime": "2013",
-          "endtime": "To date"
-        }
-      ],
-      "consultancy": [
-        {
-          "project": "UDSM DHIS2/HIS Project",
-          "position": "System developer",
-          "starttime": "2009",
-          "endtime": "To date"
-        },
-        {
-          "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
-          "position": "System developer",
-          "starttime": "2009",
-          "endtime": "To date"
-        }, {
-          "project": "Development of electronic Integrated Disease Surveillance and Response (eIDSR) System",
-          "position": "Project Administrator and Lead developer",
-          "starttime": "2012",
-          "endtime": "To date"
-        },
-        {
-          "project": "District Health Information Software (DHIS) Expert Community",
-          "position": "Consultant",
-          "starttime": "2012",
-          "endtime": "To date"
-        }
-      ],
-      "skills": []
-    },
-    {
       "name": "Leonard Peter Binamungu",
       "title": "PhD Candidate",
       "position": "System Analyst and Implementer",
@@ -552,7 +383,7 @@
     },
     {
       "name": "Mathew Mndeme",
-      "title": "PhD",
+      "title": "PhD Candidate",
       "position": "System analyst",
       "img_url": "img/team/mndeme.jpg",
       "email" : "",
@@ -610,9 +441,213 @@
 
       ],
       "skills": []
+    },
+    {
+      "name": "Lilian Mkonyi",
+      "title": "Bsc",
+      "position": "System analyst",
+      "img_url": "img/team/mkonyi.jpg",
+      "email" : "",
+      "phone" : "",
+      "linked_link": "",
+      "bio": "Lilian Mkonyi is the system analyst at HISP Tanzania.",
+      "experience": [
+         {
+          "organisation": "University of Dar es salaam",
+          "position": "Tutorial assistant",
+          "starttime": "2016",
+          "endtime": "To date"
+        }
+      ],
+      "education":[
+        {
+          "institution": "University of Dar es Salaam",
+          "award": "BSc, Computer Science and Statistics",
+          "starttime": "2012",
+          "endtime": "2015"
+        }
+      ],
+      "consultancy": [
+        {
+          "project": "Electronic case based TB and Leprosy system for National Tuberculosis and Leprosy Program (NTLP) System Analyst",
+          "position": "Analyst",
+          "starttime": "2016",
+          "endtime": "To date"
+        }
+
+      ],
+      "skills": []
     }
   ],
   "developers" : [
+    {
+      "name": "John F. Mukulu",
+      "title": "Msc Candidate",
+      "position": "Senior Systems Developer",
+      "img_url": "img/team/new_mukulu.png",
+      "email" : "john.f.mukulu@gmail.com",
+      "phone" : "+255 717 154 006",
+      "linked_link": "https://tz.linkedin.com/in/john-francis-mukulu-889b2268",
+      "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community.  He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
+      "experience": [
+        {
+          "organisation": "NBC (National Bank Of Commerce)",
+          "position": "Direct Sales & Loans Officer",
+          "starttime": "2007",
+          "endtime": "2007"}, {
+
+          "organisation": "LOYOLA HIGH SCHOOL",
+          "position": "Computer Science Teacher",
+          "starttime": "2008",
+          "endtime": "2009"
+        },  {
+
+          "organisation": "TANZAM",
+          "position": "Graphics Designer",
+          "starttime": "2009",
+          "endtime": "2010"
+        }, {
+
+          "organisation": "IT FARM",
+          "position": "Systems Developer",
+          "starttime": "2009",
+          "endtime": "2010"
+        }, {
+
+          "organisation": "HISP Tanzania (UDSM Comp.Sc. Dept.)",
+          "position": "Systems Developer",
+          "starttime": "2010",
+          "endtime": "To date"
+        }, {
+
+          "organisation": "HISP Tanzania & University of Oslo",
+          "position": "DHIS2 Academies Trainer",
+          "starttime": "2013",
+          "endtime": "To date"
+        }
+
+      ],
+      "education":[
+        {
+          "institution": "University of Dar es Salaam",
+          "award": "BSc. Computer Science",
+          "starttime": "2007",
+          "endtime": "2010"
+        }
+      ],
+      "consultancy": [
+        {
+          "project": "Ministry of Health and Social Welfare (MoHSW),HMIS Unit Policy & Planning, ICT Unit and Admin. & HR Dept.",
+          "position": "Technical Consultant",
+          "starttime": "2010",
+          "endtime": "To date"
+        },
+        {
+          "project": "Global Health Information Systems Programme(HISP)",
+          "position": "DHIS2 International Consultant",
+          "starttime": "2011",
+          "endtime": "To date"
+        }, {
+          "project": "Engender Health Tanzania – Respond Tanzania Project",
+          "position": "DHIS2 Local Consultant",
+          "starttime": "Feb 2014",
+          "endtime": "Jun 2014"
+        }, {
+          "project": "PACT Tanzania – Pamoja Tuwalee Project supported by PEPFAR",
+          "position": "DHIS2 Local Consultant",
+          "starttime": "May 2014",
+          "endtime": "Jun 2014"
+        }, {
+          "project": "Ministry of Health and Social Welfare(MoHSW) – Administration and Human Resource Department",
+          "position": "HRH Local Consultant",
+          "starttime": "Mar 2013",
+          "endtime": "Mar 2013"
+        }, {
+          "project": "JHPIEGO Tanzania – Affiliates of John Hopkins University",
+          "position": "DHIS2 Local Consultant",
+          "starttime": "Oct 2013",
+          "endtime": "Nov 2013"
+        }, {
+          "project": "Ministry of Agriculture, Food Security and Cooperatives(ASLMs), Japan International Co-operation(JICA) and Department of Computer Science and Engineering(DoCSE)",
+          "position": "Systems Development Consultations",
+          "starttime": "2014",
+          "endtime": "2015"
+        }, {
+          "project": "International Medical Corps",
+          "position": "Technical Consultant",
+          "starttime": "2015",
+          "endtime": "To date"
+        }
+      ],
+      "skills": [
+        {"skill": "Unix and Linux Systems development and administration"},
+        {"skill": "Desktop and Mobile Application development with Python & C++ using Qt4 & wxWidgets"},
+        {"skill": "Web applications development with Java [Spring Framework & Hibernate], Python [Django Framework], PHP [Symfony2 Framework] & Ruby [Rails Frameworks]"},
+        {"skill": "Systems maintenance and Network administration"},
+        {"skill": "Graphics Design and Image manipulation with GIMP (Rastor graphics) & Ink Scape (Vector Graphics Applications)"}
+      ]
+    },
+    {
+      "name": "Ismail Koleleni",
+      "title": "Msc Candidate",
+      "position": "Information Systems Developer",
+      "img_url": "img/team/new_koleleni.png",
+      "email" : "ismailkoleleni@gmail.com",
+      "phone" : "+255713 732 238",
+      "linked_link": "https://tz.linkedin.com/in/ismailkoleleni",
+      "bio": "Ismail Y. Koleleni is a Health Information Systems expert and software developer working with University of Dar es Salaam, Tanzania.  He has been involved with Development/Customization and Implementation of DHIS2 in Tanzania as well as supporting DHIS2 implementations in many other countries and organizations. His professional interests includes design, development and Implementation of information systems using technologies like web based system and mobile phone solutions focusing more on customization of open source software and applications. Lately, he has been more engaged with electronic disease surveillance (IDSR) system which uses DHIS2 and mobile phone reporting to detect possible disease outbreaks and alert responsible teams for immediate action. He has also been involved in development and Implementation of Human Resources for Health Information System (HRHIS) in Tanzania under HISP Tanzania.",
+      "experience": [
+        {
+          "organisation": "Computer Science and Engineering Department",
+          "position": "Information Systems Developer",
+          "starttime": "2009",
+          "endtime": "2010"}, {
+
+          "organisation": "University of Dar es Salaam",
+          "position": "Tutorial Assistant",
+          "starttime": "2010",
+          "endtime": "To date"}
+      ],
+      "education":[
+        {
+          "institution": "University of Dar es Salaam",
+          "award": "BSc. Computer Science",
+          "starttime": "2006",
+          "endtime": "2009"
+        }, {
+          "institution": "University of Dar es Salaam",
+          "award": "MSc. Health Informatics",
+          "starttime": "2013",
+          "endtime": "To date"
+        }
+      ],
+      "consultancy": [
+        {
+          "project": "UDSM DHIS2/HIS Project",
+          "position": "System developer",
+          "starttime": "2009",
+          "endtime": "To date"
+        },
+        {
+          "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+          "position": "System developer",
+          "starttime": "2009",
+          "endtime": "To date"
+        }, {
+          "project": "Development of electronic Integrated Disease Surveillance and Response (eIDSR) System",
+          "position": "Project Administrator and Lead developer",
+          "starttime": "2012",
+          "endtime": "To date"
+        },
+        {
+          "project": "District Health Information Software (DHIS) Expert Community",
+          "position": "Consultant",
+          "starttime": "2012",
+          "endtime": "To date"
+        }
+      ],
+      "skills": []
+    },
     {
       "name": "Leonard C Mpande",
       "title": "BSc",
