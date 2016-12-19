@@ -1,0 +1,17 @@
+<navbar></navbar>
+<section id="products-page">
+  <div class="container">
+    <div class="row">
+      <div class="title-area">
+        <h3 class="text-center">Our Products</h3>
+        <div class="separator separator-danger">✻</div>
+      </div>
+    </div>
+    <loader *ngIf="loading && !hasError"></loader>
+    <div class="row" *ngIf="!loading && !hasError">
+      <div class="col-md-3" *ngFor="let product of products">
+        <product-card [product]="product"></product-card>
+      </div>
+    </div>
+  </div>
+</section>

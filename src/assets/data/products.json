@@ -1,0 +1,87 @@
+[
+  {
+    "id": "idashboard",
+    "name": "Interactive Dashboard",
+    "logo_url": "assets/img/products/idashboard.png",
+    "cover_url": "assets/img/products/idashboard-cover.png",
+    "video_url" : "https://www.youtube.com/embed/YSvaTcpEZXQ?rel=0",
+    "short_description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities",
+    "description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities, among features of idashboard includes:",
+    "features": ["Ability to instantly with one-click, switch between table, chart and map visualization","Ability to change and multi-select periods of visualizations right away without leaving","Ability to change and multi-select organization units of visualizations without leaving your chart/table/map","Ability to instantly change layout table/chart, i.e. rows to colums or series to categories, and vice versa","Highest resolutions charts possible( powered by highcharts)","Mobile ready, with adoptive user interface for all screen sizes","Extremely Lightweight and can operate on low bandwidth"
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+  },
+  {
+    "id": "ibrowser",
+    "name": "Indicator Browser",
+    "logo_url": "assets/img/products/ibrowser.png",
+    "cover_url": "assets/img/products/ibrowser-cover.png",
+    "short_description": "Light weight Indicator browsing application providing all dictionary related features",
+    "description": "Light weight Indicator browsing application providing all dictionary related features, such as:",
+    "features": ["Basic details of the indicator (name, numerator, denominator, factor, indicator type, etc..)","Additional relevant details (data sets sources, reporting frequencies and disaggregation)","Chart & Table visualization of last period of the lowest reporting frequency of data element sources(e.g quarterly data preview, etc..), defaulting to annual preview when no associated data set found","Ability to download different data formats for off-line use, e.g. pdf, json,csv and xls"
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+
+  },
+  {
+    "id": "scorecard",
+    "name": "Score card",
+    "logo_url": "assets/img/products/score-card.png",
+    "cover_url": "assets/img/products/score-card-cover.png",
+    "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
+    "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
+    "features": ["One click navigation across organization units, up and down the hierarchy","One click navigation across periods, traversing one period at a time into the past/future","Flexible and customizable, from indicators, data sources, layouts to the whole score-card template.","Highest resolutions score card on any media (powered by svg vector graphics & powerful css 3 )"
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+
+  },
+
+  {
+    "id": "resource_browser",
+    "name": "Resource Browser",
+    "logo_url": "assets/img/products/resource-browser.png",
+    "cover_url": "assets/img/products/resource-browser-cover.png",
+    "short_description": "Navigate your way into the heart of the DHIS2 data warehouse",
+    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking.",
+    "features": [
+
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+  },
+
+  {
+    "id": "dhis2_touch",
+    "name": "DHIS 2 Touch",
+    "logo_url": "assets/img/products/dhis2touch.png",
+    "cover_url": "assets/img/products/dhis2touch-cover.png",
+    "short_description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone",
+    "description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone, that aims to ship full dhis2 web experience completely offline on your smartphone. Among it's already completed features includes:",
+    "features": ["Support for off-line aggregate data entry","Support for off-line standard reports","Extremely lightweight and compatible with widest range of smartphone devices"
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+  },
+
+  {
+    "id": "pockect_dhis2_os",
+    "name": "Pocket DHIS 2 Operating system",
+    "logo_url": "assets/img/products/pocketdhis2.png",
+    "cover_url_url": "assets/img/products/pocketdhis-cover.png",
+    "short_description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
+    "description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
+    "features": ["Pre-installed dhis2 setup on your flash-disk ready to go for training/mass-distribution","Effortless installation of dhis2 powered linux on your computer without need of any technical expertise","Get a self-guided and personalized dhis2 demo and tour from your pen drive, right over tea-break","Train yourself with pre-loaded modules of dhis2 trainings right on your pocket"
+    ],
+    "authors": [
+      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+    ]
+  }
+]
