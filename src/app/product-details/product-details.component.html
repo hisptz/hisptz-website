@@ -1,3 +1,77 @@
-<p>
-  product-details works!
-</p>
+<navbar></navbar>
+<section id="product-detail">
+    <loader *ngIf="loading && !hasError"></loader>
+    <div class="container" *ngIf="!loading && !hasError">
+        <div class="row">
+            <div class="title-area">
+                <h3 class="text-center">{{product.name}}</h3>
+                <div class="separator separator-danger">✻</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-heading product-detail-panel-heading">
+                        <div class="product-detail-mask"></div>
+                        <div class="owl-carousel product-carousel">
+                            <div class="embed-responsive embed-responsive-16by9" *ngIf="product.video_url">
+                                <iframe [src]="product.video_url | safe" frameborder="0" allowfullscreen autoplay="0" autostart="0"></iframe>
+                            </div>
+                            <figure><img src="{{product.cover_url}}" class="img-responsive" alt=""></figure>
+                        </div>
+                        <!--<div class="product-detail-mask">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-md-12 text-center">-->
+                                    <!--<a href="" class="btn btn-lg btn-mask">live demo</a>-->
+                                    <!--<button (click)="showProductVideo()" class="btn btn-lg btn-mask">video tour</button>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                        <!--<img src="{{product.cover_url}}" class="img-responsive" alt="">-->
+                    </div>
+                    <div class="panel-footer product-detail-panel-footer">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <ul class="list-inline pull-left">
+                                    <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> download</a></li>
+                                    <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> view demo</a></li>
+                                </ul>
+                                <ul class="list-inline pull-right">
+                                    <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back to products</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default product-description-panel">
+                    <div class="panel-body">
+                        <h4><b>Get involved</b></h4>
+                        <p class="text-justify">Some attractive teext here</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel panel-default product-description-panel">
+                            <div class="panel-body">
+                                <h4><b>Description</b></h4>
+                                <p class="text-justify">{{product.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="panel panel-default product-features-panel">
+                            <div class="panel-body">
+                                <h4><b>Features</b></h4>
+                                <ul class="list-unstyled" *ngFor="let item of product.features">
+                                    <li><i class="fa fa-check-square"></i> {{item}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

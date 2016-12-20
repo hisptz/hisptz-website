@@ -16,6 +16,7 @@ import { ProductCardComponent } from './products/product-card/product-card.compo
 import { LoaderComponent } from './shared/components/loader/loader.component';
 import {ProductService} from "./providers/product.service";
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { SafePipe } from './shared/pipes/safe.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ProductDetailsComponent } from './product-details/product-details.compo
     NavbarComponent,
     ProductCardComponent,
     LoaderComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

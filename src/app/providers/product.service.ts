@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import {Observable, BehaviorSubject} from "rxjs";
+import {Http} from '@angular/http';
+import {Observable, BehaviorSubject} from "rxjs"
 import {Product} from "../models/product";
-import {Http} from "@angular/http";
 
 @Injectable()
 export class ProductService {
@@ -34,7 +34,7 @@ export class ProductService {
 
     //load data from the source if pool is empty
     return Observable.create(observer => {
-      this.http.get(this.baseUrl).map(response => response.json()).subscribe(data => {
+      this.http.get(this.baseUrl).map(res => res.json()).subscribe(data => {
         //persist data to metadataPool
         this.saveToProductPool(data);
         //load data from the pool
@@ -46,7 +46,12 @@ export class ProductService {
     })
   }
 
-  saveToProductPool(productData: Product[]): void {
+  saveToProductPool(data: any): void {
+    //Replace dataIndex with product id
+    let productData = [];
+    data.forEach((dataItem, dataIndex) => {
+      productData[dataItem.id] = dataItem;
+    });
     this.dataStore.products = productData;
     //persist apps into the pool
     this._productsPool.next(Object.assign({}, this.dataStore).products);
@@ -59,23 +64,20 @@ export class ProductService {
   find(id: string): Observable<Product> {
     return Observable.create(observer => {
       this.products.subscribe(productData => {
-        if(productData.length > 0) {
-          productData.forEach((productItem, productIndex) => {
-            if(id == productItem.id) {
-              observer.next(productItem);
-              observer.complete()
-            }
-          });
+        if(productData[id]) {
+          observer.next(productData[id]);
+          observer.complete();
         } else {
           //load from source if pool has no data
           this.loadAll().subscribe(productData => {
-            productData.forEach((productItem, productIndex) => {
-              if(id == productItem.id) {
-                observer.next(productItem);
-                observer.complete()
-              }
-            });
-          })
+            if(productData[id]) {
+              observer.next(productData[id]);
+              observer.complete();
+            } else {
+              observer.next('Product with id "'+ id + '" could not be found or may have been deleted');
+              observer.complete();
+            }
+          });
         }
       });
     });

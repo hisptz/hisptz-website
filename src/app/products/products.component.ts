@@ -19,7 +19,7 @@ export class ProductsComponent implements OnInit {
 
   ngOnInit() {
     this.productService.loadAll().subscribe(products => {
-      this.products = products;
+      this.products = Object.keys(products).map(key => products[key]);
       this.loading = false;
       this.hasError = false;
     }, error => {
