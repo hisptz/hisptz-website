@@ -1,0 +1,38 @@
+<navbar></navbar>
+<section id="team">
+    <div class="container">
+        <div class="row">
+            <div class="title-area">
+                <h3 class="text-center">Meet The Team</h3>
+                <div class="separator separator-danger">✻</div>
+                <p class="text-center">
+                    The HISP Tanzania team comprises of a dedicated and multidisciplinary group of professionals bringing together
+                    a unique blend of expertise and experience from the realms of Computer Science and Health Informatics. As a team,
+                    HISP Tanzania has significantly contributed to the development, implementation and building capacity in the domain
+                    of public health sector in Tanzania, Eastern Africa and in the HISP Global Network at large. With its extensive
+                    expertise and field experience in supporting improvements of health systems, the team prides itself as being one
+                    of the robust teams specializing in health information systems in the developing countries with a primary focus
+                    in Tanzania and East Africa.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" *ngFor="let member of team">
+                <div class="team-member card">
+                    <div class="team-img">
+                        <a routerLink="/team-member/{{member.id}}"><img class="img-responsive" src="{{member.img_url}}" alt=""></a>
+                    </div>
+                    <div class="team-info">
+                        <h5>{{member.name}}</h5>
+                        <h6>({{member.title}})</h6>
+                        <small>{{member.position}}</small>
+                    </div>
+                    <ul class="social-icons">
+                        <li><a href="{{member.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a routerLink="/team-member/{{member.id}}"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

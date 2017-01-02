@@ -1,0 +1,23 @@
+<ul class="list-group">
+  <li class="list-group-item"><h5><b>Consultancy</b></h5></li>
+  <li class="list-group-item" *ngFor="let consultancy of consultancyData">
+    <div class="row">
+      <div class="col-md-4 hidden-xs">
+        <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span><br>
+        <!--<span class="timeline-sum">(1 year and 11 month)</span>-->
+      </div>
+      <div class="col-md-8 col-xs-12 right-content">
+        <span class="institution">{{consultancy.project}}</span><br>
+        <span class="award">{{consultancy.position}}</span>
+        <div class="visible-xs">
+          <span class="timeline">{{consultancy.starttime}} - {{consultancy.endtime}}</span>
+          <!--<span class="timeline">(1 year and 11 month)</span>-->
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <h5 class="column-title"></h5>
+      </div>
+
+    </div>
+  </li>
+</ul>

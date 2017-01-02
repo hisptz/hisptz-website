@@ -1,23 +1,23 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import {Observable, BehaviorSubject} from "rxjs"
-import {Product} from "../models/product";
+import {Team} from "../models/team";
 
 @Injectable()
-export class ProductService {
+export class TeamService {
 
-  public products: Observable<Product[]>;
-  private _productsPool: BehaviorSubject<Product[]>;
+  public teams: Observable<Team[]>;
+  private _teamsPool: BehaviorSubject<Team[]>;
   private baseUrl: string;
   private dataStore: {
-    products: Product[]
+    teams: Team[]
   };
 
   constructor(private http: Http) {
-    this.baseUrl = 'assets/data/products.json';
-    this.dataStore = {products: []};
-    this._productsPool = <BehaviorSubject<Product[]>> new BehaviorSubject([]);
-    this.products = this._productsPool;
+    this.baseUrl = 'assets/data/team.json';
+    this.dataStore = {teams: []};
+    this._teamsPool = <BehaviorSubject<Team[]>> new BehaviorSubject([]);
+    this.teams = this._teamsPool;
   }
 
   //Methods
@@ -33,7 +33,7 @@ export class ProductService {
           //load data from the source if pool is empty
           this.http.get(this.baseUrl).map(res => res.json()).subscribe(data => {
             //persist data to metadataPool
-            this.saveToProductPool(data);
+            this.saveToTeamPool(data);
             //load data from the pool
             this.all().subscribe(pool => {
               observer.next(pool);
@@ -45,35 +45,35 @@ export class ProductService {
     });
   }
 
-  saveToProductPool(data: any): void {
-    //Replace dataIndex with product id
-    let productData = [];
+  saveToTeamPool(data: any): void {
+    //Replace dataIndex with team id
+    let teamData = [];
     data.forEach((dataItem, dataIndex) => {
-      productData[dataItem.id] = dataItem;
+      teamData[dataItem.id] = dataItem;
     });
-    this.dataStore.products = productData;
+    this.dataStore.teams = teamData;
     //persist apps into the pool
-    this._productsPool.next(Object.assign({}, this.dataStore).products);
+    this._teamsPool.next(Object.assign({}, this.dataStore).teams);
   }
 
-  all(): Observable<Product[]> {
-    return this.products;
+  all(): Observable<Team[]> {
+    return this.teams;
   }
 
-  find(id: string): Observable<Product> {
+  find(id: string): Observable<Team> {
     return Observable.create(observer => {
-      this.products.subscribe(productData => {
-        if(productData[id]) {
-          observer.next(productData[id]);
+      this.teams.subscribe(teamData => {
+        if(teamData[id]) {
+          observer.next(teamData[id]);
           observer.complete();
         } else {
           //load from source if pool has no data
-          this.loadAll().subscribe(productData => {
-            if(productData[id]) {
-              observer.next(productData[id]);
+          this.loadAll().subscribe(teamData => {
+            if(teamData[id]) {
+              observer.next(teamData[id]);
               observer.complete();
             } else {
-              observer.next('Product with id "'+ id + '" could not be found or may have been deleted');
+              observer.next('Team member with id "'+ id + '" could not be found or may have been deleted');
               observer.complete();
             }
           });

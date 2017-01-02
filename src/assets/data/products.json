@@ -28,8 +28,8 @@
 
   },
   {
-    "id": "scorecard",
-    "name": "Score card",
+    "id": "score_card",
+    "name": "Score Card",
     "logo_url": "assets/img/products/score-card.png",
     "cover_url": "assets/img/products/score-card-cover.png",
     "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
@@ -43,17 +43,18 @@
   },
 
   {
-    "id": "resource_browser",
-    "name": "Resource Browser",
+    "id": "resourcesearch",
+    "name": "Resource Search",
     "logo_url": "assets/img/products/resource-browser.png",
     "cover_url": "assets/img/products/resource-browser-cover.png",
-    "short_description": "Navigate your way into the heart of the DHIS2 data warehouse",
-    "description": "Navigate your way into the heart of the DHIS2 data warehouse. With a simple but elegant web application you can manipulate any kind of data in DHIS2 and analyze specific kinds of data to your liking.",
+    "short_description": "This is a dhis search engine.",
+    "description": "A tool to help go through all the resources on dhis down to every dhis2 comprehended item.",
+    "github_url":"https://github.com/hisptz/resource-search.git",
     "features": [
-
-    ],
-    "authors": [
-      "rajab_mkomwa","john_mukulu","kelvin_mbwilo"
+      "Ability to navigate any resource in dhis",
+      "Ability to analyze all Data Elements, Indicators and Validation Rules",
+      "Ability to add/edit any resource",
+      "Traverse the entire resources to the shackles of infinity"
     ]
   },
 

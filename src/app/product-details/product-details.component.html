@@ -35,6 +35,7 @@
                                 <ul class="list-inline pull-left">
                                     <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> download</a></li>
                                     <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> view demo</a></li>
+                                    <li><a href="" class="btn btn-sm"><i class="fa fa-github"></i> View on github</a></li>
                                 </ul>
                                 <ul class="list-inline pull-right">
                                     <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back to products</a></li>
@@ -46,7 +47,7 @@
                 <div class="panel panel-default product-description-panel">
                     <div class="panel-body">
                         <h4><b>Get involved</b></h4>
-                        <p class="text-justify">Some attractive teext here</p>
+                        <p class="text-justify">Some attractive text here</p>
                     </div>
                 </div>
             </div>
@@ -55,6 +56,14 @@
                     <div class="col-md-12">
                         <div class="panel panel-default product-description-panel">
                             <div class="panel-body">
+                                <ul class="list-inline" style="border-bottom: solid 1px;">
+                                    <li><img src="{{product.logo_url}}" alt="" width="26" height="26" style="padding-bottom: 3px;"></li>
+                                    <li><h4><b>{{product.name}}</b></h4></li>
+                                </ul>
+                                <ul class="list-inline">
+                                    <li><small><b>Version</b> {{product.version}}</small></li>
+                                    <li><small><b>License</b> {{product.license}}</small></li>
+                                </ul>
                                 <h4><b>Description</b></h4>
                                 <p class="text-justify">{{product.description}}</p>
                             </div>

@@ -17,6 +17,16 @@ import { LoaderComponent } from './shared/components/loader/loader.component';
 import {ProductService} from "./providers/product.service";
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { SafePipe } from './shared/pipes/safe.pipe';
+import { TeamComponent } from './team/team.component';
+import {TeamService} from "./providers/team.service";
+import { TeamMemberComponent } from './team-member/team-member.component';
+import {TabsModule} from 'ng2-bootstrap/tabs';
+import { MemberEducationComponent } from './member-education/member-education.component';
+import { MemberExperienceComponent } from './member-experience/member-experience.component';
+import { MemberConsultancyComponent } from './member-consultancy/member-consultancy.component';
+import {TeamEducationService} from "./providers/team-education.service";
+import {TeamExperienceService} from "./providers/team-experience.service";
+import {TeamConsultancyService} from "./providers/team-consultancy.service";
 
 @NgModule({
   declarations: [
@@ -32,15 +42,27 @@ import { SafePipe } from './shared/pipes/safe.pipe';
     ProductCardComponent,
     LoaderComponent,
     ProductDetailsComponent,
-    SafePipe
+    SafePipe,
+    TeamComponent,
+    TeamMemberComponent,
+    MemberEducationComponent,
+    MemberExperienceComponent,
+    MemberConsultancyComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TabsModule
   ],
-  providers: [ProductService],
+  providers: [
+      ProductService,
+      TeamService,
+      TeamEducationService,
+      TeamExperienceService,
+      TeamConsultancyService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

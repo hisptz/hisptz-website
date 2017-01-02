@@ -6,8 +6,10 @@ export interface Product {
     logo_url: string;
     cover_url: string;
     video_url: string;
-    features: any;
-    authors: any;
-    version: any;
+    features: Array<any>;
+    authors: Array<any>;
+    version: Array<any>;
     technology: string;
+    license: string;
+    github_url: string;
 }
