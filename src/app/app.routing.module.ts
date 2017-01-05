@@ -8,6 +8,10 @@ import {TeamMemberComponent} from "./team-member/team-member.component";
 import {MemberEducationComponent} from "./member-education/member-education.component";
 import {MemberExperienceComponent} from "./member-experience/member-experience.component";
 import {MemberConsultancyComponent} from "./member-consultancy/member-consultancy.component";
+import {PapersComponent} from "./papers/papers.component";
+import {ProjectsComponent} from "./projects/projects.component";
+import {ProjectDetailComponent} from "./project-detail/project-detail.component";
+import {AboutUsComponent} from "./about-us/about-us.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent , pathMatch: 'full' },
@@ -18,7 +22,11 @@ const routes: Routes = [
     {path: '',  component: MemberEducationComponent},
     {path: 'experience', component: MemberExperienceComponent},
     {path: 'consultancy', component: MemberConsultancyComponent}
-  ]}
+  ]},
+  {path: 'papers', component: PapersComponent},
+  {path: 'projects', component: ProjectsComponent},
+  {path: 'project-details/:id', component: ProjectDetailComponent},
+  {path: 'about-us', component: AboutUsComponent}
 ];
 
 @NgModule({

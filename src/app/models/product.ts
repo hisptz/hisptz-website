@@ -12,4 +12,6 @@ export interface Product {
     technology: string;
     license: string;
     github_url: string;
+    revision: string;
+    demo_url: string;
 }

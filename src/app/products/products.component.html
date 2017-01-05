@@ -9,7 +9,7 @@
     </div>
     <loader *ngIf="loading && !hasError"></loader>
     <div class="row" *ngIf="!loading && !hasError">
-      <div class="col-md-3" *ngFor="let product of products">
+      <div class="col-md-4" *ngFor="let product of products">
         <product-card [product]="product"></product-card>
       </div>
     </div>

@@ -19,23 +19,13 @@
                             </div>
                             <figure><img src="{{product.cover_url}}" class="img-responsive" alt=""></figure>
                         </div>
-                        <!--<div class="product-detail-mask">-->
-                            <!--<div class="row">-->
-                                <!--<div class="col-md-12 text-center">-->
-                                    <!--<a href="" class="btn btn-lg btn-mask">live demo</a>-->
-                                    <!--<button (click)="showProductVideo()" class="btn btn-lg btn-mask">video tour</button>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                        <!--<img src="{{product.cover_url}}" class="img-responsive" alt="">-->
                     </div>
                     <div class="panel-footer product-detail-panel-footer">
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="list-inline pull-left">
-                                    <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> download</a></li>
-                                    <li><a href="" class="btn btn-sm"><i class="fa fa-download"></i> view demo</a></li>
-                                    <li><a href="" class="btn btn-sm"><i class="fa fa-github"></i> View on github</a></li>
+                                    <li *ngIf="product.demo_url"><a href="{{product.demo_url}}" target="_blank" class="btn btn-sm"><i class="fa fa-download"></i> view demo</a></li>
+                                    <li *ngIf="product.demo_url"><a href="{{product.github_url}}" class="btn btn-sm"><i class="fa fa-github"></i> View on github</a></li>
                                 </ul>
                                 <ul class="list-inline pull-right">
                                     <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back to products</a></li>
@@ -61,8 +51,9 @@
                                     <li><h4><b>{{product.name}}</b></h4></li>
                                 </ul>
                                 <ul class="list-inline">
-                                    <li><small><b>Version</b> {{product.version}}</small></li>
-                                    <li><small><b>License</b> {{product.license}}</small></li>
+                                    <li><small><b>Version:</b> {{product.version}}</small></li>
+                                    <li *ngIf="product.revision"><small><b>Revision:</b> {{product.revision}}</small></li>
+                                    <li><small><b>License:</b> <a target="_blank" style="color: #0189D6;" href="https://opensource.org/licenses/bsd-license.php">BSD License</a></small></li>
                                 </ul>
                                 <h4><b>Description</b></h4>
                                 <p class="text-justify">{{product.description}}</p>
@@ -74,7 +65,10 @@
                             <div class="panel-body">
                                 <h4><b>Features</b></h4>
                                 <ul class="list-unstyled" *ngFor="let item of product.features">
-                                    <li><i class="fa fa-check-square"></i> {{item}}</li>
+                                    <div class="row">
+                                        <div class="col-md-2 col-xs-2 col-sm-2" style="color: #008EDD; padding-left: 8%;"><span class=""><i class="fa fa-check-square"></i></span></div>
+                                        <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;">{{item}}</div>
+                                    </div>
                                 </ul>
                             </div>
                         </div>

@@ -27,6 +27,14 @@ import { MemberConsultancyComponent } from './member-consultancy/member-consulta
 import {TeamEducationService} from "./providers/team-education.service";
 import {TeamExperienceService} from "./providers/team-experience.service";
 import {TeamConsultancyService} from "./providers/team-consultancy.service";
+import { ActivitiesComponent } from './home/activities/activities.component';
+import { PapersComponent } from './papers/papers.component';
+import {PaperService} from "./providers/paper.service";
+import { ProjectsComponent } from './projects/projects.component';
+import {ProjectService} from "./providers/projects.service";
+import { TruncatePipe } from './shared/pipes/truncate.pipe';
+import { ProjectDetailComponent } from './project-detail/project-detail.component';
+import { AboutUsComponent } from './about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +55,13 @@ import {TeamConsultancyService} from "./providers/team-consultancy.service";
     TeamMemberComponent,
     MemberEducationComponent,
     MemberExperienceComponent,
-    MemberConsultancyComponent
+    MemberConsultancyComponent,
+    ActivitiesComponent,
+    PapersComponent,
+    ProjectsComponent,
+    TruncatePipe,
+    ProjectDetailComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,7 +75,9 @@ import {TeamConsultancyService} from "./providers/team-consultancy.service";
       TeamService,
       TeamEducationService,
       TeamExperienceService,
-      TeamConsultancyService
+      TeamConsultancyService,
+      PaperService,
+      ProjectService
   ],
   bootstrap: [AppComponent]
 })
