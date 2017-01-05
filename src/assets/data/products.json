@@ -84,7 +84,7 @@
     "name": "Pocket DHIS 2 Operating system",
     "version": "1.0",
     "logo_url": "assets/img/products/pocketdhis2.png",
-    "cover_url": "assets/img/products/pocketdhis-cover2.png",
+    "cover_url": "assets/img/products/pocketdhis-cover.png",
     "github_url" : "",
     "download_url": "http://hisptanzania.org/iso/pocket-dhis2.iso",
     "short_description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",

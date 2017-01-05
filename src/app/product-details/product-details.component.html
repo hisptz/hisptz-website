@@ -12,7 +12,7 @@
             <div class="col-md-8">
                 <div class="panel panel-default">
                     <div class="panel-heading product-detail-panel-heading">
-                        <div class="product-detail-mask"></div>
+                        <!--<div class="product-detail-mask"></div>-->
                         <div class="owl-carousel product-carousel">
                             <div class="embed-responsive embed-responsive-16by9" *ngIf="product.video_url">
                                 <iframe [src]="product.video_url | safe" frameborder="0" allowfullscreen autoplay="0" autostart="0"></iframe>
@@ -24,11 +24,11 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <ul class="list-inline pull-left">
-                                    <li *ngIf="product.demo_url"><a href="{{product.demo_url}}" target="_blank" class="btn btn-sm"><i class="fa fa-download"></i> view demo</a></li>
-                                    <li *ngIf="product.demo_url"><a href="{{product.github_url}}" class="btn btn-sm"><i class="fa fa-github"></i> View on github</a></li>
+                                    <li *ngIf="product.demo_url"><a href="{{product.demo_url}}" target="_blank" class="btn btn-sm">demo</a></li>
+                                    <li *ngIf="product.demo_url"><a href="{{product.github_url}}" class="btn btn-sm"><i class="fa fa-github"></i> github</a></li>
                                 </ul>
                                 <ul class="list-inline pull-right">
-                                    <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back to products</a></li>
+                                    <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -36,8 +36,10 @@
                 </div>
                 <div class="panel panel-default product-description-panel">
                     <div class="panel-body">
-                        <h4><b>Get involved</b></h4>
-                        <p class="text-justify">Some attractive text here</p>
+                        <h4 style="color: #00abc0;"><b>Hello there,</b></h4>
+                        <h5 class="text-justify" *ngIf="product.github_url">Want to get involved in development? Check out {{product.name}} on <a style="color: #00abc0;" href="{{product.github_url}}" target="_blank">github</a></h5>
+                        <div style="border-bottom: solid 1px #cecece;"></div>
+                        <p>For more about our apps please visit our <a style="color: #00abc0;" href="http://appstore.hisptanzania.org/" target="_blank">appstore</a></p>
                     </div>
                 </div>
             </div>
@@ -46,7 +48,7 @@
                     <div class="col-md-12">
                         <div class="panel panel-default product-description-panel">
                             <div class="panel-body">
-                                <ul class="list-inline" style="border-bottom: solid 1px;">
+                                <ul class="list-inline" style="border-bottom: solid 1px #cecece;">
                                     <li><img src="{{product.logo_url}}" alt="" width="26" height="26" style="padding-bottom: 3px;"></li>
                                     <li><h4><b>{{product.name}}</b></h4></li>
                                 </ul>
@@ -64,10 +66,11 @@
                         <div class="panel panel-default product-features-panel">
                             <div class="panel-body">
                                 <h4><b>Features</b></h4>
+                                <div style="border-bottom: solid 1px #cecece; margin-bottom: 10px;"></div>
                                 <ul class="list-unstyled" *ngFor="let item of product.features">
                                     <div class="row">
                                         <div class="col-md-2 col-xs-2 col-sm-2" style="color: #008EDD; padding-left: 8%;"><span class=""><i class="fa fa-check-square"></i></span></div>
-                                        <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;">{{item}}</div>
+                                        <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;"><span>{{item}}</span></div>
                                     </div>
                                 </ul>
                             </div>

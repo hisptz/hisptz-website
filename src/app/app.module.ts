@@ -35,6 +35,7 @@ import {ProjectService} from "./providers/projects.service";
 import { TruncatePipe } from './shared/pipes/truncate.pipe';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { FaqsComponent } from './faqs/faqs.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { AboutUsComponent } from './about-us/about-us.component';
     TruncatePipe,
     ProjectDetailComponent,
     AboutUsComponent,
+    FaqsComponent,
   ],
   imports: [
     BrowserModule,
