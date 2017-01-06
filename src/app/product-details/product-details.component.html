@@ -28,7 +28,7 @@
                                     <li *ngIf="product.demo_url"><a href="{{product.github_url}}" class="btn btn-sm"><i class="fa fa-github"></i> github</a></li>
                                 </ul>
                                 <ul class="list-inline pull-right">
-                                    <li><a class="btn btn-sm btn-primary" routerLink="/products"><i class="fa fa-arrow-left"></i> Back</a></li>
+                                    <li><a class="btn btn-sm btn-primary" routerLink="/products">All products</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -67,10 +67,10 @@
                             <div class="panel-body">
                                 <h4><b>Features</b></h4>
                                 <div style="border-bottom: solid 1px #cecece; margin-bottom: 10px;"></div>
-                                <ul class="list-unstyled" *ngFor="let item of product.features">
+                                <ul class="list-unstyled" *ngFor="let feature of product.features">
                                     <div class="row">
                                         <div class="col-md-2 col-xs-2 col-sm-2" style="color: #008EDD; padding-left: 8%;"><span class=""><i class="fa fa-check-square"></i></span></div>
-                                        <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;"><span>{{item}}</span></div>
+                                        <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;"><span>{{feature}}</span></div>
                                     </div>
                                 </ul>
                             </div>

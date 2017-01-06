@@ -36,6 +36,8 @@ import { TruncatePipe } from './shared/pipes/truncate.pipe';
 import { ProjectDetailComponent } from './project-detail/project-detail.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { FaqsComponent } from './faqs/faqs.component';
+import {PartnerService} from "./providers/partners.service";
+import { FeaturedProductComponent } from './home/featured-product/featured-product.component';
 
 @NgModule({
   declarations: [
@@ -64,6 +66,7 @@ import { FaqsComponent } from './faqs/faqs.component';
     ProjectDetailComponent,
     AboutUsComponent,
     FaqsComponent,
+    FeaturedProductComponent,
   ],
   imports: [
     BrowserModule,
@@ -79,7 +82,8 @@ import { FaqsComponent } from './faqs/faqs.component';
       TeamExperienceService,
       TeamConsultancyService,
       PaperService,
-      ProjectService
+      ProjectService,
+      PartnerService
   ],
   bootstrap: [AppComponent]
 })

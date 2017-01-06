@@ -31,7 +31,7 @@
 
   },
   {
-    "id": "score_card",
+    "id": "scorecard",
     "name": "Score Card",
     "version": "2.0",
     "revision": "fc8f",
@@ -65,7 +65,7 @@
   },
 
   {
-    "id": "dhis2_touch",
+    "id": "dhis2touch",
     "name": "DHIS 2 Touch",
     "version": "2.0",
     "revision": "e70f0",

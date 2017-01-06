@@ -1,7 +1,13 @@
 [
-  {"name": "", "logo": "img/partners/chai-logo.svg", "url": "http://www.clintonhealthaccess.org/"},
-  {"name": "", "logo": "img/partners/jhpiego-logo.png", "url": "https://www.jhpiego.org/"},
-  {"name": "", "logo": "img/partners/moh.png", "url": "http://www.moh.go.tz/"},
-  {"name": "", "logo": "img/partners/oslo.png", "url": "http://www.uio.no/english/"}
-  {"name":"Advancing the Laboratory Profession and Networks in Africa" "logo": "", "url": "http://www.aslm.org/"}
+  {"id": "1","name": "", "logo": "assets/img/partners/chai.png", "url": "http://www.clintonhealthaccess.org/"},
+  {"id": "2","name": "", "logo": "assets/img/partners/jhpiego-logo.png", "url": "https://www.jhpiego.org/"},
+  {"id": "3","name": "", "logo": "assets/img/partners/mohsw.png", "url": "http://www.moh.go.tz/"},
+  {"id": "4","name": "", "logo": "assets/img/partners/oslo.png", "url": "http://www.uio.no/english/"},
+  {"id": "8", "name":"rti", "logo":"assets/img/partners/rti.png", "url": "https://www.rti.org/"},
+  {"id": "5","name":"Advancing the Laboratory Profession and Networks in Africa", "logo": "assets/img/partners/aslm.png", "url": "http://www.aslm.org/"},
+  {"id": "6", "name":"unicef", "logo":"assets/img/partners/unicef.png", "url": "https://www.unicef.org/"},
+  {"id":"7", "name": "Measure Evaluation", "logo": "assets/img/partners/measure-evaluation.png", "url": "https://www.measureevaluation.org/countries/tanzania"},
+  {"id": "8", "name":"world bank", "logo":"assets/img/partners/world-bank.svg", "url": "http://www.worldbank.org/"},
+  {"id": "9", "name":"who", "logo":"assets/img/partners/who.gif", "url": "http://www.who.int/en/"}
+
 ]
