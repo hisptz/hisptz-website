@@ -22,12 +22,11 @@ export class TeamService {
 
   //Methods
   loadAll(): Observable<any> {
-
     return Observable.create(observer => {
       //load data from the pool first
       this.all().subscribe(pool => {
         if(Object.keys(pool).map(key => pool[key]).length > 0) {
-          observer.next(pool);
+          observer.next(Object.keys(pool).map(key => pool[key]));
           observer.complete();
         } else {
           //load data from the source if pool is empty
@@ -36,7 +35,7 @@ export class TeamService {
             this.saveToTeamPool(data);
             //load data from the pool
             this.all().subscribe(pool => {
-              observer.next(pool);
+              observer.next(Object.keys(pool).map(key => pool[key]));
               observer.complete();
             });
           })

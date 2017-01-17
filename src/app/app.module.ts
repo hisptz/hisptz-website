@@ -38,6 +38,16 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import {PartnerService} from "./providers/partners.service";
 import { FeaturedProductComponent } from './home/featured-product/featured-product.component';
+import {FaqsService} from "./providers/faqs.service";
+import { CapacityBuildingComponent } from './capacity-building/capacity-building.component';
+import { FilterPipe } from './shared/pipes/filter.pipe';
+import { ArticlesComponent } from './articles/articles.component';
+import { FeaturedArticleComponent } from './home/featured-article/featured-article.component';
+import { NewsEventComponent } from './home/news-event/news-event.component';
+import { RecentArticlesComponent } from './home/recent-articles/recent-articles.component';
+import {TrainingService} from "./providers/training.service";
+import { ArticleDetailsComponent } from './article-details/article-details.component';
+import {ArticleService} from "./providers/article.service";
 
 @NgModule({
   declarations: [
@@ -67,6 +77,13 @@ import { FeaturedProductComponent } from './home/featured-product/featured-produ
     AboutUsComponent,
     FaqsComponent,
     FeaturedProductComponent,
+    CapacityBuildingComponent,
+    FilterPipe,
+    ArticlesComponent,
+    FeaturedArticleComponent,
+    NewsEventComponent,
+    RecentArticlesComponent,
+    ArticleDetailsComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,7 +100,10 @@ import { FeaturedProductComponent } from './home/featured-product/featured-produ
       TeamConsultancyService,
       PaperService,
       ProjectService,
-      PartnerService
+      PartnerService,
+      FaqsService,
+      TrainingService,
+      ArticleService
   ],
   bootstrap: [AppComponent]
 })

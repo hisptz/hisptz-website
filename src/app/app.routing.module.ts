@@ -13,6 +13,9 @@ import {ProjectsComponent} from "./projects/projects.component";
 import {ProjectDetailComponent} from "./project-detail/project-detail.component";
 import {AboutUsComponent} from "./about-us/about-us.component";
 import {FaqsComponent} from "./faqs/faqs.component";
+import {CapacityBuildingComponent} from "./capacity-building/capacity-building.component";
+import {ArticlesComponent} from "./articles/articles.component";
+import {ArticleDetailsComponent} from "./article-details/article-details.component";
 
 const routes: Routes = [
   { path: '', component: HomeComponent , pathMatch: 'full' },
@@ -28,11 +31,13 @@ const routes: Routes = [
   {path: 'projects', component: ProjectsComponent},
   {path: 'project-details/:id', component: ProjectDetailComponent},
   {path: 'about-us', component: AboutUsComponent},
-  {path: 'faqs', component: FaqsComponent}
+  {path: 'faqs', component: FaqsComponent},
+  {path: 'capacity-building', component: CapacityBuildingComponent},
+  {path: 'article/:id', component: ArticleDetailsComponent}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule],
   providers: []
 })

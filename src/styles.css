@@ -1988,6 +1988,7 @@ a,
   line-height: 1.7;
   position: relative;
   top: 44%;
+  margin-top: 50px;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -2754,10 +2755,10 @@ a,
     padding: 0 !important;
   }
   .section-header .parallax, .section-header .static-image {
-    height: 80vh;
+    height: 50vh;
   }
   .section-header .parallax:after, .section-header .static-image:after {
-    height: 80vh;
+    height: 50vh;
   }
   .section-header .content {
     top: 50%;
@@ -3760,14 +3761,18 @@ body {
 
 @-webkit-keyframes fadeIn {
   from { opacity: 0; }
-  to { opacity: 0.5; }
+  to { opacity: 0.4; }
 }
 @keyframes fadeIn {
   from { opacity: 0; }
-  to { opacity: 0.5; }
+  to { opacity: 0.4; }
 }
 
 .panel, .card {
   border-radius: 0px;
+}
+
+.dropdown:hover .dropdown-menu{
+  visibility: visible;
 }
 

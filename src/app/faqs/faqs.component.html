@@ -10,5 +10,15 @@
     </div>
     <div class="row">
     </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="list-unstyled">
+          <li *ngFor="let faq of faqs; let i=index" style="border-bottom: solid 1px #f5f5f5; padding-bottom: 5px;margin-bottom: 15px;">
+            <p class="text-center"><strong>{{faq.qn}}</strong></p>
+            <p class="text-center">{{faq.ans}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </section>

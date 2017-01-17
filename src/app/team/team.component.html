@@ -17,19 +17,49 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 col-md-3" *ngFor="let member of team">
+            <div class="title-area">
+                <h3 class="text-center">Meet our Implementors</h3>
+                <div class="separator separator-danger">✻</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" *ngFor="let analyst of analysts">
                 <div class="team-member card">
                     <div class="team-img">
-                        <a routerLink="/team-member/{{member.id}}"><img class="img-responsive" height="290" src="{{member.img_url}}" alt=""></a>
+                        <a routerLink="/team-member/{{analyst.id}}"><img class="img-responsive" height="290" src="{{analyst.img_url}}" alt=""></a>
                     </div>
                     <div class="team-info">
-                        <h5>{{member.name}}</h5>
-                        <h6>({{member.title}})</h6>
-                        <small>{{member.position}}</small>
+                        <h5>{{analyst.name}}</h5>
+                        <h6>({{analyst.title}})</h6>
+                        <small>{{analyst.position}}</small>
                     </div>
                     <ul class="social-icons">
-                        <li><a href="{{member.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li class="pull-right"><a routerLink="/team-member/{{member.id}}"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="{{analyst.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a routerLink="/team-member/{{analyst.id}}"><i class="fa fa-eye"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="title-area">
+                <h3 class="text-center">Meet our Developers</h3>
+                <div class="separator separator-danger">✻</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-3" *ngFor="let developer of developers">
+                <div class="team-member card">
+                    <div class="team-img">
+                        <a routerLink="/team-member/{{developer.id}}"><img class="img-responsive" height="290" src="{{developer.img_url}}" alt=""></a>
+                    </div>
+                    <div class="team-info">
+                        <h5>{{developer.name}}</h5>
+                        <h6>({{developer.title}})</h6>
+                        <small>{{developer.position}}</small>
+                    </div>
+                    <ul class="social-icons">
+                        <li><a href="{{developer.linkedin_url}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="pull-right"><a routerLink="/team-member/{{developer.id}}"><i class="fa fa-eye"></i></a></li>
                     </ul>
                 </div>
             </div>

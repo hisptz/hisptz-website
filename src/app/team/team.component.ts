@@ -9,17 +9,26 @@ import {Team} from "../models/team";
 })
 export class TeamComponent implements OnInit {
 
-  team: Team[];
   loading: boolean;
   hasError: boolean;
+  analysts: Array<any>;
+  developers:  Array<any>;
   constructor(private teamService: TeamService) {
     this.loading = true;
     this.hasError = false;
+    this.analysts = [];
+    this.developers = [];
   }
 
   ngOnInit() {
     this.teamService.loadAll().subscribe(team => {
-      this.team = Object.keys(team).map(key => team[key]);
+      team.forEach((teamValue) => {
+        if (teamValue.level == 1) {
+          this.analysts.push(teamValue);
+        } else {
+          this.developers.push(teamValue);
+        }
+      })
       this.loading = false;
       this.hasError = false;
     }, error => {
