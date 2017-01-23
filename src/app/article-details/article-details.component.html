@@ -15,8 +15,10 @@
         <h3 style="border-bottom: solid 2px #e78b90; padding-bottom: 10px;">More Articles</h3>
         <ul class="list-unstyled">
           <li *ngFor="let more of moreArticles">
-            <a routerLink="/article/{{more.id}}"><img src="assets/img/research.jpg" class="img-responsive" alt=""></a>
-            <small>{{more.title}}</small>
+            <a routerLink="/article/{{more.id}}">
+              <img src="{{more.cover_img}}" class="img-responsive" alt="">
+              <small>{{more.title}}</small>
+            </a>
           </li>
         </ul>
       </div>

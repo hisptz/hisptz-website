@@ -3771,8 +3771,33 @@ body {
 .panel, .card {
   border-radius: 0px;
 }
+.panel-default {
+  /*border-color: #f5f5f5;*/
+}
 
 .dropdown:hover .dropdown-menu{
   visibility: visible;
+}
+
+.owl-dots {
+  margin-top: 5px;
+}
+.owl-dot {
+  margin-left: -20px;
+}
+.owl-dot span {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #00abc0;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px;
+}
+
+.owl-dot.active span {
+  background: #008CDB;
 }
 
