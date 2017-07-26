@@ -47,6 +47,7 @@ import { RecentArticlesComponent } from './home/recent-articles/recent-articles.
 import {TrainingService} from './providers/training.service';
 import { ArticleDetailsComponent } from './article-details/article-details.component';
 import {ArticleService} from './providers/article.service';
+import { AcademiesComponent } from './home/academies/academies.component';
 
 @NgModule({
   declarations: [
@@ -81,7 +82,8 @@ import {ArticleService} from './providers/article.service';
     FeaturedArticleComponent,
     NewsEventComponent,
     RecentArticlesComponent,
-    ArticleDetailsComponent
+    ArticleDetailsComponent,
+    AcademiesComponent
   ],
   imports: [
     BrowserModule,

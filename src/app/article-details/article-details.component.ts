@@ -27,8 +27,12 @@ export class ArticleDetailsComponent implements OnInit {
       const articleId = params['id'];
       const moreArticles = [];
       this.articleService.loadAll().subscribe(articles => {
+        console.log('the articles are '+articles);
         articles.forEach(article => {
-          if (article.id === articleId) {
+          console.log('The article ID '+ articleId);
+          console.log('The article title '+article.title);
+          if (article.id == articleId) {
+            console.log('Rajabu');
             this.article = article;
           } else {
             moreArticles.push(article);

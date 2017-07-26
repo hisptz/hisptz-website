@@ -1,7 +1,7 @@
 <app-navbar></app-navbar>
 <section id="article-details">
-  <app-loader *ngIf="loading && !hasError"></app-loader>
-  <div class="container" *ngIf="!loading && !hasError">
+  <app-loader></app-loader>
+  <div class="container">
     <div class="row">
       <div class="title-area">
         <h3 class="text-center">{{article.title}}</h3>

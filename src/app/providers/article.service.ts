@@ -27,7 +27,7 @@ export class ArticleService {
     return Observable.create(observer => {
       //load data from the pool first
       this.all().subscribe(pool => {
-        if(Object.keys(pool).map(key => pool[key]).length > 0) {
+        if (Object.keys(pool).map(key => pool[key]).length > 0) {
           observer.next(Object.keys(pool).map(key => pool[key]));
           observer.complete();
         } else {
@@ -36,7 +36,7 @@ export class ArticleService {
             //persist data to metadataPool
             this.saveToArticlePool(data);
             //load data from the pool
-            this.all().subscribe(pool => {
+            this.all().subscribe (pool => {
               observer.next(Object.keys(pool).map(key => pool[key]));
               observer.complete();
             });
@@ -48,7 +48,7 @@ export class ArticleService {
 
   saveToArticlePool(data: any): void {
     //Replace dataIndex with article id
-    let articleData = [];
+    const articleData = [];
     data.forEach((dataItem, dataIndex) => {
       articleData[dataItem.id] = dataItem;
     });
@@ -70,7 +70,7 @@ export class ArticleService {
         } else {
           //load from source if pool has no data
           this.loadAll().subscribe(articleData => {
-            if(articleData[id]) {
+            if (articleData[id]) {
               observer.next(articleData[id]);
               observer.complete();
             } else {

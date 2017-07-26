@@ -20,7 +20,7 @@
     "name": "Interactive scorecard",
     "version": "2.0",
     "revision": "fc8f",
-    "logo_url": "assets/img/products/score-card.png",
+    "logo_url": "assets/img/products/scorecard.svg",
     "cover_url": "assets/img/products/score-card-cover.png",
     "github_url" : "https://github.com/hisptz/scorecard.git",
     "download_url": "assets/apps/zip/scorecard.zip",

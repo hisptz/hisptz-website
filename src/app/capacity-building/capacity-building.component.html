@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <section id="capacity-building">
-  <app-loader *ngIf="loading && !hasError"></app-loader>
+  <app-loader></app-loader>
   <div class="container">
     <div class="row">
       <div class="title-area">
@@ -10,7 +10,7 @@
           use of information for district and regional health management teams.</p>
       </div>
     </div>
-    <div class="row" *ngIf="!loading && !hasError">
+    <div class="row">
       <div class="col-md-4" *ngFor="let training of trainings">
         <img src="../../assets/img/research.jpg" class="img-responsive" height="200" alt="">
         <h5>{{training.name}}</h5>
