@@ -24,7 +24,7 @@ export class CapacityBuildingComponent implements OnInit {
     }, error => {
       this.loading = false;
       this.hasError = true;
-    })
+    });
   }
 
 }
