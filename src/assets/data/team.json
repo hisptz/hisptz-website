@@ -65,7 +65,11 @@
         "endtime": "2011"
       }
     ],
-    "skills": []
+    "skills": [
+      {
+        "skill": ""
+      }
+    ]
   },
   {
     "id": "masoud_mahundi",
@@ -287,7 +291,11 @@
     ],
     "education":[],
     "consultancy": [],
-    "skills": []
+    "skills": [
+      {
+        "skill":""
+      }
+    ]
   },
   {
     "id": "henry_kalisti",
@@ -339,6 +347,9 @@
       }
     ],
     "skills": [
+      {
+        "skill": ""
+      }
     ]
   },
   {
@@ -391,7 +402,11 @@
         "endtime": "To date"
       }
     ],
-    "skills": []
+    "skills": [
+      {
+        "skill": ""
+      }
+    ]
   },
   {
     "id": "mathew_mndeme",
@@ -411,7 +426,11 @@
 
     ],
     "consultancy": [],
-    "skills": []
+    "skills": [
+      {
+        "skill": ""
+      }
+    ]
   },
   {
     "id": "lilian_mkonyi",
@@ -453,7 +472,11 @@
         "endtime": "To date"
       }
     ],
-    "skills": []
+    "skills": [
+      {
+        "skill":""
+      }
+    ]
   },
   {
     "id": "john_mukulu",
@@ -465,7 +488,7 @@
     "email" : "john.f.mukulu@gmail.com",
     "phone" : "+255 717 154 006",
     "linkedin_url": "https://tz.linkedin.com/in/john-francis-mukulu-889b2268",
-    "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community.  He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
+    "bio": "John Francis Mukulu is a Senior Systems Developer at HISP Tanzania, an expert in Open source software platforms and development environments, Linux Operating systems, Web based and mobile phone applications development. He's been very instrumental in development and implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS and HRHIS for HRHDP. He has also been involved in international consultancy, training and implementations of health information systems with countries and organisations such as Zimbabwe and East African Community. He holds a Bachelor Degree in Computer Science and pursuing a Masters Degree in Health Informatics at University of Dar es salaam.",
     "experience": [
       {
         "organisation": "NBC (National Bank Of Commerce)",
@@ -556,7 +579,12 @@
         "endtime": "To date"
       }
     ],
-    "skills": ["Unix and Linux Systems development and administration","Desktop and Mobile Application development with Python & C++ using Qt4 & wxWidgets","Web applications development with Java [Spring Framework & Hibernate], Python [Django Framework], PHP [Symfony2 Framework] & Ruby [Rails Frameworks]","Systems maintenance and Network administration","Graphics Design and Image manipulation with GIMP (Rastor graphics) & Ink Scape (Vector Graphics Applications)"
+    "skills": [
+      {"skill": "Unix and Linux Systems development and administration"},
+      {"skill": "Desktop and Mobile Application development with Python & C++ using Qt4 & wxWidgets"},
+      {"skill": "Web applications development with Java [Spring Framework & Hibernate], Python [Django Framework], PHP [Symfony2 Framework] & Ruby [Rails Frameworks]"},
+      {"skill": "Systems maintenance and Network administration"},
+      {"skill": "Graphics Design and Image manipulation with GIMP (Rastor graphics) & Ink Scape (Vector Graphics Applications)"}
     ]
   },
   {
@@ -618,6 +646,13 @@
         "position": "Consultant",
         "starttime": "2012",
         "endtime": "To date"
+      },
+      {
+        "skills": [
+          {
+            "skill": ""
+          }
+        ]
       }
     ]
   },
@@ -680,70 +715,12 @@
     ]
   },
   {
-    "id": "tuzo_engelbert",
-    "name": "Tuzo Engelbert",
-    "title": "BSc",
-    "level": 2,
-    "position": "System Developer",
-    "img_url": "assets/img/team/new_tuzo.png",
-    "email" : "tuzoengelbert@gmail.com",
-    "phone" : "",
-    "linkedin_url": "https://tz.linkedin.com/in/tuzo-chubwa-93432688",
-    "bio": "Tuzo Engelbert Chubwa is a System Developer at HISP Tanzania with a BSc in Computer Science at University of Dar es Salaam. He has been involved in the Development and Implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS",
-    "experience": [
-      {
-        "organisation": "HISP TANZANIA",
-        "position": "System developer",
-        "starttime": "2014",
-        "endtime": "To date"}
-
-    ],
-    "education":[
-      {
-        "institution": "University of Dar es Salaam",
-        "award": "BSc. Computer Science",
-        "starttime": "2011",
-        "endtime": "2014"
-      }
-    ],
-    "consultancy": [
-      {
-        "project": "Development of HMIS Web-portal",
-        "position": "UDSM-HMIS System Developer",
-        "starttime": "2015",
-        "endtime": "To date"
-      },
-      {
-        "project": "Development of Integrated Big Result Now(BRN)in DHIS2 Web Application",
-        "position": "UDSM DHIS2-BRN System Developer",
-        "starttime": "2015",
-        "endtime": "To date"
-      }, {
-        "project": "Development of Integrated Result Based Finance(RBF) in DHIS2 Web Application",
-        "position": "UDSM-RBF System Developer",
-        "starttime": "2015",
-        "endtime": "2016"
-      }, {
-        "project": "Development of Agricultural Routine Data System (ARDS) Web Application, Phase I, II and III",
-        "position": "UDSM ARDS System Developer",
-        "starttime": "2014",
-        "endtime": "2016"
-      }, {
-        "project": "Development of National Most vulnerable Children Management Information System(MVC-MIS)",
-        "position": "UDSM MVC System Developer",
-        "starttime": "2015",
-        "endtime": "To date"
-      }
-    ],
-    "skills": []
-  },
-  {
     "id": "kelvin_mbwilo",
     "name": "Kelvin Mbwilo",
     "title": "BSc",
     "level": 2,
     "position": "System Developer",
-    "img_url": "assets/img/team/new_mbwilo.png",
+    "img_url": "assets/img/team/kelvin.jpg",
     "email" : "kelvinmbwilo@gmail.com",
     "phone" : "",
     "linkedin_url": "https://tz.linkedin.com/in/kelvin-mbwilo-5aa60b72",
@@ -808,6 +785,71 @@
       }
     ],
     "skills": [
+      {
+        "skill": ""
+      }
+    ]
+  },
+  {
+    "id": "tuzo_engelbert",
+    "name": "Tuzo Engelbert",
+    "title": "BSc",
+    "level": 2,
+    "position": "System Developer",
+    "img_url": "assets/img/team/new_tuzo.png",
+    "email" : "tuzoengelbert@gmail.com",
+    "phone" : "",
+    "linkedin_url": "https://tz.linkedin.com/in/tuzo-chubwa-93432688",
+    "bio": "Tuzo Engelbert Chubwa is a System Developer at HISP Tanzania with a BSc in Computer Science at University of Dar es Salaam. He has been involved in the Development and Implementation of Tanzania’s Ministry of Health and Social Welfare Information infrastructure backbone systems, DHIS2 for HMIS",
+    "experience": [
+      {
+        "organisation": "HISP TANZANIA",
+        "position": "System developer",
+        "starttime": "2014",
+        "endtime": "To date"}
+
+    ],
+    "education":[
+      {
+        "institution": "University of Dar es Salaam",
+        "award": "BSc. Computer Science",
+        "starttime": "2011",
+        "endtime": "2014"
+      }
+    ],
+    "consultancy": [
+      {
+        "project": "Development of HMIS Web-portal",
+        "position": "UDSM-HMIS System Developer",
+        "starttime": "2015",
+        "endtime": "To date"
+      },
+      {
+        "project": "Development of Integrated Big Result Now(BRN)in DHIS2 Web Application",
+        "position": "UDSM DHIS2-BRN System Developer",
+        "starttime": "2015",
+        "endtime": "To date"
+      }, {
+        "project": "Development of Integrated Result Based Finance(RBF) in DHIS2 Web Application",
+        "position": "UDSM-RBF System Developer",
+        "starttime": "2015",
+        "endtime": "2016"
+      }, {
+        "project": "Development of Agricultural Routine Data System (ARDS) Web Application, Phase I, II and III",
+        "position": "UDSM ARDS System Developer",
+        "starttime": "2014",
+        "endtime": "2016"
+      }, {
+        "project": "Development of National Most vulnerable Children Management Information System(MVC-MIS)",
+        "position": "UDSM MVC System Developer",
+        "starttime": "2015",
+        "endtime": "To date"
+      }
+    ],
+    "skills": [
+      {
+        "skill": ""
+      }
     ]
   },
   {
@@ -1078,7 +1120,6 @@
     "skills": [
       {"skill": "Web Application development with PHP (Codeigniter and Yii2 framework), javascript (angularJs and nodeJs), HTML and CSS"},
       {"skill": "Database Design and Management (PostgreSQL,MySQL)"},
-      {"skill": "Programming in Java, PHP, C++"},
       {"skill": "System Automation with Micro-controllers"}
     ]
   }

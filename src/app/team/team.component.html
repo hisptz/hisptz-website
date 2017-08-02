@@ -38,7 +38,7 @@
     </div>
     <div class="row">
       <div class="title-area">
-        <h3 class="text-center">Meet our Developers</h3>
+        <h3 class="text-center">Meet Our Developers</h3>
         <div class="separator separator-danger">✻</div>
       </div>
     </div>
@@ -46,7 +46,7 @@
       <div class="col-sm-6 col-md-3" *ngFor="let developer of developers">
         <div class="team-member card">
           <div class="team-img">
-            <a routerLink="/team-member/{{developer.id}}"><img class="img-responsive" height="290" src="{{developer.img_url}}" alt=""></a>
+            <a routerLink="/team-member/{{developer.id}}"><img class="img-responsive" src="{{developer.img_url}}" alt=""></a>
           </div>
           <div class="team-info">
             <h5>{{developer.name}}</h5>

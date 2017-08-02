@@ -1,14 +1,71 @@
 [
   {
+    "id": "score_card",
+    "name": "Interactive Score Card",
+    "version": "2.1",
+    "compatibility": "21+",
+    "revision": "fc8f",
+    "logo_url": "assets/img/products/scorecard.svg",
+    "cover_url": "assets/img/products/score-card-cover.png",
+    "github_url" : "https://github.com/hisptz/scorecard.git",
+    "download_url": "assets/apps/zip/scorecard.zip",
+    "youtube_url": "https://www.youtube.com/embed/2AHZZpHvspE?autoplay=1",
+    "demo_url": "https://play.dhis2.org/demo/api/apps/scorecard/index.html#/",
+    "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
+    "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
+    "features": ["One click navigation across organization units, up and down the hierarchy","One click navigation across periods, traversing one period at a time into the past/future","Flexible and customizable, from indicators, data sources, layouts to the whole score-card template.","Highest resolutions score card on any media (powered by svg vector graphics & powerful css 3 )"
+    ]
+  },
+  {
+    "id": "score_card_widget",
+    "name": "Interactive Score Card Widget",
+    "version": "2.1",
+    "compatibility": "2.21+",
+    "revision": "fc8f",
+    "logo_url": "assets/img/products/scorecard.svg",
+    "cover_url": "assets/img/products/score-card-widget-cover.png",
+    "github_url" : "https://github.com/hisptz/scorecard-dashboard-widget.git",
+    "download_url": "assets/apps/zip/scorecard-dashboard-widget.zip",
+    "f_url": "https://appstore.hisptanzania.org/score_card_widget",
+    "youtube_url":"https://www.youtube.com/embed/6qJGXlgOQl4?autoplay=1",
+    "demo_url": "https://scorecard-dev.dhis2.org/demo/api/apps/scorecardWidget/index.html?dashboardItemId=GlI6MUdSXVJ",
+    "short_description": "Flexible and configurable DHIS 2 Score card application widget with limited interactive capabilities",
+    "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
+    "features": ["One click navigation across organization units, up and down the hierarchy","One click navigation across periods, traversing one period at a time into the past/future","Flexible and customizable, from indicators, data sources, layouts to the whole score-card template.","Highest resolutions score card on any media (powered by svg vector graphics & powerful css 3 )"
+    ]
+  },
+  {
+    "id": "metabase",
+    "name": "Metabase",
+    "version": "2.0",
+    "compatibility": "2.25+",
+    "revision": "",
+    "logo_url": "assets/img/products/metabase.png",
+    "cover_url": "assets/img/products/metabase-cover.png",
+    "video_url" : "",
+    "github_url" : "https://github.com/hisptz/metabase",
+    "download_url": "assets/apps/zip/metabase.zip",
+    "f_url": "<div class='fb-comments' data-href='https://appstore.hisptanzania.org/score_card' data-numposts='3'></div>",
+    "youtube_url":"",
+    "demo_url": "",
+    "short_description": "DHIS 2 Platform based HTML App for management of Metadata Repository hosting metadata",
+    "description": "DHIS 2 Platform based HTML App for management of Metadata Repository hosting metadata from multiple dhis2 implementations for reuse within few clicks.The Application is powered by AngularJS, HTML5 and CSS3",
+    "features": ["Support for user friendly outline of package with essential details","User friendly import results preview","Support for Import and Preview Import","Support for classification of metadata","Support for data table preview of metadata in packages","Support Unique Shareable URL for Every Display Page","Support for indicating app in repository already installed","Support for multiple concurrent import operations"
+    ]
+  },
+  {
     "id": "idashboard",
-    "name": "Interactive dashboard",
+    "name": "Interactive Dashboard",
     "version": "1.0",
+    "compatibility": "",
     "revision": "32b9",
     "logo_url": "assets/img/products/idashboard.png",
-    "cover_url": "assets/img/products/idashboard-cover2.png",
+    "cover_url": "assets/img/products/idashboard-cover.png",
     "video_url" : "https://www.youtube.com/embed/YSvaTcpEZXQ?rel=0",
     "github_url" : "https://github.com/hisptz/idashboard.git",
     "download_url": "assets/apps/zip/idashboard.zip",
+    "f_url": "http://localhost:4446/apps/idashboard",
+    "youtube_url":"",
     "demo_url": "https://play.dhis2.org/demo/api/apps/idashboard/index.html#/",
     "short_description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities",
     "description": "Flexible and Fully fledged DHIS 2 Dashboard application with interactive and intuitive capabilities, among features of idashboard includes:",
@@ -16,79 +73,55 @@
     ]
   },
   {
-    "id": "scorecard",
-    "name": "Interactive scorecard",
+    "id": "hisptz_touch",
+    "name": "HISPTZ Touch",
     "version": "2.0",
-    "revision": "fc8f",
-    "logo_url": "assets/img/products/scorecard.svg",
-    "cover_url": "assets/img/products/score-card-cover.png",
-    "github_url" : "https://github.com/hisptz/scorecard.git",
-    "download_url": "assets/apps/zip/scorecard.zip",
-    "demo_url": "https://play.dhis2.org/demo/api/apps/scorecard/index.html#/",
-    "short_description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities",
-    "description": "Flexible and configurable DHIS 2 Score card application with limited interactive capabilities, among features score card includes:",
-    "features": ["One click navigation across organization units, up and down the hierarchy","One click navigation across periods, traversing one period at a time into the past/future","Flexible and customizable, from indicators, data sources, layouts to the whole score-card template.","Highest resolutions score card on any media (powered by svg vector graphics & powerful css 3 )"
-    ]
-  },
-
-  {
-    "id": "resourcesearch",
-    "name": "Resource search",
-    "version": "2.0",
-    "logo_url": "assets/img/products/resource-browser.png",
-    "cover_url": "assets/img/products/resource-browser-cover.png",
-    "short_description": "This is a dhis search engine.",
-    "description": "A tool to help go through all the resources on dhis down to every dhis2 comprehended item.",
-    "github_url":"https://github.com/hisptz/resource-search.git",
-    "download_url": "assets/apps/zip/resourcesearch.zip",
-    "features": [
-      "Ability to navigate any resource in dhis",
-      "Ability to analyze all Data Elements, Indicators and Validation Rules",
-      "Ability to add/edit any resource",
-      "Traverse the entire resources to the shackles of infinity"
-    ]
-  },
-
-  {
-    "id": "dhis2touch",
-    "name": "DHIS 2 Touch",
-    "version": "2.0",
+    "compatibility": "",
     "revision": "e70f0",
     "logo_url": "assets/img/products/dhis2touch.png",
     "cover_url": "assets/img/products/dhis2touch-cover.png",
     "github_url" : "https://github.com/hisptz/dhis-2-touch.git",
-    "download_url": "assets/apps/zip/dhis_2_touch.apk",
+    "youtube_url":"",
+    "f_url": "http://localhost:4446/apps/hisptz_touch",
+    "download_url": "https://play.google.com/store/apps/details?id=com.hipstz.dhis2.dhis2touch",
     "short_description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone",
     "description": "HTML5, Javascripts & CSS powered light-weight offline solution for android, apple and windows phone, that aims to ship full dhis2 web experience completely offline on your smartphone. Among it's already completed features includes:",
     "features": ["Support for off-line aggregate data entry","Support for off-line standard reports","Extremely lightweight and compatible with widest range of smartphone devices"
     ]
   },
-
+  {
+    "id": "hisptz-touch-dashboard",
+    "name": "Hisptz Touch Dashboard",
+    "version": "1.0",
+    "compatibility": "2.25-",
+    "revision": "",
+    "logo_url": "assets/img/products/dhis2touch.png",
+    "cover_url": "assets/img/products/hisptz-touch-dashboard.png",
+    "github_url" : "https://github.com/hisptz/hisptz-touch-dashboard",
+    "download_url": "assets/apps/zip/hisptz-touch-dashboard.apk",
+    "youtube_url":"",
+    "f_url": "http://localhost:4446/apps/hisptz-touch-dashboard",
+    "demo_url": "",
+    "short_description": "Flexible and Lightweight",
+    "description": "Flexible and Lightweight",
+    "features": ["Ability to instantly with one-click, switch between table, chart and map visualization","Highest resolutions charts possible( powered by highcharts)","Extremely Lightweight and can operate on low bandwidth"
+    ]
+  },
   {
     "id": "pockect_dhis2_os",
-    "name": "Pocket DHIS 2 Operating system",
+    "name": "Pocket DHIS 2 OS",
     "version": "1.0",
+    "compatibility": "",
     "logo_url": "assets/img/products/pocketdhis2.png",
-    "cover_url": "assets/img/products/pocketdhis-cover.png",
+    "cover_url": "assets/img/products/pocketdhis-cover2.png",
     "github_url" : "",
+    "youtube_url":"",
+    "f_url": "http://localhost:4446/apps/pockect_dhis2_os",
     "download_url": "http://hisptanzania.org/iso/pocket-dhis2.iso",
     "short_description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
     "description": "DHIS 2 Operating system, for personalized live and real-time experience of dhis2",
     "features": ["Pre-installed dhis2 setup on your flash-disk ready to go for training/mass-distribution","Effortless installation of dhis2 powered linux on your computer without need of any technical expertise","Get a self-guided and personalized dhis2 demo and tour from your pen drive, right over tea-break","Train yourself with pre-loaded modules of dhis2 trainings right on your pocket"
     ]
-  },
-  {
-    "id": "ibrowser",
-    "name": "Indicator browser",
-    "version": "1.0",
-    "logo_url": "assets/img/products/ibrowser.png",
-    "cover_url": "assets/img/products/ibrowser-cover.png",
-    "github_url" : "https://github.com/hisptz/indicatorbrowserapp.git",
-    "download_url": "assets/apps/zip/ibrowser.zip",
-    "demo_url": "",
-    "short_description": "Light weight Indicator browsing application providing all dictionary related features",
-    "description": "Light weight Indicator browsing application providing all dictionary related features, such as:",
-    "features": ["Basic details of the indicator (name, numerator, denominator, factor, indicator type, etc..)","Additional relevant details (data sets sources, reporting frequencies and disaggregation)","Chart & Table visualization of last period of the lowest reporting frequency of data element sources(e.g quarterly data preview, etc..), defaulting to annual preview when no associated data set found","Ability to download different data formats for off-line use, e.g. pdf, json,csv and xls"
-    ]
   }
+
 ]

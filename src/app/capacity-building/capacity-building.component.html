@@ -1,6 +1,6 @@
 <app-navbar></app-navbar>
 <section id="capacity-building">
-  <app-loader></app-loader>
+  <!--<app-loader></app-loader>-->
   <div class="container">
     <div class="row">
       <div class="title-area">
@@ -12,7 +12,7 @@
     </div>
     <div class="row">
       <div class="col-md-4" *ngFor="let training of trainings">
-        <img src="../../assets/img/research.jpg" class="img-responsive" height="200" alt="">
+        <img src="{{training.cover_url}}" class="img-responsive" height="250" alt="">
         <h5>{{training.name}}</h5>
         <p class="text-justify">{{training.description}}</p>
       </div>

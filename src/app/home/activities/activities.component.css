@@ -10,6 +10,7 @@
   -o-transition: all 370ms  ease-out;
   -ms-transition: all 370ms  ease-out;
   transition: all 370ms  ease-out;
+  font-weight: 600;
 }
 
 .activities-block:hover {

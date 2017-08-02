@@ -48,6 +48,8 @@ import {TrainingService} from './providers/training.service';
 import { ArticleDetailsComponent } from './article-details/article-details.component';
 import {ArticleService} from './providers/article.service';
 import { AcademiesComponent } from './home/academies/academies.component';
+import { SlidingProductsComponent } from './sliding-products/sliding-products.component';
+import { MixedProductInfoComponent } from './mixed-product-info/mixed-product-info.component';
 
 @NgModule({
   declarations: [
@@ -83,7 +85,9 @@ import { AcademiesComponent } from './home/academies/academies.component';
     NewsEventComponent,
     RecentArticlesComponent,
     ArticleDetailsComponent,
-    AcademiesComponent
+    AcademiesComponent,
+    SlidingProductsComponent,
+    MixedProductInfoComponent
   ],
   imports: [
     BrowserModule,

@@ -3,7 +3,7 @@ import {Product} from '../../models/product';
 import {ProductService} from '../../providers/product.service';
 
 export const PRODUCTS = [
-  "idashboard","scorecard","ibrowser","resourcesearch","dhis2touc"
+  "score_card_widget","score_card","metabase","idashboard","hisptz_touch", "hisptz-touch-dashboard"
 ]
 @Component({
   selector: 'app-featured-product',
