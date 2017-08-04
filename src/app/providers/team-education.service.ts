@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import {Http} from '@angular/http';
 import {Observable, BehaviorSubject} from "rxjs"
-import {TeamEducation} from "../models/team-education";
+import {TeamEducation} from '../models/team-education';
 
 @Injectable()
 export class TeamEducationService {

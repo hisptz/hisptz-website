@@ -50,6 +50,8 @@ import {ArticleService} from './providers/article.service';
 import { AcademiesComponent } from './home/academies/academies.component';
 import { SlidingProductsComponent } from './sliding-products/sliding-products.component';
 import { MixedProductInfoComponent } from './mixed-product-info/mixed-product-info.component';
+import { MemberContactsComponent } from './member-contacts/member-contacts.component';
+import {MemberContactsService} from './providers/member-contacts.service';
 
 @NgModule({
   declarations: [
@@ -87,7 +89,8 @@ import { MixedProductInfoComponent } from './mixed-product-info/mixed-product-in
     ArticleDetailsComponent,
     AcademiesComponent,
     SlidingProductsComponent,
-    MixedProductInfoComponent
+    MixedProductInfoComponent,
+    MemberContactsComponent
   ],
   imports: [
     BrowserModule,
@@ -101,6 +104,7 @@ import { MixedProductInfoComponent } from './mixed-product-info/mixed-product-in
     TeamEducationService,
     TeamExperienceService,
     TeamConsultancyService,
+    MemberContactsService,
     PaperService,
     ProjectsService,
     PartnersService,

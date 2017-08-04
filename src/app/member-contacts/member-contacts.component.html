@@ -1,0 +1,33 @@
+<div class="col-md-12" style="padding-bottom: 30px">
+  <div style="background-color: #FFFFFF; width: 99%;">
+    <div class="row">
+      <div class="col-md-3" style="display: inline-block">
+        <div class="contact-logo">
+          <img src="assets/img/udsm_logo.png">
+        </div>
+      </div>
+      <div class="col-md-9" style="" id="details" *ngFor="let dataDetail of detailsData">
+        <div class="row" style="margin-right: 15px;">
+          <h3 id="full-name" class="pull-right" style="letter-spacing: 2px; text-align: right">{{dataDetail.name}}<small style="color: #00abc0;">({{dataDetail.title}})</small><br><small style="color: #00abc0;" class="pull-right"><b>{{dataDetail.position}}</b></small></h3>
+        </div>
+        <div *ngIf="dataDetail.phone" class="row"  style="margin-right: 15px;">
+          <h5 style="text-align: right" class="pull-right">Phone: {{dataDetail.phone}}</h5>
+        </div>
+        <div *ngIf="dataDetail.email" class="row"  style="margin-right: 15px;">
+          <h5  style="text-align: right" class="pull-right">Email: {{dataDetail.email}}</h5>
+        </div>
+        <p class="pull-right" style="text-align: right; text-size: 15px; margin-right: 15px;"><a href="http://cse.udsm.ac.tz/" style="color: #00abc0;" target="_blank">www.cse.udsm.ac.tz</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" id="grad-1">
+        <div id="depart-info">
+          <div id="depart-name">
+            <h4 style="text-align: center">Department of Computer Science and Engineering</h4>
+          </div>
+          <p style="text-align: center;">college of Information and Communication Technologies <br>University Of Dar Es Salaam<br>P.O Box 33335, Dar es salaam, Tanzania</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

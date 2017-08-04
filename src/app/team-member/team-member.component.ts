@@ -26,14 +26,12 @@ export class TeamMemberComponent implements OnInit {
       const memberID = params['id'];
       this.memberService.find(memberID).subscribe(member => {
         this.member = member;
-        console.log(member);
         this.loading = false;
         this.hasError = false;
       }, error => {
         this.loading = false;
         this.hasError = true;
       });
-
     });
   }
 

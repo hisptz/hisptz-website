@@ -1,0 +1,32 @@
+
+#grad-1 {
+  height: auto;
+  width: 94.6%;
+  margin-left: 2.7%;
+  padding-bottom: 15px;
+  background: -webkit-linear-gradient(left, rgba(20,250,250,0.3), rgba(9, 46, 108, 1) 70%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0,250,250,0.3), rgba(9, 46, 108, 1) 70%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0,250,250,0.3), rgba(9, 46, 108, 1) 70%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(0,250,250,0.3), rgba(9, 46, 108, 1) 70%); /* Standard syntax (must be last) */
+}
+
+#depart-name{
+  border-bottom: solid #FFFFFF;
+  /*height: 45px;*/
+}
+#depart-info {
+  color: #FFFFFF;
+}
+
+#full-name{
+  font-weight: 700;
+  color: #00abc0;
+}
+
+#details{
+  color: #00abc0;
+}
+
+#details p {
+  margin-right: 5px;
+}

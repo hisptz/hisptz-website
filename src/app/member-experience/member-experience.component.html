@@ -3,14 +3,14 @@
   <li class="list-group-item" *ngFor="let experience of experienceData">
     <div class="row">
       <div class="col-md-4 hidden-xs">
-        <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span><br>
+        <span class="timeline">{{experience.starttime}} {{experience.endtime}}</span><br>
         <!--<span class="timeline-sum">(1 year and 11 month)</span>-->
       </div>
       <div class="col-md-8 col-xs-12 right-content">
         <span class="institution">{{experience.position}}</span><br>
         <span class="award">{{experience.organisation}}</span>
         <div class="visible-xs">
-          <span class="timeline">{{experience.starttime}} - {{experience.endtime}}</span>
+          <span class="timeline">{{experience.starttime}} {{experience.endtime}}</span>
           <!--<span class="timeline">(1 year and 11 month)</span>-->
         </div>
       </div>

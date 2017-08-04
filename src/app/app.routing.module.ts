@@ -16,6 +16,7 @@ import {FaqsComponent} from './faqs/faqs.component';
 import {CapacityBuildingComponent} from './capacity-building/capacity-building.component';
 import {ArticlesComponent} from './articles/articles.component';
 import {ArticleDetailsComponent} from './article-details/article-details.component';
+import {MemberContactsComponent} from './member-contacts/member-contacts.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent , pathMatch: 'full' },
@@ -25,7 +26,8 @@ const routes: Routes = [
   {path: 'team-member/:id', component: TeamMemberComponent, children: [
     {path: '',  component: MemberEducationComponent},
     {path: 'experience', component: MemberExperienceComponent},
-    {path: 'consultancy', component: MemberConsultancyComponent}
+    {path: 'consultancy', component: MemberConsultancyComponent},
+    {path: 'details', component: MemberContactsComponent}
   ]},
   {path: 'papers', component: PapersComponent},
   {path: 'projects', component: ProjectsComponent},
