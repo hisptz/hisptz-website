@@ -9,7 +9,6 @@ import {Article} from '../models/article';
   styleUrls: ['./article-details.component.css']
 })
 export class ArticleDetailsComponent implements OnInit {
-
   public loading: boolean;
   public hasError: boolean;
   public article: Article;
@@ -27,13 +26,10 @@ export class ArticleDetailsComponent implements OnInit {
       const articleId = params['id'];
       const moreArticles = [];
       this.articleService.loadAll().subscribe(articles => {
-        console.log('the articles are '+articles);
         articles.forEach(article => {
-          console.log('The article ID '+ articleId);
-          console.log('The article title '+article.title);
           if (article.id == articleId) {
-            console.log('Rajabu');
             this.article = article;
+            console.log(article);
           } else {
             moreArticles.push(article);
           }

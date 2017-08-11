@@ -530,6 +530,56 @@
     ]
   },
   {
+    "id": "segorya_mwita",
+    "name": "Segorya Mwita",
+    "title": "Msc",
+    "level": 1,
+    "position": "System analyst",
+    "img_url": "assets/img/team/mwita.png",
+    "email" : "",
+    "phone" : "",
+    "linkedin_url": "",
+    "bio": "",
+    "details": [
+      {
+        "name": "Segorya Mwita",
+        "title": "Bsc",
+        "position": "System Analyst",
+        "phone": "",
+        "email": ""
+      }
+    ],
+    "experience": [
+      {
+        "organisation": "University of Dar es salaam",
+        "position": "Assistant Lecturer",
+        "starttime": "2016",
+        "endtime": "To date"
+      }
+    ],
+    "education":[
+      {
+        "institution": "University of Dar es Salaam",
+        "award": "BSc. Computer Science",
+        "starttime": "2012",
+        "endtime": "2015"
+      }
+    ],
+    "consultancy": [
+      {
+        "project": "UDSM DHIS2 Project",
+        "position": "System Analyst and Trainer",
+        "starttime": "2016",
+        "endtime": "To date"
+      }, {
+        "project": "UDSM Human Resource (For Health ) Information System (HRHIS) Project",
+        "position": "UDSM HRHIS System Analyst and Trainer",
+        "starttime": "2017",
+        "endtime": "To date"
+      }
+    ]
+  },
+  {
     "id": "john_mukulu",
     "name": "John F. Mukulu",
     "title": "Msc Candidate",

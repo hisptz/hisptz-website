@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { SafePipeModule } from 'safe-pipe';
 
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from './app.routing.module';
@@ -96,7 +97,8 @@ import {MemberContactsService} from './providers/member-contacts.service';
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SafePipeModule,
   ],
   providers: [
     ProductService,
