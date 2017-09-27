@@ -1312,5 +1312,53 @@
       {"skill": "Machine Learning and Data analysis"},
       {"skill": "DevOps(Continuous Integration and Git hooks)"}
     ]
+  },
+  {
+    "id": "ibrahim_wickama",
+    "name": "Ibrahim Wickama",
+    "title": "BSc",
+    "level": 2,
+    "position": "Systems Developer",
+    "img_url": "assets/img/team/wickama.jpg",
+    "email" : "ibrahimwickama@gmail.com",
+    "phone" : "+9",
+    "linkedin_url": "https://www.linkedin.com/in/barnabas-makonda-24007a60/",
+    "bio": "Ibrahim Juma wickama is a system developer at HSIP Tanzania, very skilled on mobile application development, web applications and computer desktop applications. He has been involved in various DHIS 2 projects including HISP Touch mobile application",
+    "details": [
+      {
+        "name": "Ibrahim Wickama",
+        "title": "BSc",
+        "position": "System Developer",
+        "phone": "",
+        "email": "ibrahimwickama@gmail.com"
+      }
+    ],
+    "experience": [
+      {
+        "organisation": "HISP Tanzania",
+        "position": "System Developer",
+        "starttime": "2017",
+        "endtime": "To date"}
+    ],
+    "education":[
+      {
+        "institution": "University of Dar es Salaam",
+        "award": "Degree in Bsc in Computer Science",
+        "starttime": "2014",
+        "endtime": "2017"
+      }
+    ],
+    "consultancy": [
+      {
+        "project": "Mobile application developments",
+        "position": "System developer",
+        "starttime": "August 2017",
+        "endtime": "To date"
+      }
+    ],
+    "skills": [
+      {"skill": "Good in java, Html&css, JavaScript, Php and C#"},
+      {"skill": "DataBase integrations"}
+    ]
   }
 ]
