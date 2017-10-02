@@ -74,7 +74,7 @@ export class TeamConsultancyService {
               observer.next(teamConsultancyData[member_id]);
               observer.complete();
             } else {
-              observer.next('TeamConsultancy member with member_id "'+ member_id + '" could not be found or may have been deleted');
+              observer.next('TeamConsultancy member with member_id "' + member_id + '" could not be found or may have been deleted');
               observer.complete();
             }
           });

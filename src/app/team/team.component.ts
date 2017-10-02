@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {TeamService} from '../providers/team.service';
+import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
 import {Team} from '../models/team';
+import {AngularFireAuth} from 'angularfire2/auth';
 
 @Component({
   selector: 'app-team',
@@ -13,7 +15,12 @@ export class TeamComponent implements OnInit {
   hasError: boolean;
   analysts: Array<any>;
   developers:  Array<any>;
-  constructor(private teamService: TeamService) {
+  private allMembers: any;
+  private biography: any;
+
+  team1: FirebaseListObservable<any[]>;
+  team2: FirebaseListObservable<any[]>;
+  constructor(private teamService: TeamService, private db: AngularFireDatabase, public afAuth: AngularFireAuth) {
     this.loading = true;
     this.hasError = false;
     this.analysts = [];
@@ -21,21 +28,15 @@ export class TeamComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.teamService.loadAll().subscribe(team => {
-      team.forEach((teamValue) => {
-        if (teamValue.level == 1) {
-          this.analysts.push(teamValue);
-        } else {
-          this.developers.push(teamValue);
-        }
-      })
-      this.loading = false;
-      this.hasError = false;
-    }, error => {
-      console.log(error)
-      this.loading = false;
-      this.hasError = true;
-    })
+    this.team1 = this.db.list('/members/developers/');
+    this.team1.subscribe(members => {
+      this.developers = members;
+    });
+
+    this.team2 = this.db.list('/members/analysts/');
+    this.team2.subscribe(members => {
+      this.analysts = members;
+    });
   }
 
 }

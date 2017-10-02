@@ -8,7 +8,15 @@
         <p class="text-center">
           HISP Tanzania (HISPTZ) has a pool of skill-mixed experts with BSc, MSc and PhD
           qualifications and with combined years’ experience in fields of
-          Information Systems, Health informatics, Software Engineering, Computer Engineering and Computer Science. At HISPTZ, there is a dedicated team of experienced system developers and analysts with diverse specialization and skills ranging from Open Source Software development, Advanced software/mobile programming, Business/data analysis, Project management, and Social-Technical System approaches. With its extensive expertise and field experience in supporting improvements of health systems, the team prides itself as being one of the robust teams specializing in health information systems in the developing countries with a primary focus in Tanzania and East Africa
+          Information Systems, Health informatics, Software Engineering, Computer Engineering and Computer Science.
+          At HISPTZ, there is a dedicated team of experienced system developers and analysts with diverse specialization
+          and skills ranging from Open Source Software development,
+          Advanced software/mobile programming, Business/data analysis,
+          Project management, and Social-Technical System approaches.
+          With its extensive expertise and field experience in supporting improvements of health systems,
+          the team prides itself as being one of the robust teams specializing in
+          health information systems in the developing countries with a primary focus
+          in Tanzania and East Africa
         </p>
       </div>
     </div>
@@ -46,7 +54,7 @@
       <div class="col-sm-6 col-md-3" *ngFor="let developer of developers">
         <div class="team-member card">
           <div class="team-img">
-            <a routerLink="/team-member/{{developer.id}}"><img class="img-responsive" src="{{developer.img_url}}" alt=""></a>
+            <a routerLink="/team-member/{{developer.id}}"><img  height="290" width="270" src="{{developer.img_url}}" alt=""></a>
           </div>
           <div class="team-info">
             <h5>{{developer.name}}</h5>

@@ -53,6 +53,10 @@ import { SlidingProductsComponent } from './sliding-products/sliding-products.co
 import { MixedProductInfoComponent } from './mixed-product-info/mixed-product-info.component';
 import { MemberContactsComponent } from './member-contacts/member-contacts.component';
 import {MemberContactsService} from './providers/member-contacts.service';
+import {environment} from '../environments/environment';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireAuthModule } from 'angularfire2/auth';
 
 @NgModule({
   declarations: [
@@ -99,6 +103,9 @@ import {MemberContactsService} from './providers/member-contacts.service';
     HttpModule,
     AppRoutingModule,
     SafePipeModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFireDatabaseModule, // imports firebase/database, only needed for database features
+    AngularFireAuthModule, // imports firebase/auth, only needed for auth feature
   ],
   providers: [
     ProductService,

@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {TeamExperience} from '../models/team-experience';
 import {TeamExperienceService} from '../providers/team-experience.service';
 import {ActivatedRoute, Params} from '@angular/router';
+import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
+import {AngularFireAuth} from 'angularfire2/auth';
 
 @Component({
   selector: 'app-member-experience',
@@ -12,26 +14,29 @@ export class MemberExperienceComponent implements OnInit {
 
   loading: boolean;
   hasError: boolean;
-  experienceData: TeamExperience;
+  private  experienceData: any;
+  experienceObservable: FirebaseListObservable<any[]>;
   constructor(
     private memberExperience: TeamExperienceService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private db: AngularFireDatabase, public afAuth: AngularFireAuth
   ) {
     this.loading = true;
     this.hasError = false;
   }
 
   ngOnInit() {
-    let member_id = this.route.snapshot.parent.params['id'];
-    this.memberExperience.find(member_id).subscribe((experience) => {
-        this.experienceData = experience;
-        this.loading = false;
-        this.hasError = false;
-      },
-      error => {
-        this.loading = false;
-        this.hasError = true;
-      });
+    this.experienceObservable = this.db.list('/members/analysts/' + this.route.snapshot.parent.params['id'] + '/experience');
+    this.experienceObservable.subscribe(experienceArr => {
+      if (experienceArr.length > 1) {
+        this.experienceData = experienceArr;
+      } else {
+        this.experienceObservable = this.db.list('/members/developers/' + this.route.snapshot.parent.params['id'] + '/experience');
+        this.experienceObservable.subscribe(newExperienceArr => {
+          this.experienceData = newExperienceArr;
+        });
+      }
+    });
   }
 
 }

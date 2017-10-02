@@ -1,5 +1,5 @@
 <app-navbar></app-navbar>
-<section id="member-head" *ngIf="!loading && !hasError">
+<section id="member-head" *ngIf="memberId">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -7,23 +7,19 @@
           <div class="panel-body team-member-panel">
             <div class="row">
               <div class="col-md-3 col-sm-3 text-center">
-                <img src="{{member.img_url}}" alt="" class="img-circle img-responsive">
+                <img src="{{img_url}}" alt="" class="img-circle img-responsive">
                 <ul class="list-unstyled" style="margin-top: 10px;">
-                  <li><b>{{member.name}}</b></li>
-                  <li><small><b>({{member.title}})</b></small></li>
+                  <li><b>{{memberName}}</b></li>
+                  <li><small><b>({{memberTitle}})</b></small></li>
                 </ul>
               </div>
               <div class="col-md-9 col-sm-9">
                 <h4><b>Short Bio</b></h4>
-                <p class="text-justify" >{{member.bio}}</p>
-                <!--<ul class="list-inline">-->
-                <!--<li><small><a href="">5 articles</a></small></li>-->
-                <!--<li><small><a href="">5 papers</a></small></li>-->
-                <!--</ul>-->
+                <p class="text-justify" >{{memberBio}}</p>
               </div>
             </div>
             <ul class="list-inline" style="position: absolute; bottom: 1%; right:1%;">
-              <li><a href="{{member.linkedin_url}}" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="{{linkedin_url}}" target="_blank" class="btn btn-primary btn-sm"><i class="fa fa-linkedin"></i></a></li>
               <li><a routerLink="/team" class="btn btn-warning btn-sm">view all</a></li>
             </ul>
           </div>
@@ -35,22 +31,21 @@
 <section  id="member-details">
   <div class="container">
     <div class="row">
-      <div class="col-md-3" *ngIf="!loading && !hasError">
+      <div class="col-md-3">
         <div class="list-group">
-          <a routerLink="/team-member/{{member.id}}" class="list-group-item"><i class="fa fa-graduation-cap"></i> Education</a>
+          <a routerLink="/team-member/{{memberId}}" class="list-group-item"><i class="fa fa-graduation-cap"></i> Education</a>
           <a routerLink="experience" class="list-group-item"><i class="fa fa-building"></i> Experience</a>
           <a routerLink="consultancy" class="list-group-item"><i class="fa fa-users"></i> Consultancy</a>
-          <a routerLink="details" class="list-group-item"><i class="fa fa-phone"></i> Contacts</a>
         </div>
       </div>
-      <div [ngClass]="member && member.skills ? 'col-md-6' : 'col-md-9'">
+      <div [ngClass]="skills ? 'col-md-6' : 'col-md-9'">
         <router-outlet></router-outlet>
       </div>
-      <div class="col-md-3" *ngIf="!loading && !hasError">
+      <div class="col-md-3">
         <!--skills-->
-        <ul class="list-group" *ngIf="member.skills">
+        <ul class="list-group" *ngIf="skills">
           <li class="list-group-item"><b>Skills</b></li>
-          <li class="list-group-item" *ngFor="let skill of member.skills">{{skill.skill}}</li>
+          <li class="list-group-item" *ngFor="let skill of skills">{{skill.skill}}</li>
         </ul>
       </div>
     </div>

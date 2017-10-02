@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {TeamConsultancy} from '../models/team-consultancy';
 import {TeamConsultancyService} from '../providers/team-consultancy.service';
 import {ActivatedRoute, Params} from '@angular/router';
+import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
+import {AngularFireAuth} from 'angularfire2/auth';
 
 @Component({
   selector: 'app-member-consultancy',
@@ -12,26 +14,29 @@ export class MemberConsultancyComponent implements OnInit {
 
   loading: boolean;
   hasError: boolean;
-  consultancyData: TeamConsultancy;
+  private consultancyData: any;
+  consultancyObservable: FirebaseListObservable<any[]>;
   constructor(
     private memberConsultancy: TeamConsultancyService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    private db: AngularFireDatabase, public afAuth: AngularFireAuth
   ) {
     this.loading = true;
     this.hasError = false;
   }
 
   ngOnInit() {
-    const member_id = this.route.snapshot.parent.params['id'];
-    this.memberConsultancy.find(member_id).subscribe((consultancy) => {
-        this.consultancyData = consultancy;
-        this.loading = false;
-        this.hasError = false;
-      },
-      error => {
-        this.loading = false;
-        this.hasError = true;
-      });
+    this.consultancyObservable = this.db.list('/members/analysts/' + this.route.snapshot.parent.params['id'] + '/consultancy');
+    this.consultancyObservable.subscribe(consultancyArr => {
+      if (consultancyArr.length > 1) {
+        this.consultancyData = consultancyArr;
+      } else {
+        this.consultancyObservable = this.db.list('/members/developers/' + this.route.snapshot.parent.params['id'] + '/consultancy');
+        this.consultancyObservable.subscribe(newConsultancyArr => {
+          this.consultancyData = newConsultancyArr;
+        });
+      }
+    });
   }
 
 }
