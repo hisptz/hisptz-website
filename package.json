@@ -33,7 +33,9 @@
     "safe-pipe": "^0.3.0",
     "tether": "^1.4.0",
     "ts-helpers": "^1.1.2",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "es6-promise": "github:typed-typings/npm-es6-promise#fb04188767acfec1defd054fc8024fafa5cd4de7",
+    "firebase": "github:typed-typings/npm-firebase"
   },
   "devDependencies": {
     "@angular/cli": "1.0.6",

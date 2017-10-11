@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import {TeamConsultancy} from '../models/team-consultancy';
 import {TeamConsultancyService} from '../providers/team-consultancy.service';
 import {ActivatedRoute, Params} from '@angular/router';
-import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
 import {AngularFireAuth} from 'angularfire2/auth';
+import * as firebase from 'firebase/app';
+import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
 
 @Component({
   selector: 'app-member-consultancy',
@@ -14,7 +15,7 @@ export class MemberConsultancyComponent implements OnInit {
 
   loading: boolean;
   hasError: boolean;
-  private consultancyData: any;
+  public consultancyData: any;
   consultancyObservable: FirebaseListObservable<any[]>;
   constructor(
     private memberConsultancy: TeamConsultancyService,

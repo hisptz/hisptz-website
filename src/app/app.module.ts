@@ -55,8 +55,8 @@ import { MemberContactsComponent } from './member-contacts/member-contacts.compo
 import {MemberContactsService} from './providers/member-contacts.service';
 import {environment} from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import {AngularFireDatabaseModule} from 'angularfire2/database';
 
 @NgModule({
   declarations: [

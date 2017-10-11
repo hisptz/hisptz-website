@@ -3,6 +3,7 @@ import {ActivatedRoute, Params} from '@angular/router';
 import { MemberContactsService} from '../providers/member-contacts.service';
 import {MemberContacts} from '../models/member-contacts';
 import {AngularFireDatabase, FirebaseListObservable} from 'angularfire2/database';
+import * as firebase from 'firebase/app';
 import {AngularFireAuth} from 'angularfire2/auth';
 
 @Component({
@@ -12,7 +13,7 @@ import {AngularFireAuth} from 'angularfire2/auth';
 })
 export class MemberContactsComponent implements OnInit {
 
-  private detailsData: any;
+  public detailsData: any;
   loading: boolean;
   hasError: boolean;
   detailsObservable: FirebaseListObservable<any[]>;

@@ -14,7 +14,7 @@ export class MemberExperienceComponent implements OnInit {
 
   loading: boolean;
   hasError: boolean;
-  private  experienceData: any;
+  public  experienceData: any;
   experienceObservable: FirebaseListObservable<any[]>;
   constructor(
     private memberExperience: TeamExperienceService,

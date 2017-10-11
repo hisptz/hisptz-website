@@ -14,7 +14,7 @@ export class MemberEducationComponent implements OnInit {
 
   loading: boolean;
   hasError: boolean;
-  private educationData: any;
+  public educationData: any;
   educationObservable: FirebaseListObservable<any[]>;
   constructor(
     private memberEducation: TeamEducationService,
