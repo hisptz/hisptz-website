@@ -29,7 +29,7 @@ export class FeaturedProductComponent implements OnInit {
     }, error => {
       this.loading = false;
       this.hasError = true;
-    })
+    });
   }
 
 }
