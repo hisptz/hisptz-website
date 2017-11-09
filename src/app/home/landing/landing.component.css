@@ -1,8 +1,33 @@
-.landing-btn {
-  background-color: transparent;
-  border-color: #fff;
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 0px;
 }
 
-.landing-btn:hover {
-  background-color: transparent;
+.row {
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-top: 0px;
+}
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*[class^="icon-"]::before, [class*=" icon-"]::before {*/
+/*text-decoration: inherit;*/
+/*display: inline-block;*/
+/*margin-top: 15px !important;*/
+/*}*/
+
+.parallax {
+  height: 250px; width: 100%; background-repeat: no-repeat; background-size: cover;
+}
+
+p {
+  font-weight: 500; font-size: 1.3em; text-transform: lowercase;
 }

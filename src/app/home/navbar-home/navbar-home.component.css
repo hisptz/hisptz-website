@@ -1,0 +1,105 @@
+.navbar {
+  border-radius: 0px;
+  font-weight: 500;
+}
+
+.navbar-inverse {
+  background-color: #215E8C;
+  border-color: #215E8C;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #ffffff;
+  background-color: #215E8C;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+  margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+inverse .navbar-toggle:hover {
+  background-color: #215E8C;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-collapse.collapse {
+  display: block!important;
+  height: auto!important;
+  padding-bottom: 12px;
+  overflow: visible!important;
+}
+
+.dropdown-menu>li>a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+}
+
+.dropdown-menu > li:last-child > a {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.dropdown-menu > li:last-child > a {
+  border-bottom: 0;
+}
+
+.navbar-nav > li > .dropdown-menu:after {
+  border-bottom: 11px solid #FFFFFF;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 12px;
+  top: -10px;
+}
+
+.navbar-right .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-nav[_ngcontent-c1] > li[_ngcontent-c1] > .dropdown-menu[_ngcontent-c1]:after {
+  border-bottom: 11px solid #FFFFFF;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 120px;
+  top: -10px;
+}
+
+.navbar-collapse.collapse[_ngcontent-c1] {
+  display: block!important;
+  height: auto!important;
+  padding-bottom: 12px;
+  margin-right: 40px;
+  overflow: visible!important;
+}
+
+.navbar>.container-fluid .navbar-brand {
+  margin-left: 50px;
+}
