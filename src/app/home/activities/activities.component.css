@@ -21,3 +21,10 @@
   -ms-transform: scale(1.03);
   transform: scale(1.03);
 }
+ h4 {
+   text-align: center;
+ }
+
+ .container {
+   padding-bottom: 40px;
+ }
