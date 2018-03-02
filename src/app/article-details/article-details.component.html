@@ -1,26 +1,49 @@
 <app-navbar></app-navbar>
 <section id="article-details">
-  <app-loader></app-loader>
-  <div class="container">
-    <div class="row">
-      <div class="title-area">
-        <h3 class="text-center">{{article.title}}</h3>
-        <div class="separator separator-danger">✻</div>
-      </div>
-    </div>
-    <div class="row">
-      <iframe class="col-md-9" style="height: 1900px;" frameborder="0" scrolling="no" [src]="article.embed_url | safe"></iframe>
-      <div class="col-md-3">
-        <h3 style="border-bottom: solid 2px #e78b90; padding-bottom: 10px;">More Articles</h3>
-        <ul class="list-unstyled">
-          <li *ngFor="let more of moreArticles">
-            <a routerLink="/article/{{more.id}}">
-              <img src="{{more.cover_img}}" class="img-responsive" alt="">
-              <small>{{more.title}}</small>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <!--<app-loader></app-loader>-->
+  <!--<div class="container">-->
+    <!--<div class="row">-->
+      <!--<div class="title-area">-->
+        <!--<h3 class="text-center">{{article.title}}</h3>-->
+        <!--<div class="separator separator-danger">✻</div>-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row">-->
+      <!--<div class="col-md-9">-->
+        <!--<p>{{ article.introduction }}</p>-->
+        <!--<div>-->
+          <!--<div *ngFor="let content of article.body">-->
+            <!--<h4 style="text-align: center">{{ content.main_header }}</h4>-->
+            <!--<h5 style="text-align: left">{{ content.header }}</h5>-->
+            <!--<p>{{ content.description }}</p>-->
+            <!--<p *ngIf="content.link_url">Checkout at: <a style="color: #2163B7;" target="_blank" href="{{ content.link_url}}">{{ content.link_url}}</a></p>-->
+            <!--<ul class="list-inline">-->
+              <!--<li *ngFor="let image of content.related_images" style="padding: 6px 6px; margin-left: 15px; text-align: center">-->
+                <!--<div style="">-->
+                  <!--<img src="{{ image.img_url }}" height="80">-->
+                <!--</div>-->
+                <!--<div *ngIf="image.img_url2" style="text-align: left">-->
+                  <!--<img src="{{ image.img_url2 }}">-->
+                <!--</div>-->
+                <!--<h6 style="text-align: left">{{image.name }}</h6>-->
+              <!--</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+      <!--&lt;!&ndash;<iframe class="col-md-10" style="height: 1900px;" frameborder="0" scrolling="no" [src]="article.embed_url | safe"></iframe>&ndash;&gt;-->
+      <!--<div class="col-md-2">-->
+        <!--<h3 style="border-bottom: solid 2px #e78b90; padding-bottom: 10px;">More Articles</h3>-->
+        <!--<ul class="list-unstyled">-->
+          <!--<li *ngFor="let more of moreArticles">-->
+            <!--<a routerLink="/article/{{more.id}}">-->
+              <!--<img src="{{more.cover_img}}" class="img-responsive" alt="">-->
+              <!--<small>{{more.title}}</small>-->
+            <!--</a>-->
+          <!--</li>-->
+        <!--</ul>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+
 </section>

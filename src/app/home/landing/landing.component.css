@@ -31,3 +31,7 @@
 p {
   font-weight: 500; font-size: 1.3em; text-transform: lowercase;
 }
+
+.btn-primary {
+  background-color: transparent;
+}

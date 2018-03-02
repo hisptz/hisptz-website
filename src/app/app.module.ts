@@ -1,9 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule} from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule, NO_ERRORS_SCHEMA} from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { SafePipeModule } from 'safe-pipe';
-
 import { AppComponent } from './app.component';
 import {AppRoutingModule} from './app.routing.module';
 import { HomeComponent } from './home/home.component';
@@ -57,6 +56,7 @@ import {environment} from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
 import {AngularFireDatabaseModule} from 'angularfire2/database';
+import {CKEditorModule} from 'ng2-ckeditor';
 
 @NgModule({
   declarations: [
@@ -121,6 +121,10 @@ import {AngularFireDatabaseModule} from 'angularfire2/database';
     TrainingService,
     ArticleService,
     PartnersService
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA,
+    NO_ERRORS_SCHEMA
   ],
   bootstrap: [AppComponent]
 })
