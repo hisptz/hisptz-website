@@ -1,0 +1,36 @@
+[
+  {
+    "id": "Chandarua_accountability_dashboards",
+    "name": "Chandarua Accountability dashboards",
+    "img_url": "assets/img/projects/ards.png",
+    "client": "",
+    "description": "Worked with Malaria team from Tanzania mainland and Zanzibar Ministry of Health in developing chandarua accountability dashboards..",
+    "site_url": "",
+    "work_scope":[]
+  }, {
+    "id": "ovc_by_ussd",
+    "name": "Tracking Orphans and Vulnerable Children (OVC) using USSD application",
+    "img_url": "assets/img/projects/hrhis.jpg",
+    "client": "",
+    "description": "Worked with PACT Tanzania to implement a system tracking OCV country-wide(Ismail please confirm) using USSD application.",
+    "site_url": "",
+    "work_scope":[]
+  }, {
+    "id": "who_apps",
+    "name": "WHO APPS",
+    "img_url": "assets/img/projects/dhis.png",
+    "client": "",
+    "description": "In collaboration with University of Oslo, HISP Tanzania has worked for WHO to develop DHIS2 applications i.e Metadata repository and Health apps.",
+    "site_url": "/",
+    "work_scope":[]
+  }, {
+  "id": "Dreams_database",
+  "name": "DREAM DATABASE",
+  "img_url": "assets/img/projects/dhis.png",
+  "client": "",
+  "description": "Commissioned by Management and Development for Health (MDH), the project involves the design, development and implementation of a web based database for monitoring DREAMS indicators. Determine Resilient Empowered AIDS-free Mentored and Safe (DREAMS) is an initiative that works towards reducing incidence of HIV infection by 40% among adolescent girls and young women (AGYW) aged 10 to 24 years by September 2017. The database is powered by the open source DHIS2 platform with capabilities to synchronize with the national database.",
+  "site_url": "/",
+  "work_scope":[]
+}
+]
+

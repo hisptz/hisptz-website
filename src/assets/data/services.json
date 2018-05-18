@@ -1,0 +1,28 @@
+[
+  {
+    "id": "DHIS2_implementation",
+    "name": "DHIS2 Implementation",
+    "img_url": "assets/img/projects/ards.png",
+    "client": "",
+    "description": "The District Health Information Software 2 (DHIS 2) is an open source software tool for data collection, validation, analysis and presentation of aggregate and individual information. Currently, DHIS2 is the preferred health management information system in over 60 countries across four continents. DHIS2 helps governments and organizations to manage their operations more effectively, monitor processes and improve communication. Over a decade, experts from HISP Tanzania have been engaged in implementing DHIS2 in diverse settings. The implementations range from local organizations and government institutions to international based organizations. HISP Tanzania is also part of the global HISP network aiming at strengthening health information systems in developing countries.",
+    "site_url": "",
+    "work_scope":[]
+  }, {
+  "id": "Capacity_building",
+  "name": "Capacity Building",
+  "img_url": "assets/img/projects/hrhis.jpg",
+  "client": "",
+  "description": "HISP Tanzania is comprised with experts having experience in offering quality training, mentoring and technical support services. Capacity development, skill transferring and knowledge sharing are our signature principles in all the projects we are engaged. More details can be accessed here.",
+  "site_url": "",
+  "work_scope":[]
+}, {
+  "id": "ICT",
+  "name": "Information System Development",
+  "img_url": "assets/img/projects/dhis.png",
+  "client": "",
+  "description": "From a start-up company to an established business, HISP Tanzania can assist in developing a matching product for your business. HISP Tanzania offers custom software development and/or off-the-shelve products to help your organization meet its information system requirements. Our team has the technology prowess and a dedicated commitment to address your requirements within a short span..",
+  "site_url": "",
+  "work_scope":[]
+}
+]
+

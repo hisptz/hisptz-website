@@ -1,0 +1,24 @@
+<div class="container">
+  <app-nav-bar></app-nav-bar>
+  <section id="photos">
+    <div class="container">
+      <!--<div class="row">-->
+        <!--<h3 class="text-center">Our Projects</h3>-->
+        <!--<div class="separator separator-danger">✻</div>-->
+      <!--</div>-->
+      <div class="row">
+        <div class="col-md-6 col-sm-6" *ngFor="let photo of photos">
+          <div class="panel panel-default project-panel card">
+            <div class="panel-heading project-panel-heading">
+              <a class="project-title">
+                <img src="{{photo.imgUrl}}" alt="" class="img-responsive"></a>
+            </div>
+            <div class="panel-body">
+              <small>{{photo.description}}</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

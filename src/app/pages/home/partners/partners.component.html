@@ -1,0 +1,19 @@
+<div class="container">
+  <section id="partners">
+    <div class="container">
+      <div class="row">
+        <div class="title-area">
+          <h3 class="text-center">Our Partners</h3>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-xs-3 col-sm-2" style="margin-top: 60px;" *ngFor="let partner of partners">
+          <a href="{{partner.url}}" target="_blank"><img [src]="partner.logo" alt="" class="img-responsive" style="margin: auto; height: 100px;"></a>
+          <h5 class="text-center">{{partner.name}}</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

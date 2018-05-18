@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name":  "DHIS2 Academies",
+    "description":  "In collaboration with the global HISP Network and regional partners, HISP Tanzania hosts DHIS2 academies aimed at strengthening national and regional capacity to successfully set up, design and maintain DHIS2 systems. A 6-days intensive training combining theoretical and practical sessions, will empower you to become a DHIS2 expert ready to support your organisation's data collection, analysis, and reporting needs using DHIS2. To see the upcoming DHIS2 academies within the region click this link",
+    "link": "https://www.dhis2.org/academy",
+    "cover_url": "assets/img/academies/2017/dhis2_academy_1.JPG"
+  },
+  {
+    "id": 2,
+    "name":  "Information system training",
+    "description":  "We provide and support data use training to build your capacity in analyzing your information. Contact us for more information.",
+    "link": "",
+    "cover_url": "assets/img/capacity_building/research.jpg"
+  }
+]

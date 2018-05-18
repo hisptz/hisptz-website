@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "HISP Tanzania strong five innovations of 2016",
+    "embed_url": "https://docs.google.com/document/d/14vEzm4vCVXeoxFy_g7XM861KQND2-omCzt8gLxgg6Hg/pub?embedded=true",
+    "cover_img": "",
+    "introduction": "Happy new year. HISP Tanzania - wishes you a happy 2017, may you have successful endeavors throughout the year",
+    "body": [
+      {
+        "main_header": "Developers Newsletter",
+        "header": "Innovations",
+        "description": "We're pleased to announce deployment of five strong innovations of 2016. Starting February 2016, HISP Tanzania developer team have been embarking on design and development, delivering five core applications and platforms to leverage the power of DHIS2 in improving collection, analysis and dissemination of information. This jump started with five key innovations, namely",
+        "related_images": [
+          {
+            "name": "Idashboard",
+            "img_url": "assets/img/products/idashboard.png",
+            "description": ""
+          },
+          {
+            "name": "indicator-brower",
+            "img_url": "assets/img/products/ibrowser.png",
+            "description": ""
+          },
+          {
+            "name": "dhis2-touch",
+            "img_url": "assets/img/products/dhis2touch.png",
+            "description": ""
+          },
+          {
+            "name": "Iscorecard",
+            "img_url": "assets/img/products/scorecard.svg",
+            "description": ""
+          },
+          {
+            "name": "pocket-dhis2-os",
+            "img_url": "assets/img/products/pocketdhis2.png",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "main_header": "",
+        "header": "App Store",
+        "link_url": "https://appstore.hisptanzania.com",
+        "description": "For the first time in history, HISP Tanzania is launching a one platform to deliver all fresh new innovationsinstantly through our app store.There are now half a dozen applications on play store and counting, offering a wide range of services, fromdata collection, storage, analysis and visualization of data, both online and offline.",
+        "related_images": [
+          {
+            "name": "",
+            "img_url2": "",
+            "description": ""
+          }
+        ]
+      },
+      {
+        "main_header": "",
+        "header": "Development Team",
+        "description": "HISP Tanzania Development team now (2016) consist of eight developers, constantly pursuing new ways to push the realm of innovations forward, from web apps, mobile apps to operating systems. These are the developers that regularly contemplates the impossibles and delivers.",
+        "related_images": [
+          {
+            "name": "From left behind, Joseph Chingalo, Tuzo Engelbert, John Mukulu, Leonard Mpande,Happy Nyanda, Rajabu Mkomwa, Squatting from left, Kelvin Mbwilo, Vincent Minde.",
+            "img_url2": "assets/img/retreat_imgs/developer_retreat201601.jpg",
+            "description": ""
+          }
+        ]
+      }
+    ] ,
+    "header_image": ""
+  },
+  {
+    "id": 2,
+    "title": "Predictive analytics in innovating road safety",
+    "embed_url":"https://docs.google.com/document/d/1dpwFLFCXF2V0TFy9up87byYYYoYRIFbC9aOMUd--2gk/pub?embedded=true",
+    "cover_img": "assets/img/articles/giseventsmap.png",
+    "header_image": "",
+    "related_images": [
+      {
+        "img_url": "",
+        "description": ""
+      },
+      {
+        "img_url": "",
+        "description": ""
+      }
+    ]
+  }
+]

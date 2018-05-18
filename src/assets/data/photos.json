@@ -1,0 +1,155 @@
+[
+  {
+    "id": "dhis2_academy_1",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_1.JPG",
+    "description": "A photo of a number of participants from different countries (Tanzania, Rwanda, Uganda, Sudani, Malawi, Zimbabwe, etc) who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_ismail_koleleni",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_ismail_koleleni.JPG",
+    "description": "A photo for Ismail Koleleni (HISP Tanzania) who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_john_f_mukulu",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_john_f_mukulu.JPG",
+    "description": "A photo of John Francis Mukulu(HISP Tanzania) who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_1_2017",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_kelvin_mbwilo.JPG",
+    "description": "A photo of Kelvin Mbwilo (HISP Tanzania) who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_2",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_2.JPG",
+    "description": "A photo of a participant who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_3",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_3.JPG",
+    "description": "A photo of a participant who participated in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_ntd",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_ntd.JPG",
+    "description": "A participant from Ministry of Health Tanzania who represented NTD (Neglected Tropical Diseases) in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_4",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_4.JPG",
+    "description": "Participants listening to facilitator in the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  },
+  {
+    "id": "dhis2_academy_2017_5",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_5.JPG",
+    "description": "Participants are happy with taking a photo on the closing day for the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
+  }
+]

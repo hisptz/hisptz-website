@@ -1,0 +1,23 @@
+<div class="container">
+  <app-nav-bar></app-nav-bar>
+  <section id="capacity-building">
+    <!--<app-loader></app-loader>-->
+    <div class="container">
+      <div class="row">
+        <div class="title-area">
+          <h3 class="text-center">Capacity building</h3>
+          <div class="separator separator-danger">✻</div>
+          <p class="text-center">HISP Tanzania is comprised with experts having a number of experiences in offering quality training, mentoring and technical support services. Capacity development, skill transferring and knowledge sharing are our signature principles in all the projects we are engaged.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6" *ngFor="let capacity of capacityBuilding">
+          <img src="{{capacity.cover_url}}" class="img-responsive" height="250" alt="">
+          <h5>{{capacity.name}}</h5>
+          <p class="text-justify">{{capacity.description}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
