@@ -25,8 +25,13 @@ import {CapacityBuildingService} from './providers/capacity-building.service';
 import { PhotosComponent } from './pages/photos/photos.component';
 import {PhotosService} from './providers/photos.service';
 import { FooterComponent } from './shared/footer/footer.component';
-import { PartnersComponent } from './pages/home/partners/partners.component';
+import { PartnersComponent } from './pages/home/components/partners/partners.component';
 import {PartnersService} from './providers/partners.service';
+import { NewsComponent } from './pages/news/news.component';
+import { FeaturedNewsComponent } from './pages/home/components/featured-news/featured-news.component';
+import { SliderPhotosComponent } from './pages/photos/slider-photos/slider-photos.component';
+import { PhotosSummaryComponent } from './pages/home/components/photos-summary/photos-summary.component';
+import {NewsService} from './providers/news.service';
 
 @NgModule({
   declarations: [
@@ -46,6 +51,10 @@ import {PartnersService} from './providers/partners.service';
     PhotosComponent,
     FooterComponent,
     PartnersComponent,
+    NewsComponent,
+    FeaturedNewsComponent,
+    SliderPhotosComponent,
+    PhotosSummaryComponent,
   ],
   imports: [
     BrowserModule,
@@ -53,7 +62,7 @@ import {PartnersService} from './providers/partners.service';
     HttpClientModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [ProductsService, ProjectsService, ServicesService, CapacityBuildingService, PhotosService, PartnersService],
+  providers: [ProductsService, ProjectsService, ServicesService, CapacityBuildingService, PhotosService, PartnersService, NewsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

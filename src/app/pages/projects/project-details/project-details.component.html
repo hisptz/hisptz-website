@@ -9,19 +9,19 @@
       <div class="row">
         <div class="col-md-7">
           <div class="panel panel-default">
-            <div class="panel-header">
-              <img src="" [src]="project.img_url" alt="" class="img-responsive">
-            </div>
             <div class="panel-body">
               <h5>Project description</h5>
               <p class="text-justify">{{project.description}}</p>
             </div>
+            <div class="panel-header">
+              <img src="" [src]="project.img_url" alt="" class="img-responsive">
+            </div>
             <div class="panel-footer">
               <div class="row">
                 <div class="col-md-12">
-                  <!--<ul class="list-inline pull-left" *ngIf="project.site_url">-->
-                    <!--<li><a href="{{project.site_url}}" target="_blank" class="btn btn-sm"><i class="fa fa-download"></i> view site</a></li>-->
-                  <!--</ul>-->
+                  <ul class="list-inline pull-left" *ngIf="project.appstoreUrl">
+                    <li><a href="{{project.appstoreUrl}}" target="_blank" class="btn btn-sm btn-primary">View the appstore</a></li>
+                  </ul>
                   <ul class="list-inline pull-right">
                     <li><a class="btn btn-sm btn-primary" routerLink="/projects"><i class="fa fa-arrow-left"></i> more projects</a></li>
                   </ul>
@@ -33,8 +33,7 @@
         <div class="col-md-5">
           <div class="panel panel-default" style="background-color: #F5F5F5;">
             <div class="panel-body">
-              <span style="font-size: 14px; font-weight: bold;">Client: <a href="" style="color: #008EDD;">{{project.client}}</a></span>
-              <h5>Scope of work</h5>
+              <h5>Project Features</h5>
               <div style="border-bottom: solid 1px #cecece; margin-bottom: 5px;"></div>
               <ul class="list-unstyled">
                 <li *ngFor="let scope of project.work_scope">

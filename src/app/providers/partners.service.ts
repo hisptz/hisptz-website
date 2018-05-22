@@ -34,7 +34,6 @@ export class PartnersService {
           // load data from the source if pool is empty
           this.http.get(this.baseUrl).subscribe(data => {
             // persist data to metadataPool
-            console.log('data', data)
             this.saveToPartnerPool(data);
             // load data from the pool
             this.all().subscribe(pool => {

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+declare var $: any;
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  private homeid: string;
+  constructor(private router: Router) {
+    this.homeid = 'home';
+  }
 
   ngOnInit() {
+    $('#' + this.homeid).css('color', '#0285D1');
+  }
+
+
+  navFunction(id) {
+    console.log(id);
+    $('.show-or-hide-navbar').css('color', '#141414');
+    $('#' + id).css('color', '#0285D1');
   }
 
 }

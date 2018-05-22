@@ -1,5 +1,9 @@
 <div class="container">
   <app-nav-bar></app-nav-bar>
+  <div class="title-area" style="margin-left: 15px">
+    <h3 class="text-left"><a routerLink="/">Home / </a>Photos</h3>
+  </div>
+  <app-slider-photos [sliderPhotos]="photos"></app-slider-photos>
   <section id="photos">
     <div class="container">
       <!--<div class="row">-->

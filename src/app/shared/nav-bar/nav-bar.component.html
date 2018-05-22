@@ -21,16 +21,16 @@
         <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
       <!--</ul>-->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Home</a></li>
-        <li><a routerLink="/services">Services</a></li>
+        <li><a href="#" class="show-or-hide-navbar" id="home" (click)="navFunction('home')">Home</a></li>
+        <li><a routerLink="/services" id="services" class="show-or-hide-navbar" (click)="navFunction('services')">Services</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span class="caret"></span></a>
+          <a href="#" id="dpdwn" class="dropdown-toggle show-or-hide-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a routerLink="/projects">Projects</a></li>
-            <li><a routerLink="/capacity-building">Capacity Building</a></li>
+            <li><a routerLink="/projects" id="projects" class="show-or-hide-navbar"  (click)="navFunction('projects')">Projects</a></li>
+            <li><a routerLink="/capacity-building" class="show-or-hide-navbar" id="capacity-building"  (click)="navFunction('capacity-building')">Capacity Building</a></li>
           </ul>
         </li>
-        <li><a routerLink="/about-us">About us</a></li>
+        <li><a routerLink="/about-us" id="about-us" class="show-or-hide-navbar" (click)="navFunction('about-us')">About us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

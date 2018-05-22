@@ -8,6 +8,7 @@ import {ProjectDetailsComponent} from './pages/projects/project-details/project-
 import {ServiceDetailsComponent} from './pages/hisptz-services/service-details/service-details.component';
 import {CapacityBuildingComponent} from './pages/capacity-building/capacity-building.component';
 import {PhotosComponent} from './pages/photos/photos.component';
+import {NewsComponent} from './pages/news/news.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path: 'service-details/:id', component: ServiceDetailsComponent},
   {path: 'capacity-building', component: CapacityBuildingComponent},
   {path: 'photos', component: PhotosComponent},
+  {path: 'news/:id', component: NewsComponent},
 ]
 @NgModule({
   imports: [

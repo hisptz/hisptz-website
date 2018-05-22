@@ -1,0 +1,39 @@
+#news-page {
+  margin-top: 30;
+}
+
+.holder {
+  background-color:#FFFFFF;
+  height:450px;
+  overflow:hidden;
+  padding:10px;
+  font-family:Helvetica;
+}
+.holder .mask {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  height:450px;
+  overflow: hidden;
+}
+.holder ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  position: relative;
+}
+.holder ul li {
+  padding:10px 0px;
+}
+.holder ul li a {
+  color:darkred;
+  text-decoration:none;
+}
+
+b {
+  margin-bottom: 15px;
+}
+
+#ticker01 a {
+  /*margin-left: 5px;*/
+}

@@ -151,5 +151,22 @@
         "address": "/"
       }
     ]
+  },
+  {
+    "id": "dhis2_academy_2017_6",
+    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_6.JPG",
+    "description": "A team of HISP Tanzania preparing themselves for presentations for the academy organised by Oslo University(Norway) and HISP Tanzania held at Ramada Hotel, Dar es salaam Tanzania.",
+    "placeUrl": "http://www.ramadabangalore.com/direction.html",
+    "eventPeriod": "2017",
+    "typeOfEvent": "academy",
+    "members": [ {
+      "id": "oslo_university",
+      "address": ""
+    },
+      {
+        "id": "hisp_tanzania",
+        "address": "/"
+      }
+    ]
   }
 ]
