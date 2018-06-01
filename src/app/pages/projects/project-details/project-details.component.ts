@@ -10,6 +10,7 @@ import {ProjectsService} from '../../../providers/projects.service';
 export class ProjectDetailsComponent implements OnInit {
 
   public project: any;
+  public projects: any;
   loading: boolean;
   hasError: boolean;
   constructor(private projectsService: ProjectsService, private route: ActivatedRoute) {
@@ -29,6 +30,16 @@ export class ProjectDetailsComponent implements OnInit {
         this.hasError = true;
       });
     });
+
+    this.projectsService.loadAll().subscribe((projects) => {
+        this.projects = projects;
+        this.loading = false;
+        this.hasError = false;
+      },
+      error => {
+        this.loading = false;
+        this.hasError = true;
+      });
   }
 
 }

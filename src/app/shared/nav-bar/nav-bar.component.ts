@@ -15,14 +15,14 @@ export class NavBarComponent implements OnInit {
   }
 
   ngOnInit() {
-    $('#' + this.homeid).css('color', '#0285D1');
+    // $('#' + this.homeid).css('color', '#0285D1');
   }
 
-
+  //
   navFunction(id) {
     console.log(id);
-    $('.show-or-hide-navbar').css('color', '#141414');
-    $('#' + id).css('color', '#0285D1');
+    // $('.show-or-hide-navbar').css('color', '#141414');
+    // $('#' + id).css('color', '#0285D1');
   }
 
 }

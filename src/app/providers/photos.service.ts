@@ -16,7 +16,7 @@ export class PhotosService {
     photos: Service[]
   };
   constructor(private http: HttpClient) {
-    this.baseUrl = '/assets/data/photos.json';
+    this.baseUrl = 'assets/data/photos.json';
     this.dataStore = {photos: []};
     this._photosPool = <BehaviorSubject<Service[]>> new BehaviorSubject([]);
     this.photos = this._photosPool;
