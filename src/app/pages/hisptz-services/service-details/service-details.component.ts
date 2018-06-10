@@ -10,6 +10,7 @@ import {ServicesService} from '../../../providers/services.service';
 export class ServiceDetailsComponent implements OnInit {
 
   public service: any;
+  public services: any;
   loading: boolean;
   hasError: boolean;
   constructor(private servicesService: ServicesService, private route: ActivatedRoute) {
@@ -29,6 +30,16 @@ export class ServiceDetailsComponent implements OnInit {
         this.hasError = true;
       });
     });
+
+    this.servicesService.loadAll().subscribe((services) => {
+        this.services = services;
+        this.loading = false;
+        this.hasError = false;
+      },
+      error => {
+        this.loading = false;
+        this.hasError = true;
+      });
   }
 
 }

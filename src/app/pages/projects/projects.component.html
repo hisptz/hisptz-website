@@ -10,12 +10,13 @@
         <div class="col-md-12 col-sm-12" *ngFor="let project of projects">
           <div class="panel panel-default project-panel card">
             <div class="panel-body">
-              <h5 class="hidden-sm">{{project.name}}</h5>
+              <a  routerLink="/project-details/{{project.id}}"><h5 class="hidden-sm">{{project.name}}</h5></a>
               <small>{{project.description}}</small>
             </div>
-            <div class="panel-heading project-panel-heading">
+            <div class="panel-heading project-panel-heading" *ngIf="project.img_url">
               <a routerLink="/project-details/{{project.id}}" class="project-title"><h5>{{project.name}}</h5>
-                <img src="{{project.img_url}}" alt="" width="100%" class="img-responsive"></a>
+                <img src="{{project.img_url}}" alt="" width="100%" class="img-responsive">
+              </a>
             </div>
           </div>
         </div>

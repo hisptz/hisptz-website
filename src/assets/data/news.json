@@ -3,44 +3,21 @@
     "id": "dhis2_academy_tanzania_2017",
     "heading": "Hisp Tanzania DHIS2 academy 2017",
     "description": [
-      "The DHIS2 Academies aim to strengthen national and regional capacity to successfully set up, design and maintain DHIS2 systems. In 2017, under Oslo University, Norway HISP Tanzania and mistry of Health Community Development, Gender, Elderly and Children hosted the academy",
-      "The academy took one week and people from different african countries were oriented to a number of interactive HISP Tanzania innovations"
+      "The DHIS2 Academies aim to strengthen national and regional capacity to successfully set up, design and maintain DHIS2 systems. In 2017, under Oslo University, Norway HISP Tanzania and ministry of Health Community Development, Gender, Elderly and Children hosted the academy",
+      "The academy took one week and people from different african countries were oriented in setting up, designing and maintaining DHIS2 systems of different versions. They were also oriented to a number of interactive HISP Tanzania innovations"
     ],
     "summary": "The DHIS2 Academies aim to strengthen national and regional capacity to successfully set up, design and  ....",
-    "newsDate": "21-12-2017",
+    "newsDate": "09-Dec-2017",
     "category": "hisptz",
     "priority": "1",
-    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_6.JPG",
+    "imgUrl": "/assets/img/academies/2017/dhis2_academy_2017_6.JPG",
     "otherImgs": [
       {
-        "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_7.JPG",
+        "imgUrl": "/assets/img/academies/2017/dhis2_academy_2017_7.JPG",
         "description": ""
       },
       {
-        "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_3.JPG",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "id": "hisptz_news",
-    "heading": "Hisp Tanzania news heading",
-    "description": [
-      "The DHIS2 Academies aim to strengthen national and regional capacity to successfully set up, design and maintain DHIS2 systems. In 2017, under Oslo University, Norway HISP Tanzania and mistry of Health Community Development, Gender, Elderly and Children hosted the academy",
-      "The academy took one week and people from different african countries were oriented to a number of interactive HISP Tanzania innovations"
-    ],
-    "summary": "The DHIS2 Academies aim to strengthen national and regional capacity to successfully set up, design and  ....",
-    "newsDate": "20-05-2018",
-    "category": "hisptz",
-    "priority": "1",
-    "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_3.JPG",
-    "otherImgs": [
-      {
-        "imgUrl": "assets/img/academies/2017/dhis2_academy_1.JPG",
-        "description": ""
-      },
-      {
-        "imgUrl": "assets/img/academies/2017/dhis2_academy_2017_4.JPG",
+        "imgUrl": "/assets/img/academies/2017/dhis2_academy_2017_3.JPG",
         "description": ""
       }
     ]

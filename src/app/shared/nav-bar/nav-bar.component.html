@@ -12,7 +12,7 @@
         <!--<li><a class="navbar-brand" routerLink="/"> <img src="/assets/img/logo.png"></a></li>-->
         <!--<li>HISP Tanzania</li>-->
       <!--</ul>-->
-      <a class="navbar-brand" id="logo" routerLink="/"> <img src="/assets/img/logo.png"></a>
+      <a class="navbar-brand" id="logo" routerLink="/"> <img src="assets/img/logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,7 +21,7 @@
         <!--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>-->
       <!--</ul>-->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="show-or-hide-navbar" id="home" (click)="navFunction('home')">Home</a></li>
+        <li><a routerLink="/" class="show-or-hide-navbar" id="home" (click)="navFunction('home')">Home</a></li>
         <li><a routerLink="/services" id="services" class="show-or-hide-navbar" (click)="navFunction('services')">Services</a></li>
         <li class="dropdown">
           <a href="#" id="dpdwn" class="dropdown-toggle show-or-hide-navbar" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Activities <span class="caret"></span></a>

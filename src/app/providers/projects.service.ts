@@ -66,7 +66,7 @@ export class ProjectsService {
   find(id: string): Observable<Project> {
     return Observable.create(observer => {
       this.projects.subscribe(projectData => {
-        if(projectData[id]) {
+        if (projectData[id]) {
           observer.next(projectData[id]);
           observer.complete();
         } else {

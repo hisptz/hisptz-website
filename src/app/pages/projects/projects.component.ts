@@ -26,7 +26,7 @@ export class ProjectsComponent implements OnInit {
       error => {
         this.loading = false;
         this.hasError = true;
-      })
+      });
   }
 
 }

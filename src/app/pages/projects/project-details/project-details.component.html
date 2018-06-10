@@ -22,9 +22,9 @@
                   <ul class="list-inline pull-left" *ngIf="project.appstoreUrl">
                     <li><a href="{{project.appstoreUrl}}" target="_blank" class="btn btn-sm btn-primary">View the appstore</a></li>
                   </ul>
-                  <ul class="list-inline pull-right">
-                    <li><a class="btn btn-sm btn-primary" routerLink="/projects"><i class="fa fa-arrow-left"></i> more projects</a></li>
-                  </ul>
+                  <!--<ul class="list-inline pull-right">-->
+                    <!--<li><a class="btn btn-sm btn-primary" routerLink="/projects"><i class="fa fa-arrow-left"></i> more projects</a></li>-->
+                  <!--</ul>-->
                 </div>
               </div>
             </div>
@@ -33,16 +33,20 @@
         <div class="col-md-5">
           <div class="panel panel-default" style="background-color: #F5F5F5;">
             <div class="panel-body">
-              <h5>Project Features</h5>
+              <h5>Other Projects</h5>
               <div style="border-bottom: solid 1px #cecece; margin-bottom: 5px;"></div>
-              <ul class="list-unstyled">
-                <li *ngFor="let scope of project.work_scope">
-                  <div class="row">
-                    <div class="col-md-2 col-xs-2 col-sm-2" style="color: #008EDD; padding-left: 8%;"><span class=""><i class="fa fa-check-square"></i></span></div>
-                    <div class="col-md-10 col-xs-10 col-sm-10" style="padding-left: 0px;">{{scope}}</div>
-                  </div>
-                </li>
-              </ul>
+                <ul class="list-inline">
+                  <li *ngFor="let proj of projects">
+                    <div *ngIf="proj.id !== project.id">
+                      <span><b>{{proj.name}}</b></span><br>
+                      <a routerLink="/project-details/{{proj.id}}">
+                        <p style="color: #141414; margin-left: 10px">
+                          {{proj.description}}
+                        </p>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
             </div>
           </div>
         </div>
