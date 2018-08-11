@@ -32,6 +32,7 @@ import { FeaturedNewsComponent } from './pages/home/components/featured-news/fea
 import { SliderPhotosComponent } from './pages/photos/slider-photos/slider-photos.component';
 import { PhotosSummaryComponent } from './pages/home/components/photos-summary/photos-summary.component';
 import {NewsService} from './providers/news.service';
+import { RecruitmentComponent } from './pages/recruitment/recruitment.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +56,7 @@ import {NewsService} from './providers/news.service';
     FeaturedNewsComponent,
     SliderPhotosComponent,
     PhotosSummaryComponent,
+    RecruitmentComponent,
   ],
   imports: [
     BrowserModule,

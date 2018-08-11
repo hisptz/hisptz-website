@@ -9,17 +9,19 @@ import {ServiceDetailsComponent} from './pages/hisptz-services/service-details/s
 import {CapacityBuildingComponent} from './pages/capacity-building/capacity-building.component';
 import {PhotosComponent} from './pages/photos/photos.component';
 import {NewsComponent} from './pages/news/news.component';
+import {RecruitmentComponent} from './pages/recruitment/recruitment.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, pathMatch: 'full' },
-  { path: 'projects', component: ProjectsComponent},
+  { path: 'home', component: HomeComponent, pathMatch: 'full' },
+  { path: 'activities/projects', component: ProjectsComponent},
   { path: 'about-us', component: AboutUsComponent},
   { path: 'services', component: HisptzServicesComponent},
-  {path: 'project-details/:id', component: ProjectDetailsComponent},
-  {path: 'service-details/:id', component: ServiceDetailsComponent},
-  {path: 'capacity-building', component: CapacityBuildingComponent},
-  {path: 'photos', component: PhotosComponent},
+  {path: 'activities/project-details/:id', component: ProjectDetailsComponent},
+  {path: 'services/service-details/:id', component: ServiceDetailsComponent},
+  {path: 'activities/capacity-building', component: CapacityBuildingComponent},
+  {path: 'home/photos', component: PhotosComponent},
   {path: 'news/:id', component: NewsComponent},
+  {path: 'recruitment', component: RecruitmentComponent},
 ]
 @NgModule({
   imports: [

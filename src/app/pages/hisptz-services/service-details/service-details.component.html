@@ -39,7 +39,7 @@
                 <li *ngFor="let theService of services">
                   <div *ngIf="theService.id !== service.id">
                     <span><b>{{theService.name}}</b></span><br>
-                    <a routerLink="/service-details/{{theService.id}}">
+                    <a routerLink="/services/service-details/{{theService.id}}">
                       <p style="color: #141414; margin-left: 10px">
                         {{theService.description}}
                       </p>

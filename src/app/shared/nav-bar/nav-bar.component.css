@@ -6,3 +6,13 @@ ul li a {
 #logo {
   margin-top: -6px
 }
+
+.active-btn {
+  background-color: #158EDC;
+  color: #ffffff !important;
+}
+
+.nav li a:hover {
+  background-color: #158EDC;
+  color: #ffffff;
+}

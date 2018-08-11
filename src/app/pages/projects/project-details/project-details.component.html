@@ -39,7 +39,7 @@
                   <li *ngFor="let proj of projects">
                     <div *ngIf="proj.id !== project.id">
                       <span><b>{{proj.name}}</b></span><br>
-                      <a routerLink="/project-details/{{proj.id}}">
+                      <a routerLink="/activities/project-details/{{proj.id}}">
                         <p style="color: #141414; margin-left: 10px">
                           {{proj.description}}
                         </p>

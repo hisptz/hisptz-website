@@ -21,8 +21,6 @@ export class NavBarComponent implements OnInit {
   //
   navFunction(id) {
     console.log(id);
-    // $('.show-or-hide-navbar').css('color', '#141414');
-    // $('#' + id).css('color', '#0285D1');
   }
 
 }
